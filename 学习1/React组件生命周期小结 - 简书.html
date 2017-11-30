@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://www.jianshu.com/p/4784216b8194 -->
+<html><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+
+  <!-- Start of Baidu Transcode -->
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta name="applicable-device" content="pc,mobile">
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="mobile-agent" content="format=html5;url=http://www.jianshu.com/p/4784216b8194">
+  <!-- End of Baidu Transcode -->
+
+    <meta name="description" content="下面所写的，只适合前端的React。（React也支持后端渲染，而且和前端有点小区别，不过我没用过。）相关函数简单地说，ReactComponent通过其定义的几个函数来控制组件在生命周期的各个阶段的动作。在ES6中，一个React组件是用一个class来表示的（具体可以参考官方文档），如下：//定义一个TodoList的React组件，通过继承React.Component来实现class...">
+
+  <meta name="360-site-verification" content="604a14b53c6b871206001285921e81d8">
+  <meta property="wb:webmaster" content="294ec9de89e7fadb">
+  <meta property="qc:admins" content="104102651453316562112116375">
+  <meta property="qc:admins" content="11635613706305617">
+  <meta property="qc:admins" content="1163561616621163056375">
+  <meta name="google-site-verification" content="cV4-qkUJZR6gmFeajx_UyPe47GW9vY6cnCrYtCHYNh4">
+  <meta name="google-site-verification" content="HF7lfF8YEGs1qtCE-kPml8Z469e2RHhGajy6JPVy5XI">
+  <meta http-equiv="mobile-agent" content="format=html5; url=http://www.jianshu.com/p/4784216b8194">
+
+  <!-- Apple -->
+  <meta name="apple-mobile-web-app-title" content="简书">
+
+    <!--  Meta for Smart App Banner -->
+  <meta name="apple-itunes-app" content="app-id=888237539, app-argument=jianshu://notes/3556834">
+  <!-- End -->
+
+  <!--  Meta for Twitter Card -->
+  <meta content="summary" property="twitter:card">
+  <meta content="@jianshucom" property="twitter:site">
+  <meta content="React组件生命周期小结" property="twitter:title">
+  <meta content="下面所写的，只适合前端的React。（React也支持后端渲染，而且和前端有点小区别，不过我没用过。）相关函数简单地说，ReactComponent通过其定义的几个函数来控制组件在生命周期的各个阶段的动作。在ES6中，一个React组件是用一个class来表示的（具体可以参考官方文档），如下：//定义一个TodoList的React组件，通过继承React.Component来实现classTodoListextendsReact.Component{...}这几个生命周期相关的函数有：constructor(prop..." property="twitter:description">
+  <meta content="http://www.jianshu.com/p/4784216b8194" property="twitter:url">
+  <!-- End -->
+
+  <!--  Meta for OpenGraph -->
+  <meta property="fb:app_id" content="865829053512461">
+  <meta property="og:site_name" content="简书">
+  <meta property="og:title" content="React组件生命周期小结">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://www.jianshu.com/p/4784216b8194">
+  <meta property="og:description" content="下面所写的，只适合前端的React。（React也支持后端渲染，而且和前端有点小区别，不过我没用过。）相关函数简单地说，ReactComponent通过其定义的几个函数来控制组件在生命周期的各个...">
+  <!-- End -->
+
+  <!--  Meta for Facebook Applinks -->
+  <meta property="al:ios:url" content="jianshu://notes/3556834">
+  <meta property="al:ios:app_store_id" content="888237539">
+  <meta property="al:ios:app_name" content="简书">
+
+  <meta property="al:android:url" content="jianshu://notes/3556834">
+  <meta property="al:android:package" content="com.jianshu.haruki">
+  <meta property="al:android:app_name" content="简书">
+  <!-- End -->
+
+
+    <title>React组件生命周期小结 - 简书</title>
+
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="E4gm4Sgx1JEHG1ImyMUil1HOIh8C1WrWV8qVsR+TzRanv2GL2eEfmqCi6QY5LZG87K89ryeW1oaatWiTsnhozQ==">
+
+  <link rel="stylesheet" media="all" href="./React组件生命周期小结 - 简书_files/web-217d166d73e7682f5e81.css">
+  
+  <link rel="stylesheet" media="all" href="./React组件生命周期小结 - 简书_files/entry-a5d96d4884b6cddc11f7.css">
+
+  <link href="http://cdn2.jianshu.io/assets/favicons/favicon-03411b154a430b85d807b4366489c21122fb983a38f3d7ca926f882e6367b13e.ico" rel="icon">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn2.jianshu.io/assets/apple-touch-icons/57-a6f1f1ee62ace44f6dc2f6a08575abd3c3b163288881c78dd8d75247682a4b27.png" sizes="57x57">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn2.jianshu.io/assets/apple-touch-icons/72-fb9834bcfce738fd7b9c5e31363e79443e09a81a8e931170b58bc815387c1562.png" sizes="72x72">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn2.jianshu.io/assets/apple-touch-icons/76-49d88e539ff2489475d603994988d871219141ecaa0b1a7a9a1914f4fe3182d6.png" sizes="76x76">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn2.jianshu.io/assets/apple-touch-icons/114-24252fe693524ed3a9d0905e49bff3cbd0228f25a320aa09053c2ebb4955de97.png" sizes="114x114">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn2.jianshu.io/assets/apple-touch-icons/120-1bb7371f5e87f93ce780a5f1a05ff1b176828ee0d1d130e768575918a2e05834.png" sizes="120x120">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn2.jianshu.io/assets/apple-touch-icons/152-bf209460fc1c17bfd3e2b84c8e758bc11ca3e570fd411c3bbd84149b97453b99.png" sizes="152x152">
+
+  <!-- Start of 访问统计 -->
+  <script src="./React组件生命周期小结 - 简书_files/push.js.下载"></script><script src="./React组件生命周期小结 - 简书_files/hm.js.下载"></script><script async="" src="./React组件生命周期小结 - 简书_files/analytics.js.下载"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35169517-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?0c0e9d9b1e7d617b3e6842e85b9fb068";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+  <!-- End of 访问统计 -->
+<style type="text/css">
+@charset "UTF-8";
+/*
+ * 变量
+*/
+.main {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 0 30px 0;
+  width: 620px;
+}
+.main .title {
+    padding-left: 8px;
+    border-left: 3px solid #EA6F5A;
+    line-height: 1;
+    font-size: 15px;
+}
+.main .collection-settings {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    font-size: 13px;
+    color: #A0A0A0;
+}
+.main .collection-settings span {
+      padding-left: 4px;
+}
+.main .include-collection {
+    width: 100%;
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+}
+.main .include-collection .item {
+      display: inline-block;
+      margin: 0 12px 12px 0;
+      min-height: 32px;
+      background-color: white;
+      border: 1px solid #DCDCDC;
+      border-radius: 4px;
+      vertical-align: top;
+      overflow: hidden;
+}
+.main .include-collection .item img {
+        width: 32px;
+        height: 32px;
+}
+.main .include-collection .item .name {
+        display: inline-block;
+        padding: 0 10px;
+        font-size: 14px;
+}
+.main .include-collection .add-collection-wrap {
+      margin: 0 12px 12px 0;
+}
+.main .include-collection .add-collection {
+      padding: 8px 12px;
+      font-size: 14px;
+      border: 1px solid #DCDCDC;
+      border-radius: 4px;
+}
+.main .include-collection .add-collection i {
+        margin-right: 4px;
+        color: #969696;
+}
+.main .recommend-note a {
+    position: relative;
+    margin: 20px 2px 0 0;
+    width: 200px;
+    height: 160px;
+    display: inline-block;
+}
+.main .recommend-note a:after {
+      content: "";
+      position: absolute;
+      width: 200px;
+      height: 160px;
+      border-radius: 0 0 4px 4px;
+      -webkit-box-shadow: inset 0px -80px 50px -22px rgba(0, 0, 0, 0.6);
+              box-shadow: inset 0px -80px 50px -22px rgba(0, 0, 0, 0.6);
+      top: 0;
+      left: 0;
+      z-index: 1;
+}
+.main .recommend-note .name {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    right: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+    z-index: 2;
+}
+.main .recommend-note .author {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    z-index: 2;
+}
+.main .recommend-note .avatar {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.main .recommend-note .avatar img {
+      border-radius: 50%;
+}
+.main .recommend-note .author-name {
+    font-size: 12px;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: -1px;
+}
+.main .show-more {
+    margin: 0 12px 12px 0;
+    font-size: 14px;
+    color: #A0A0A0;
+}
+</style></head>
+
+  <body lang="zh-CN" class="reader-black-font">
+    <!-- 全局顶部导航栏 -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="width-limit">
+    <!-- 左上方 Logo -->
+    <a class="logo" href="http://www.jianshu.com/"><img src="./React组件生命周期小结 - 简书_files/logo-58fd04f6f0de908401aa561cda6a0688.png" alt="Logo"></a>
+
+    <!-- 右上角 -->
+      <!-- 未登录显示登录/注册/写文章 -->
+      <a class="btn write-btn" target="_blank" href="http://www.jianshu.com/writer#/">
+        <i class="iconfont ic-write"></i>写文章
+</a>      <a class="btn sign-up" href="http://www.jianshu.com/sign_up">注册</a>
+      <a class="btn log-in" href="http://www.jianshu.com/sign_in">登录</a>
+
+    <!-- 如果用户登录，显示下拉菜单 -->
+
+    <div class="style-mode"><a class="style-mode-btn"><i class="iconfont ic-navigation-mode"></i></a> <div class="popover-modal" style="left: 0px; display: none;"><div class="meta"><i class="iconfont ic-navigation-night"></i><span>夜间模式</span></div> <div class="switch day-night-group"><a class="switch-btn">开</a> <a class="switch-btn active">关</a></div> <hr> <div class="switch font-family-group"><a class="switch-btn font-song">宋体</a> <a class="switch-btn font-hei active">黑体</a></div> <div class="switch"><a class="switch-btn active">简</a> <a class="switch-btn">繁</a></div></div></div>
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav">
+            <li class="tab ">
+              <a href="http://www.jianshu.com/">
+                <span class="menu-text">首页</span><i class="iconfont ic-navigation-discover menu-icon"></i>
+</a>            </li>
+            <li class="tab ">
+              <a class="app-download-btn" href="http://www.jianshu.com/apps?utm_medium=desktop&amp;utm_source=navbar-apps"><span class="menu-text">下载App</span><i class="iconfont ic-navigation-download menu-icon"></i></a>
+            </li>
+          <li class="search">
+            <form target="_blank" action="http://www.jianshu.com/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+              <input type="text" name="q" id="q" value="" autocomplete="off" placeholder="搜索" class="search-input">
+              <a class="search-btn" href="javascript:void(null)"><i class="iconfont ic-search"></i></a>
+</form>          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+<div class="note">
+  <a target="_blank" href="http://www.jianshu.com/apps/download?utm_source=sbc" id="web-note-ad-fixed" style="left: 1139.5px;"><span class="close">×</span></a>
+  <div class="post">
+    <div class="article">
+        <h1 class="title">React组件生命周期小结</h1>
+
+        <!-- 作者区域 -->
+        <div class="author">
+          <a class="avatar" href="http://www.jianshu.com/u/96141c0d5c5c">
+            <img src="./React组件生命周期小结 - 简书_files/2cf2b6a4783e" alt="96">
+</a>          <div class="info">
+            <span class="name"><a href="http://www.jianshu.com/u/96141c0d5c5c">linjinhe</a></span>
+            <!-- 关注用户按钮 -->
+            <a class="btn btn-success follow"><i class="iconfont ic-follow"></i><span>关注</span></a>
+            <!-- 文章数据信息 -->
+            <div class="meta">
+              <!-- 如果文章更新时间大于发布时间，那么使用 tooltip 显示更新时间 -->
+                <span class="publish-time" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="最后编辑于 2016.04.13 15:47">2016.04.13 08:58*</span>
+              <span class="wordage">字数 1082</span>
+            <span class="views-count">阅读 69837</span><span class="comments-count">评论 22</span><span class="likes-count">喜欢 120</span><span class="rewards-count ">赞赏 1</span></div>
+          </div>
+          <!-- 如果是当前作者，加入编辑按钮 -->
+        </div>
+        <!-- -->
+
+        <!-- 文章内容 -->
+        <div data-note-content="" class="show-content">
+          <p><strong>下面所写的，只适合前端的React。（React也支持后端渲染，而且和前端有点小区别，不过我没用过。）</strong></p>
+<h1>相关函数</h1>
+<p>简单地说，React Component通过其定义的几个函数来控制组件在生命周期的各个阶段的动作。</p>
+<p>在ES6中，一个React组件是用一个class来表示的（具体可以参考<a href="http://facebook.github.io/react/docs/reusable-components.html#es6-classes" target="_blank">官方文档</a>），如下：</p>
+<pre class="hljs undefined"><code>// 定义一个TodoList的React组件，通过继承React.Component来实现
+class TodoList extends React.Component {
+  ...
+}</code></pre>
+<p>这几个生命周期相关的函数有：</p>
+<pre class="hljs undefined"><code>constructor(props, context)</code></pre>
+<p>构造函数，在创建组件的时候调用一次。</p>
+<pre class="hljs undefined"><code>void componentWillMount()</code></pre>
+<p>在组件挂载之前调用一次。如果在这个函数里面调用setState，本次的render函数可以看到更新后的state，并且只渲染一次。</p>
+<pre class="hljs undefined"><code>void componentDidMount()</code></pre>
+<p>在组件挂载之后调用一次。这个时候，子主键也都挂载好了，可以在这里使用refs。</p>
+<pre class="hljs undefined"><code>void componentWillReceiveProps(nextProps)</code></pre>
+<p>props是父组件传递给子组件的。父组件发生render的时候子组件就会调用componentWillReceiveProps（不管props有没有更新，也不管父子组件之间有没有数据交换）。</p>
+<pre class="hljs undefined"><code>bool shouldComponentUpdate(nextProps, nextState)</code></pre>
+<p>组件挂载之后，每次调用setState后都会调用shouldComponentUpdate判断是否需要重新渲染组件。默认返回true，需要重新render。在比较复杂的应用里，有一些数据的改变并不影响界面展示，可以在这里做判断，优化渲染效率。</p>
+<pre class="hljs undefined"><code>void componentWillUpdate(nextProps, nextState)</code></pre>
+<p>shouldComponentUpdate返回true或者调用forceUpdate之后，componentWillUpdate会被调用。</p>
+<pre class="hljs undefined"><code>void componentDidUpdate()</code></pre>
+<p>除了首次render之后调用componentDidMount，其它render结束之后都是调用componentDidUpdate。</p>
+<p>componentWillMount、componentDidMount和componentWillUpdate、componentDidUpdate可以对应起来。区别在于，前者只有在挂载的时候会被调用；而后者在以后的每次更新渲染之后都会被调用。</p>
+<pre class="hljs undefined"><code>ReactElement render()</code></pre>
+<p>render是一个React组件所必不可少的核心函数（上面的其它函数都不是必须的）。记住，不要在render里面修改state。</p>
+<pre class="hljs undefined"><code>void componentWillUnmount()</code></pre>
+<p>组件被卸载的时候调用。一般在componentDidMount里面注册的事件需要在这里删除。</p>
+<h1>更新方式</h1>
+<p>在react中，触发render的有4条路径。</p>
+<p><strong>以下假设shouldComponentUpdate都是按照默认返回true的方式。</strong></p>
+<ol>
+<li>首次渲染Initial Render</li>
+<li>调用this.setState （并不是一次setState会触发一次render，React可能会合并操作，再一次性进行render）</li>
+<li>父组件发生更新（一般就是props发生改变，但是就算props没有改变或者父子组件之间没有数据交换也会触发render）</li>
+<li>调用this.forceUpdate</li>
+</ol>
+<p>下面是我对React组件四条更新路径地总结：</p>
+<div class="image-package">
+<img src="./React组件生命周期小结 - 简书_files/1814354-4bf62e54553a32b7.png" data-original-src="http://upload-images.jianshu.io/upload_images/1814354-4bf62e54553a32b7.png?imageMogr2/auto-orient/strip%7CimageView2/2" style="cursor: zoom-in;"><br><div class="image-caption">React组件更新路径.png</div>
+</div>
+<p>注意，如果在shouldComponentUpdate里面返回false可以提前退出更新路径。</p>
+<h1>一个React组件生命周期的测试例子</h1>
+<p>代码比较简单，没有逻辑，只是在每个相关函数里面alert一下。</p><h1>
+<a href="http://wximg.gtimg.com/shake_tv/test/lifeCycle2113.html" target="_blank">点击链接</a>来试试这个例子。</h1><br>源码：
+<pre class="hljs undefined"><code>class LifeCycle extends React.Component {
+    constructor(props) {
+        super(props);
+        alert("Initial render");
+        alert("constructor");
+        this.state = {str: "hello"};
+    }
+
+    componentWillMount() {
+        alert("componentWillMount");
+    }
+
+    componentDidMount() {
+        alert("componentDidMount");
+    }
+
+    componentWillReceiveProps(nextProps) {
+        alert("componentWillReceiveProps");
+    }
+
+    shouldComponentUpdate() {
+        alert("shouldComponentUpdate");
+        return true;        // 记得要返回true
+    }
+
+    componentWillUpdate() {
+        alert("componentWillUpdate");
+    }
+
+    componentDidUpdate() {
+        alert("componentDidUpdate");
+    }
+
+    componentWillUnmount() {
+        alert("componentWillUnmount");
+    }
+
+    setTheState() {
+        let s = "hello";
+        if (this.state.str === s) {
+            s = "HELLO";
+        }
+        this.setState({
+            str: s
+        });
+    }
+
+    forceItUpdate() {
+        this.forceUpdate();
+    }
+
+    render() {
+        alert("render");
+        return(
+            &lt;div&gt;
+                &lt;span&gt;{"Props:"}&lt;h2&gt;{parseInt(this.props.num)}&lt;/h2&gt;&lt;/span&gt;
+                &lt;br /&gt;
+                &lt;span&gt;{"State:"}&lt;h2&gt;{this.state.str}&lt;/h2&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+
+class Container  extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            num: Math.random() * 100
+        };
+    }
+
+    propsChange() {
+        this.setState({
+            num: Math.random() * 100
+        });
+    }
+
+    setLifeCycleState() {
+        this.refs.rLifeCycle.setTheState();
+    }
+
+    forceLifeCycleUpdate() {
+        this.refs.rLifeCycle.forceItUpdate();
+    }
+
+    unmountLifeCycle() {
+        // 这里卸载父组件也会导致卸载子组件
+        React.unmountComponentAtNode(document.getElementById("container"));
+    }
+
+    parentForceUpdate() {
+        this.forceUpdate();
+    }
+
+    render() {
+        return (
+            &lt;div&gt;
+                &lt;a href="javascript:;" className="weui_btn weui_btn_primary" onClick={this.propsChange.bind(this)}&gt;propsChange&lt;/a&gt;
+                &lt;a href="javascript:;" className="weui_btn weui_btn_primary" onClick={this.setLifeCycleState.bind(this)}&gt;setState&lt;/a&gt;
+                &lt;a href="javascript:;" className="weui_btn weui_btn_primary" onClick={this.forceLifeCycleUpdate.bind(this)}&gt;forceUpdate&lt;/a&gt;
+                &lt;a href="javascript:;" className="weui_btn weui_btn_primary" onClick={this.unmountLifeCycle.bind(this)}&gt;unmount&lt;/a&gt;
+                &lt;a href="javascript:;" className="weui_btn weui_btn_primary" onClick={this.parentForceUpdate.bind(this)}&gt;parentForceUpdateWithoutChange&lt;/a&gt;
+                &lt;LifeCycle ref="rLifeCycle" num={this.state.num}&gt;&lt;/LifeCycle&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+
+ReactDom.render(
+    &lt;Container&gt;&lt;/Container&gt;,
+    document.getElementById('container')
+);</code></pre>
+
+        </div>
+        <!--  -->
+
+        <div class="show-foot">
+          <a class="notebook" href="http://www.jianshu.com/nb/3903314">
+            <i class="iconfont ic-search-notebook"></i>
+            <span>BetaCat</span>
+</a>          <div class="copyright" data-toggle="tooltip" data-html="true" data-original-title="转载请联系作者获得授权，并标注“简书作者”。">
+            © 著作权归作者所有
+          </div>
+          <div class="modal-wrap" data-report-note="">
+            <a id="report-modal">举报文章</a>
+          </div>
+        </div>
+    </div>
+
+    <!-- 文章底部作者信息 -->
+      <div class="follow-detail">
+        <div class="info">
+          <a class="avatar" href="http://www.jianshu.com/u/96141c0d5c5c">
+            <img src="./React组件生命周期小结 - 简书_files/2cf2b6a4783e" alt="96">
+</a>          <a class="btn btn-success follow"><i class="iconfont ic-follow"></i><span>关注</span></a>
+          <a class="title" href="http://www.jianshu.com/u/96141c0d5c5c">linjinhe</a>
+          
+            <i class="iconfont ic-man"></i>
+        <p>写了 25114 字，被 239 人关注，获得了 223 个喜欢</p></div>
+      </div>
+
+      <div class="support-author"></div>
+
+    <div class="meta-bottom">
+      <div class="like"><div class="btn like-group"><div class="btn-like"><a href="http://www.jianshu.com/sign_in?utm_source=desktop&amp;utm_medium=not-signed-in-like-button"><i class="iconfont ic-like"></i>喜欢</a></div> <div class="modal-wrap"><a>120</a></div></div> <!----></div>
+      <div class="share-group">
+        <a class="share-circle" data-action="weixin-share" data-toggle="tooltip" data-original-title="分享到微信">
+          <i class="iconfont ic-wechat"></i>
+        </a>
+        <a class="share-circle" data-action="weibo-share" data-toggle="tooltip" href="javascript:void((function(s,d,e,r,l,p,t,z,c){var%20f=&#39;http://v.t.sina.com.cn/share/share.php?appkey=1881139527&#39;,u=z||d.location,p=[&#39;&amp;url=&#39;,e(u),&#39;&amp;title=&#39;,e(t||d.title),&#39;&amp;source=&#39;,e(r),&#39;&amp;sourceUrl=&#39;,e(l),&#39;&amp;content=&#39;,c||&#39;gb2312&#39;,&#39;&amp;pic=&#39;,e(p||&#39;&#39;)].join(&#39;&#39;);function%20a(){if(!window.open([f,p].join(&#39;&#39;),&#39;mb&#39;,[&#39;toolbar=0,status=0,resizable=1,width=440,height=430,left=&#39;,(s.width-440)/2,&#39;,top=&#39;,(s.height-430)/2].join(&#39;&#39;)))u.href=[f,p].join(&#39;&#39;);};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();})(screen,document,encodeURIComponent,&#39;&#39;,&#39;&#39;,&#39;http://cwb.assets.jianshu.io/notes/images/3556834/weibo/image_4d58d4f882e5.jpg&#39;, &#39;推荐 @林_金河 的文章《React组件生命周期小结》（ 分享自 @简书 ）&#39;,&#39;http://www.jianshu.com/p/4784216b8194?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=weibo&#39;,&#39;页面编码gb2312|utf-8默认gb2312&#39;));" data-original-title="分享到微博">
+          <i class="iconfont ic-weibo"></i>
+        </a>
+          <a class="share-circle" data-toggle="tooltip" href="http://cwb.assets.jianshu.io/notes/images/3556834/weibo/image_4d58d4f882e5.jpg" target="_blank" data-original-title="下载长微博图片">
+            <i class="iconfont ic-picture"></i>
+          </a>
+        <a class="share-circle more-share" tabindex="0" data-toggle="popover" data-placement="top" data-html="true" data-trigger="focus" href="javascript:void(0);" data-content="
+          &lt;ul class=&quot;share-list&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=&#39;+e(&#39;http://www.jianshu.com/p/4784216b8194?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=qzone&#39;)+&#39;&amp;title=&#39;+e(&#39;推荐 linjinhe 的文章《React组件生命周期小结》&#39;),x=function(){if(!window.open(r,&#39;qzone&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-zone&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到QQ空间&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://twitter.com/share?url=&#39;+e(&#39;http://www.jianshu.com/p/4784216b8194?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=twitter&#39;)+&#39;&amp;text=&#39;+e(&#39;推荐 linjinhe 的文章《React组件生命周期小结》（ 分享自 @jianshucom ）&#39;)+&#39;&amp;related=&#39;+e(&#39;jianshucom&#39;),x=function(){if(!window.open(r,&#39;twitter&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-twitter&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Twitter&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://www.facebook.com/dialog/share?app_id=483126645039390&amp;display=popup&amp;href=http://www.jianshu.com/p/4784216b8194?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=facebook&#39;,x=function(){if(!window.open(r,&#39;facebook&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-facebook&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Facebook&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://plus.google.com/share?url=&#39;+e(&#39;http://www.jianshu.com/p/4784216b8194?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=google_plus&#39;),x=function(){if(!window.open(r,&#39;google_plus&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-google&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Google+&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,s1=window.getSelection,s2=d.getSelection,s3=d.selection,s=s1?s1():s2?s2():s3?s3.createRange().text:&#39;&#39;,r=&#39;http://www.douban.com/recommend/?url=&#39;+e(&#39;http://www.jianshu.com/p/4784216b8194?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=douban&#39;)+&#39;&amp;title=&#39;+e(&#39;React组件生命周期小结&#39;)+&#39;&amp;sel=&#39;+e(s)+&#39;&amp;v=1&#39;,x=function(){if(!window.open(r,&#39;douban&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r+&#39;&amp;r=1&#39;};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})()&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-douban&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到豆瓣&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        " data-original-title="" title="">更多分享</a>
+      </div>
+    </div>
+      <a id="web-note-ad-1" target="_blank" href="http://www.jianshu.com/apps/download?utm_source=nbc"><img src="./React组件生命周期小结 - 简书_files/web-note-ad-1-10f08e404d3887d2d45a4bc8f1831403.png" alt="Web note ad 1"></a>
+    <div id="vue_comment"></div>
+  </div>
+
+  <div class="side-tool"><ul><li data-placement="left" data-toggle="tooltip" data-container="body" data-original-title="回到顶部" style="display: none;"><a class="function-button"><i class="iconfont ic-backtop"></i></a></li> <!----> <!----> <li data-placement="left" data-toggle="tooltip" data-container="body" data-original-title="分享文章"><a tabindex="0" role="button" data-toggle="popover" data-placement="left" data-html="true" data-trigger="focus" href="javascript:void(0);" data-content="&lt;ul class=&#39;share-list&#39;&gt;
+                &lt;li&gt;&lt;a class=&quot;weixin-share&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-weixin&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到微信&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;javascript:void((function(s,d,e,r,l,p,t,z,c){var%20f=&#39;http://v.t.sina.com.cn/share/share.php?appkey=1881139527&#39;,u=z||d.location,p=[&#39;&amp;url=&#39;,e(u),&#39;&amp;title=&#39;,e(t||d.title),&#39;&amp;source=&#39;,e(r),&#39;&amp;sourceUrl=&#39;,e(l),&#39;&amp;content=&#39;,c||&#39;gb2312&#39;,&#39;&amp;pic=&#39;,e(p||&#39;&#39;)].join(&#39;&#39;);function%20a(){if(!window.open([f,p].join(&#39;&#39;),&#39;mb&#39;,[&#39;toolbar=0,status=0,resizable=1,width=440,height=430,left=&#39;,(s.width-440)/2,&#39;,top=&#39;,(s.height-430)/2].join(&#39;&#39;)))u.href=[f,p].join(&#39;&#39;);};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();})(screen,document,encodeURIComponent,&#39;&#39;,&#39;&#39;,&#39;http://cwb.assets.jianshu.io/notes/images/3556834/weibo/image_4d58d4f882e5.jpg&#39;, &#39;推荐 @林_金河 的文章《React组件生命周期小结》（ 分享自 @简书 ）&#39;,&#39;http://www.jianshu.com/p/4784216b8194?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=weibo&#39;,&#39;页面编码gb2312|utf-8默认gb2312&#39;));&quot;&gt;&lt;i class=&#39;social-icon-sprite social-icon-weibo&#39;&gt;&lt;/i&gt;&lt;span&gt;分享到微博&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;http://cwb.assets.jianshu.io/notes/images/3556834/weibo/image_4d58d4f882e5.jpg&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-picture&quot;&gt;&lt;/i&gt;&lt;span&gt;下载长微博图片&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=&#39;+e(&#39;http://www.jianshu.com/p/4784216b8194?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=qzone&#39;)+&#39;&amp;title=&#39;+e(&#39;推荐 linjinhe 的文章《React组件生命周期小结》&#39;),x=function(){if(!window.open(r,&#39;qzone&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&#39;social-icon-sprite social-icon-zone&#39;&gt;&lt;/i&gt;&lt;span&gt;分享到QQ空间&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://twitter.com/share?url=&#39;+e(&#39;http://www.jianshu.com/p/4784216b8194?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=twitter&#39;)+&#39;&amp;text=&#39;+e(&#39;推荐 linjinhe 的文章《React组件生命周期小结》（ 分享自 @jianshucom ）&#39;)+&#39;&amp;related=&#39;+e(&#39;jianshucom&#39;),x=function(){if(!window.open(r,&#39;twitter&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&#39;social-icon-sprite social-icon-twitter&#39;&gt;&lt;/i&gt;&lt;span&gt;分享到Twitter&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://www.facebook.com/dialog/share?app_id=483126645039390&amp;display=popup&amp;href=http://www.jianshu.com/p/4784216b8194?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=facebook&#39;,x=function(){if(!window.open(r,&#39;facebook&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&#39;social-icon-sprite social-icon-facebook&#39;&gt;&lt;/i&gt;&lt;span&gt;分享到Facebook&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://plus.google.com/share?url=&#39;+e(&#39;http://www.jianshu.com/p/4784216b8194?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=google_plus&#39;),x=function(){if(!window.open(r,&#39;google_plus&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&#39;social-icon-sprite social-icon-google&#39;&gt;&lt;/i&gt;&lt;span&gt;分享到Google+&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,s1=window.getSelection,s2=d.getSelection,s3=d.selection,s=s1?s1():s2?s2():s3?s3.createRange().text:&#39;&#39;,r=&#39;http://www.douban.com/recommend/?url=&#39;+e(&#39;http://www.jianshu.com/p/4784216b8194?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=douban&#39;)+&#39;&amp;title=&#39;+e(&#39;React组件生命周期小结&#39;)+&#39;&amp;sel=&#39;+e(s)+&#39;&amp;v=1&#39;,x=function(){if(!window.open(r,&#39;douban&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r+&#39;&amp;r=1&#39;};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})()&quot;&gt;&lt;i class=&#39;social-icon-sprite social-icon-douban&#39;&gt;&lt;/i&gt;&lt;span&gt;分享到豆瓣&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;/ul&gt;" data-original-title="" title="" class="function-button"><i class="iconfont ic-share"></i></a> <!----></li> <!----></ul></div>
+</div>
+<div class="note-bottom">
+  <div><div class="main"><div class="title">被以下专题收入，发现更多相似内容</div> <!----> <div class="include-collection"><!----> <a href="http://www.jianshu.com/c/NEt52a?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./React组件生命周期小结 - 简书_files/computer_guy.jpg"><div class="name">程序员</div></a><a href="http://www.jianshu.com/c/bDHhpK?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./React组件生命周期小结 - 简书_files/首页投稿.png"><div class="name">首页投稿</div></a><a href="http://www.jianshu.com/c/43fd636b741f?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./React组件生命周期小结 - 简书_files/1458352308.jpg"><div class="name">React N...</div></a><a href="http://www.jianshu.com/c/658e5966e495?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./React组件生命周期小结 - 简书_files/QQ20151006-1.png"><div class="name">YAOPAI ...</div></a><a href="http://www.jianshu.com/c/25344f8530b2?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./React组件生命周期小结 - 简书_files/68_275090_a089efeec55a47e.jpg"><div class="name">前端知识</div></a><a href="http://www.jianshu.com/c/95725ac2b0b7?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./React组件生命周期小结 - 简书_files/android.graphics.Bitmap_1dd94959.jpeg"><div class="name">React相关</div></a><a href="http://www.jianshu.com/c/45054b9e38c7?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./React组件生命周期小结 - 简书_files/logo-250x250.png"><div class="name">React N...</div></a> <a class="show-more">
+        展开更多
+        <i class="iconfont ic-show"></i></a></div></div> <!----> <!----></div>
+  <div data-vcomp="recommended-notes" data-note-id="3556834"></div>
+  <!-- 相关文章 -->
+  <div class="seo-recommended-notes">
+
+        <div class="note have-img">
+          <a class="cover" target="_blank" href="http://www.jianshu.com/p/97dbd7401bb0?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">
+            <img src="./React组件生命周期小结 - 简书_files/1814354-4bf62e54553a32b7(1).png" alt="240">
+</a>          <a class="title" target="_blank" href="http://www.jianshu.com/p/97dbd7401bb0?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">React组件生命周期小结</a>
+          <p class="description">转载自：http://www.jianshu.com/p/4784216b8194 下面所写的，只适合前端的React。（React也支持后端渲染，而且和前端有点小区别，不过我没用过。） 相关函数 简单地说，React Component通过其定义的几个函数来控制组件在生命...</p>
+          <a class="author" target="_blank" href="http://www.jianshu.com/u/6b624e870f2f?utm_campaign=maleskine&amp;utm_content=user&amp;utm_medium=seo_notes&amp;utm_source=recommendation">
+            <div class="avatar">
+              <img src="./React组件生命周期小结 - 简书_files/10-e691107df16746d4a9f3fe9496fd1848.jpg" alt="48">
+            </div>
+            <span class="name">Ning静致远</span>
+</a>        </div>
+
+        <div class="note ">
+                    <a class="title" target="_blank" href="http://www.jianshu.com/p/0408e4f28a9b?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">React组件生命周期小结</a>
+          <p class="description">相关函数 简单地说，React Component通过其定义的几个函数来控制组件在生命周期的各个阶段的动作。在ES6中，一个React组件是用一个class来表示的（具体可以参考官方文档），如下： 生命周期相关的函数有： 构造函数，在创建组件的时候调用一次。 在组件挂载之前...</p>
+          <a class="author" target="_blank" href="http://www.jianshu.com/u/565bb0afe042?utm_campaign=maleskine&amp;utm_content=user&amp;utm_medium=seo_notes&amp;utm_source=recommendation">
+            <div class="avatar">
+              <img src="./React组件生命周期小结 - 简书_files/543adffdad9f" alt="48">
+            </div>
+            <span class="name">Allan要做活神仙</span>
+</a>        </div>
+
+        <div class="note have-img">
+          <a class="cover" target="_blank" href="http://www.jianshu.com/p/0722d393be89?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">
+            <img src="./React组件生命周期小结 - 简书_files/2305876-03d8bf1b3e9cc5cf.png" alt="240">
+</a>          <a class="title" target="_blank" href="http://www.jianshu.com/p/0722d393be89?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">React Native 组件生命周期 ----ES6</a>
+          <p class="description">在React Native中使用组件来封装界面模块时，整个界面就是一个大的组件，开发过程就是不断优化和拆分界面组件、构造整个组件树的过程。 所以学习理解组件的生命周期显得尤为重要！ 一、组件的属性(props)和状态(state) 1. 属性（props） 它是组件的不可变...</p>
+          <a class="author" target="_blank" href="http://www.jianshu.com/u/2c268c9894d6?utm_campaign=maleskine&amp;utm_content=user&amp;utm_medium=seo_notes&amp;utm_source=recommendation">
+            <div class="avatar">
+              <img src="./React组件生命周期小结 - 简书_files/12-aeeea4bedf10f2a12c0d50d626951489.jpg" alt="48">
+            </div>
+            <span class="name">ITxiansheng</span>
+</a>        </div>
+
+        <div class="note have-img">
+          <a class="cover" target="_blank" href="http://www.jianshu.com/p/269374dfdfa4?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">
+            <img src="./React组件生命周期小结 - 简书_files/5691460-6abf527430d5d2f1.png" alt="240">
+</a>          <a class="title" target="_blank" href="http://www.jianshu.com/p/269374dfdfa4?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">Entry to React</a>
+          <p class="description">原教程内容详见精益 React 学习指南，这只是我在学习过程中的一些阅读笔记，个人觉得该教程讲解深入浅出，比目前大多数教程专业、系统。 1.1 Introduction to React 1.1.1 What is React? React IS A JAVASCRIPT ...</p>
+          <a class="author" target="_blank" href="http://www.jianshu.com/u/c891536e1576?utm_campaign=maleskine&amp;utm_content=user&amp;utm_medium=seo_notes&amp;utm_source=recommendation">
+            <div class="avatar">
+              <img src="./React组件生命周期小结 - 简书_files/ccee3d06-7fb2-4116-915c-137b0bdbacbb.jpg" alt="48">
+            </div>
+            <span class="name">leonaxiong</span>
+</a>        </div>
+
+        <div class="note have-img">
+          <a class="cover" target="_blank" href="http://www.jianshu.com/p/72f8c1da0b65?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">
+            <img src="./React组件生命周期小结 - 简书_files/2428275-d11e03f614e79ffb.png" alt="240">
+</a>          <a class="title" target="_blank" href="http://www.jianshu.com/p/72f8c1da0b65?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">6) React Native 组件生命周期(ES6)</a>
+          <p class="description">在React Native中使用组件来封装界面模块时，整个界面就是一个大的组件，开发过程就是不断优化和拆分界面组件、构造整个组件树的过程。所以学习理解组件的生命周期显得尤为重要！ 一、组件的属性(props)和状态(state) 1. 属性（props） 它是组件的不可变属...</p>
+          <a class="author" target="_blank" href="http://www.jianshu.com/u/f93674a68449?utm_campaign=maleskine&amp;utm_content=user&amp;utm_medium=seo_notes&amp;utm_source=recommendation">
+            <div class="avatar">
+              <img src="./React组件生命周期小结 - 简书_files/5418c7486045" alt="48">
+            </div>
+            <span class="name">朱_源浩</span>
+</a>        </div>
+
+        <div class="note ">
+                    <a class="title" target="_blank" href="http://www.jianshu.com/p/7662644952ba?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">木风恒简慢素生活纪：第五一天纪录</a>
+          <p class="description">纪实生活 体悟人生 今天是2016年6月17日 天气阴天 温度23-32度 今天早上六点多就起来了 起来了以后 就先找水喝 然后就按柔腹部九下 接着就去厕所上大号了 上完以后 就刷牙洗脸 然后就开电脑 接着就到厨房切两片生姜 弄完以后 就到房间电脑旁边发布网络日志 弄完以后...</p>
+          <a class="author" target="_blank" href="http://www.jianshu.com/u/8b81c65944e2?utm_campaign=maleskine&amp;utm_content=user&amp;utm_medium=seo_notes&amp;utm_source=recommendation">
+            <div class="avatar">
+              <img src="./React组件生命周期小结 - 简书_files/a6408e04c7c2" alt="48">
+            </div>
+            <span class="name">木风恒</span>
+</a>        </div>
+
+        <div class="note have-img">
+          <a class="cover" target="_blank" href="http://www.jianshu.com/p/e45facd034a2?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">
+            <img src="./React组件生命周期小结 - 简书_files/4032788-b76bba7a34cfffed.jpg" alt="240">
+</a>          <a class="title" target="_blank" href="http://www.jianshu.com/p/e45facd034a2?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">琵琶引●寻声渐近情更怯</a>
+          <p class="description">夜凉如水水如风，转舷激起浪千重。 寻声渐近情更怯，提灯无语月下逢。 琵琶声断梦方醒，问君何故难为情。 千回百转凄凉语，似诉平生志不成。 自言本是良家女，十八嫁与征人妇。 终岁不归无消息，日夜思君天涯路。 ……未完待续（琵琶引【三】） 丁酉闰六月廿二 衔接上篇:乐府.琵琶引（一）</p>
+          <a class="author" target="_blank" href="http://www.jianshu.com/u/20a08ae1fc7b?utm_campaign=maleskine&amp;utm_content=user&amp;utm_medium=seo_notes&amp;utm_source=recommendation">
+            <div class="avatar">
+              <img src="./React组件生命周期小结 - 简书_files/ba47a6603ff1.jpg" alt="48">
+            </div>
+            <span class="name">易词斋主人</span>
+</a>        </div>
+
+        <div class="note ">
+                    <a class="title" target="_blank" href="http://www.jianshu.com/p/45b1fb85a38e?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">三月的最后两天</a>
+          <p class="description">昨天是小组聚餐完毕，一个人走回去。 一路上感慨万分，就像这个晚餐的开始。不是开始，也不是结束。是的,熟悉的人，会渐行渐远。 有人确认离开，有人酝酿着离开，有人刚刚加入，有人…… 自己真的花太少的时间去了解大家？ 还是真的很难去跟九零后们有心与心的交流？ 我不知道…… 整个三...</p>
+          <a class="author" target="_blank" href="http://www.jianshu.com/u/82916300e624?utm_campaign=maleskine&amp;utm_content=user&amp;utm_medium=seo_notes&amp;utm_source=recommendation">
+            <div class="avatar">
+              <img src="./React组件生命周期小结 - 简书_files/42c9316755d6" alt="48">
+            </div>
+            <span class="name">星日</span>
+</a>        </div>
+
+        <div class="note ">
+                    <a class="title" target="_blank" href="http://www.jianshu.com/p/13bd44cd60db?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">江苏首例失独老人“隔代探望权”纠纷案开审</a>
+          <p class="description">一对六旬老人，独生子意外身亡，于是将所有的精神寄托都放在了不满2岁的孙子身上。然而，由于儿子去世后与儿媳积怨较深，且因在探望孙子问题上多次与儿媳一家发生激烈冲突，导致儿媳妇一怒之下阻止二老探望孙子。 无奈之下，二位老人将儿媳告上法庭，要求每月能探望孙子三次。今天上午，江苏省...</p>
+          <a class="author" target="_blank" href="http://www.jianshu.com/u/8ab4318c959e?utm_campaign=maleskine&amp;utm_content=user&amp;utm_medium=seo_notes&amp;utm_source=recommendation">
+            <div class="avatar">
+              <img src="./React组件生命周期小结 - 简书_files/ba87d63e008e.jpg" alt="48">
+            </div>
+            <span class="name">小好</span>
+</a>        </div>
+
+        <div class="note ">
+                    <a class="title" target="_blank" href="http://www.jianshu.com/p/5254e703fa35?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">灵修之路20171023记录成长</a>
+          <p class="description">最近情绪一直不好，自己憋了好多天，在群里说话几乎没人回复，很失落。当看到大家对我的关心和回复时，我突然发现我可能在扮演可怜虫让大家关注我，关心我，回应我。当有人来关心我，问候我时我没有那么不舒服了，当我说我扮演可怜虫说出事实时，我的心很不舒服，心里很压抑，有些愤怒。是的，我...</p>
+          <a class="author" target="_blank" href="http://www.jianshu.com/u/a78312b824ac?utm_campaign=maleskine&amp;utm_content=user&amp;utm_medium=seo_notes&amp;utm_source=recommendation">
+            <div class="avatar">
+              <img src="./React组件生命周期小结 - 简书_files/3bff7b4b-bae2-4a40-a3e3-5cb071af098d.jpg" alt="48">
+            </div>
+            <span class="name">姜华86</span>
+</a>        </div>
+  </div>
+</div>
+
+    <script type="application/json" data-name="page-data">{"user_signed_in":false,"locale":"zh-CN","os":"windows","read_mode":"day","read_font":"font2","note_show":{"is_author":false,"is_following_author":false,"is_liked_note":false,"follow_state":0,"uuid":"ea8dcc59-7e44-457f-812f-6e1ccf858f7c"},"note":{"id":3556834,"slug":"4784216b8194","user_id":1814354,"notebook_id":3903314,"commentable":true,"likes_count":120,"views_count":69837,"public_wordage":1082,"comments_count":22,"total_rewards_count":1,"is_author":false,"author":{"nickname":"linjinhe","total_wordage":25114,"followers_count":239,"total_likes_count":223}}}</script>
+    
+    <script src="./React组件生命周期小结 - 简书_files/babel-polyfill-676833c6a4d68573b4c3.js.下载" crossorigin="anonymous"></script>
+    <script src="./React组件生命周期小结 - 简书_files/web-base-46c737f66f8599589e87.js.下载" crossorigin="anonymous"></script>
+<script src="./React组件生命周期小结 - 简书_files/web-c67f9a8f66bca272c86b.js.下载" crossorigin="anonymous"></script>
+    
+    <script src="./React组件生命周期小结 - 简书_files/entry-82f36e5dc29a43c2dc42.js.下载" crossorigin="anonymous"></script>
+    <script>
+  (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+  })();
+</script>
+
+  
+
+<!----><!----></body></html>
