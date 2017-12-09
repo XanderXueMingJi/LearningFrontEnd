@@ -1,0 +1,3338 @@
+From: <Saved by Blink>
+X-Snapshot-Version: 1.0
+X-Snapshot-Title: =?utf-8?Q?Code Guide by @AlloyTeam-materliu?=
+X-Snapshot-Content-Location: http://materliu.github.io/code-guide/
+Subject: Code Guide by @AlloyTeam-materliu
+Date: Sun, 2 Dec 2017 06:13:17 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--HpVszEFQT6yuyLex0Qtn31bPReLO1GSWhbJa47cpD5----"
+
+------MultipartBoundary--HpVszEFQT6yuyLex0Qtn31bPReLO1GSWhbJa47cpD5----
+Content-Type: text/html
+Content-ID: <frame-3-2dcff4d5-2bcf-4d6b-bd29-c9ea9f1ffb94@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://materliu.github.io/code-guide/
+
+<!DOCTYPE html><html lang=3D"en-us"><head><meta http-equiv=3D"Content-Type"=
+ content=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0, maximum-scale=3D1">
+    <link href=3D"http://materliu.github.io/code-guide/public/ico/favicon.i=
+co" rel=3D"shortcut icon" type=3D"image/x-icon">
+    <link rel=3D"stylesheet" href=3D"http://materliu.github.io/code-guide/s=
+tyles/style.css">
+
+    <title>
+        Code Guide by @AlloyTeam-materliu
+    </title>
+
+    <link rel=3D"stylesheet" href=3D"http://materliu.github.io/code-guide/c=
+ode-guide.css">
+    <link rel=3D"stylesheet" href=3D"http://fonts.googleapis.com/css?family=
+=3DPT+Sans:400,700,400italic,700italic|PT+Mono&amp;subset=3Dlatin,cyrillic"=
+>
+
+   =20
+    </head>
+
+    <body>
+
+    <header class=3D"masthead">
+  <div class=3D"container">
+    <span class=3D"icon">=E2=9C=8D</span>
+    <h1>Code Guide by @AlloyTeam-materliu</h1>
+    <p class=3D"lead">Standards for developing flexible, durable, and susta=
+inable HTML and CSS, and maintainable JavaScript</p>
+    <p class=3D"lead">=E9=80=9A=E8=BF=87=E5=88=86=E6=9E=90github=E4=BB=A3=
+=E7=A0=81=E5=BA=93=E6=80=BB=E7=BB=93=E5=87=BA=E6=9D=A5=E7=9A=84=E5=B7=A5=E7=
+=A8=8B=E5=B8=88=E4=BB=A3=E7=A0=81=E4=B9=A6=E5=86=99=E4=B9=A0=E6=83=AF=EF=BC=
+=9A<a href=3D"http://sideeffect.kr/popularconvention#javascript" target=3D"=
+_blank">GO!!!</a></p>
+
+    <p class=3D"masthead-links">
+      <a href=3D"https://github.com/materliu/code-guide">
+        <span class=3D"icon icon-github-circled"></span>
+      </a>
+      <a href=3D"https://twitter.com/materliu">
+        <span class=3D"icon icon-twitter"></span>
+      </a>
+    </p>
+  </div>
+</header>
+
+
+    <a href=3D"http://materliu.github.io/code-guide/#top" id=3D"toTop"></a>
+<div class=3D"heading" id=3D"toc">
+    <h2>Table of contents</h2>
+</div>
+<div class=3D"section toc">
+    <div class=3D"col">
+        <h4><a href=3D"http://materliu.github.io/code-guide/#html">Naming P=
+roject</a></h4>
+        <ul>
+            <li><a href=3D"http://materliu.github.io/code-guide/#project-na=
+ming">=E9=A1=B9=E7=9B=AE=E5=90=8D</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#folder-nam=
+ing">=E7=9B=AE=E5=BD=95=E5=90=8D</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-naming"=
+>JS=E6=96=87=E4=BB=B6=E5=91=BD=E5=90=8D</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#css-naming=
+">CSS&amp;SCSS=E6=96=87=E4=BB=B6=E5=91=BD=E5=90=8D</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#html-namin=
+g">HTML=E6=96=87=E4=BB=B6=E5=91=BD=E5=90=8D</a></li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <h4><a href=3D"http://materliu.github.io/code-guide/#html">HTML</a>=
+</h4>
+        <ul>
+            <li><a href=3D"http://materliu.github.io/code-guide/#html-synta=
+x">=E8=AF=AD=E6=B3=95</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#html-docty=
+pe">HTML5 doctype</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#html-lang"=
+>Language attribute</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#html-encod=
+ing">=E5=AD=97=E7=AC=A6=E7=BC=96=E7=A0=81</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#html-ie-co=
+mpatibility-mode">Internet Explorer
+                compatibility mode</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#html-style=
+-script">=E5=BC=95=E5=85=A5 CSS =E5=92=8C JavaScript</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#html-pract=
+icality">=E5=AE=9E=E7=94=A8=E9=AB=98=E4=BA=8E=E5=AE=8C=E7=BE=8E</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#html-attri=
+bute-order">=E5=B1=9E=E6=80=A7=E9=A1=BA=E5=BA=8F</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#html-boole=
+an-attributes">Boolean =E5=B1=9E=E6=80=A7</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#html-reduc=
+ing-markup">=E5=87=8F=E5=B0=91=E6=A0=87=E7=AD=BE=E6=95=B0=E9=87=8F</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#html-javas=
+cript">JavaScript =E7=94=9F=E6=88=90=E6=A0=87=E7=AD=BE</a></li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <h4><a href=3D"http://materliu.github.io/code-guide/#css">CSS</a></=
+h4>
+        <ul>
+            <li><a href=3D"http://materliu.github.io/code-guide/#css-syntax=
+">CSS =E8=AF=AD=E6=B3=95</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#css-declar=
+ation-order">=E5=A3=B0=E6=98=8E=E9=A1=BA=E5=BA=8F</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#css-import=
+">Don't use @import</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#css-media-=
+queries">Media query placement</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#css-prefix=
+ed-properties">=E5=89=8D=E7=BC=80=E5=B1=9E=E6=80=A7</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#css-single=
+-declarations">Rules with single
+                declarations</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#css-shorth=
+and">=E5=B1=9E=E6=80=A7=E7=AE=80=E5=86=99</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#css-nestin=
+g">Less =E5=92=8C Sass =E4=B8=AD=E7=9A=84=E5=B5=8C=E5=A5=97</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#css-commen=
+ts">=E4=BB=A3=E7=A0=81=E6=B3=A8=E9=87=8A</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#css-classe=
+s">Class =E5=91=BD=E5=90=8D</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#css-select=
+ors">=E9=80=89=E6=8B=A9=E5=99=A8</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#css-organi=
+zation">=E4=BB=A3=E7=A0=81=E7=BB=84=E7=BB=87</a></li>
+            <li><a href=3D"http://cssguidelin.es/">Harry Roberts=E5=86=99=
+=E7=9A=84CSS=E6=9C=80=E4=BD=B3=E6=8C=87=E5=BC=95</a></li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <h4><a href=3D"http://materliu.github.io/code-guide/#javascript">Ja=
+vaScript</a></h4>
+        <ul>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-indenta=
+tion">Indentation,=E5=88=86=E5=8F=B7,=E5=8D=95=E8=A1=8C=E9=95=BF=E5=BA=A6</=
+a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-blank-l=
+ines">=E7=A9=BA=E8=A1=8C</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-variabl=
+e-naming">=E5=8F=98=E9=87=8F=E5=91=BD=E5=90=8D</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-literal=
+-value-string">=E5=AD=97=E7=AC=A6=E5=B8=B8=E9=87=8F</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-literal=
+-value-null">null=E4=BD=BF=E7=94=A8=E5=9C=BA=E6=99=AF</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-literal=
+-value-undefined">undefined=E4=BD=BF=E7=94=A8=E5=9C=BA=E6=99=AF</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-literal=
+-value-object">Object Literals</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-literal=
+-value-array">Array Literals</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-comment=
+s-single-line">=E5=8D=95=E8=A1=8C=E6=B3=A8=E9=87=8A</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-comment=
+s-multiline">=E5=A4=9A=E8=A1=8C=E6=B3=A8=E9=87=8A</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-comment=
+s-documentation">=E6=96=87=E6=A1=A3=E6=B3=A8=E9=87=8A</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-brace">=
+=E6=8B=AC=E5=8F=B7=E5=AF=B9=E9=BD=90</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-if-else=
+">if else</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-switch"=
+>switch</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-for">fo=
+r</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-variabl=
+e-declaration">=E5=8F=98=E9=87=8F=E5=A3=B0=E6=98=8E</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-functio=
+n-declaration">=E5=87=BD=E6=95=B0=E5=A3=B0=E6=98=8E</a></li>
+            <li><a href=3D"http://materliu.github.io/code-guide/#js-miscell=
+aneous">=E6=9D=82=E9=A1=B9</a></li>
+            <li><a href=3D"https://github.com/airbnb/javascript" target=3D"=
+_blank">GitHub=E4=B8=8A=E6=9B=B4=E5=8A=A0=E5=A4=A7=E8=80=8C=E5=85=A8=E7=9A=
+=84JavaScript=E4=BB=A3=E7=A0=81=E8=A7=84=E8=8C=83</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class=3D"section" id=3D"golden-rule">
+  <div class=3D"col">
+    <h2>Golden rule</h2>
+    <p>Enforce these, or your own, agreed upon guidelines at all times. Sma=
+ll or large, call out what's incorrect. For additions or contributions to t=
+his Code Guide, please <a href=3D"https://github.com/materliu/code-guide/is=
+sues/new">open an issue on GitHub</a>.</p>
+  </div>
+  <div class=3D"col">
+    <blockquote>
+      <p>Every line of code should appear to be written by a single person,=
+ no matter the number of contributors.</p>
+    </blockquote>
+  </div>
+</div>
+
+<div class=3D"section" id=3D"project-naming">
+    <div class=3D"col">
+        <h3>=E9=A1=B9=E7=9B=AE=E5=91=BD=E5=90=8D</h3>
+        <p>=E9=A1=B9=E7=9B=AE=E5=90=8D=E5=85=A8=E9=83=A8=E9=87=87=E7=94=A8=
+=E5=B0=8F=E5=86=99=E6=96=B9=E5=BC=8F=EF=BC=8C =E4=BB=A5=E4=B8=AD=E5=88=92=
+=E7=BA=BF=E5=88=86=E9=9A=94=E3=80=82 =E6=AF=94=E5=A6=82=EF=BC=9A my-project=
+-name</p>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"folder-naming">
+    <div class=3D"col">
+        <h3>=E7=9B=AE=E5=BD=95=E5=90=8D</h3>
+        <p>=E7=9B=AE=E5=BD=95=E5=90=8D=E5=8F=82=E7=85=A7=E4=B8=8A=E4=B8=80=
+=E6=9D=A1=E8=A7=84=E5=88=99,=E6=9C=89=E5=A4=8D=E6=95=B0=E7=BB=93=E6=9E=84=
+=E6=97=B6=EF=BC=8C=E8=A6=81=E9=87=87=E7=94=A8=E5=A4=8D=E6=95=B0=E5=91=BD=E5=
+=90=8D=E6=B3=95=EF=BC=8C=E6=AF=94=E5=A6=82=E8=AF=B4=EF=BC=9A scripts, style=
+s, images, data-models</p>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-naming">
+    <div class=3D"col">
+        <h3>JavaScript=E6=96=87=E4=BB=B6=E5=91=BD=E5=90=8D</h3>
+        <p>=E6=89=80=E6=9C=89js=E6=96=87=E4=BB=B6=E5=90=8D=EF=BC=8C=E5=A4=
+=9A=E4=B8=AA=E5=8D=95=E8=AF=8D=E7=BB=84=E6=88=90=E6=97=B6=EF=BC=8C=E9=87=87=
+=E7=94=A8=E4=B8=AD=E5=88=92=E7=BA=BF=E8=BF=9E=E6=8E=A5=E6=96=B9=E5=BC=8F=EF=
+=BC=8C=E6=AF=94=E5=A6=82=E8=AF=B4=EF=BC=9A =E8=B4=A6=E5=8F=B7=E6=A8=A1=E5=
+=9E=8B=E6=96=87=E4=BB=B6 account-model.js</p>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"css-naming">
+    <div class=3D"col">
+        <h3>CSS=EF=BC=8CSCSS=E6=96=87=E4=BB=B6=E5=91=BD=E5=90=8D</h3>
+        <p>=E5=A4=9A=E4=B8=AA=E5=8D=95=E8=AF=8D=E7=BB=84=E6=88=90=E6=97=B6=
+=EF=BC=8C=E9=87=87=E7=94=A8=E4=B8=AD=E5=88=92=E7=BA=BF=E8=BF=9E=E6=8E=A5=E6=
+=96=B9=E5=BC=8F=EF=BC=8C=E6=AF=94=E5=A6=82=E8=AF=B4=EF=BC=9Aretina-sprites.=
+scss</p>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"html-naming">
+    <div class=3D"col">
+        <h3>HTML=E6=96=87=E4=BB=B6=E5=91=BD=E5=90=8D</h3>
+        <p>=E5=A4=9A=E4=B8=AA=E5=8D=95=E8=AF=8D=E7=BB=84=E6=88=90=E6=97=B6=
+=EF=BC=8C=E9=87=87=E7=94=A8=E4=B8=AD=E5=88=92=E7=BA=BF=E8=BF=9E=E6=8E=A5=E6=
+=96=B9=E5=BC=8F=EF=BC=8C=E6=AF=94=E5=A6=82=E8=AF=B4: error-report.html</p>
+    </div>
+</div>
+
+
+
+<div class=3D"heading" id=3D"html">
+  <h2>HTML</h2>
+</div>
+
+<div class=3D"section" id=3D"html-syntax">
+    <div class=3D"col">
+        <h3>=E8=AF=AD=E6=B3=95</h3>
+        <ul>
+            <li>=E4=BD=BF=E7=94=A8=E5=9B=9B=E4=B8=AA=E7=A9=BA=E6=A0=BC=E7=
+=9A=84 soft tabs =E2=80=94 =E8=BF=99=E6=98=AF=E4=BF=9D=E8=AF=81=E4=BB=A3=E7=
+=A0=81=E5=9C=A8=E5=90=84=E7=A7=8D=E7=8E=AF=E5=A2=83=E4=B8=8B=E6=98=BE=E7=A4=
+=BA=E4=B8=80=E8=87=B4=E7=9A=84=E5=94=AF=E4=B8=80=E6=96=B9=E5=BC=8F=E3=80=82=
+</li>
+            <li>=E5=B5=8C=E5=A5=97=E7=9A=84=E8=8A=82=E7=82=B9=E5=BA=94=E8=
+=AF=A5=E7=BC=A9=E8=BF=9B=EF=BC=88=E5=9B=9B=E4=B8=AA=E7=A9=BA=E6=A0=BC=EF=BC=
+=89=E3=80=82</li>
+            <li>=E5=9C=A8=E5=B1=9E=E6=80=A7=E4=B8=8A=EF=BC=8C=E4=BD=BF=E7=
+=94=A8=E5=8F=8C=E5=BC=95=E5=8F=B7=EF=BC=8C=E4=B8=8D=E8=A6=81=E4=BD=BF=E7=94=
+=A8=E5=8D=95=E5=BC=95=E5=8F=B7=E3=80=82</li>
+            <li>=E4=B8=8D=E8=A6=81=E5=9C=A8=E8=87=AA=E5=8A=A8=E9=97=AD=E5=
+=90=88=E6=A0=87=E7=AD=BE=E7=BB=93=E5=B0=BE=E5=A4=84=E4=BD=BF=E7=94=A8=E6=96=
+=9C=E7=BA=BF - <a href=3D"http://dev.w3.org/html5/spec-author-view/syntax.h=
+tml#syntax-start-tag">HTML5 =E8=A7=84=E8=8C=83</a> =E6=8C=87=E5=87=BA=E4=BB=
+=96=E4=BB=AC=E6=98=AF=E5=8F=AF=E9=80=89=E7=9A=84=E3=80=82</li>
+            <li>=E4=B8=8D=E8=A6=81=E5=BF=BD=E7=95=A5=E5=8F=AF=E9=80=89=E7=
+=9A=84=E5=85=B3=E9=97=AD=E6=A0=87=E7=AD=BE=EF=BC=88=E4=BE=8B=E5=A6=82=EF=BC=
+=8C<code>&lt;/li&gt;</code> =E5=92=8C <code>&lt;/body&gt;</code>=EF=BC=89=
+=E3=80=82</li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-html" data-la=
+ng=3D"html"><span class=3D"cp">&lt;!DOCTYPE html&gt;</span>
+<span class=3D"nt">&lt;html&gt;</span>
+    <span class=3D"nt">&lt;head&gt;</span>
+        <span class=3D"nt">&lt;title&gt;</span>Page title<span class=3D"nt"=
+>&lt;/title&gt;</span>
+    <span class=3D"nt">&lt;/head&gt;</span>
+<span class=3D"nt">&lt;body&gt;</span>
+    <span class=3D"nt">&lt;img</span> <span class=3D"na">src=3D</span><span=
+ class=3D"s">"images/company-logo.png"</span> <span class=3D"na">alt=3D</sp=
+an><span class=3D"s">"Company"</span><span class=3D"nt">&gt;</span>
+
+    <span class=3D"nt">&lt;h1</span> <span class=3D"na">class=3D</span><spa=
+n class=3D"s">"hello-world"</span><span class=3D"nt">&gt;</span>Hello, worl=
+d!<span class=3D"nt">&lt;/h1&gt;</span>
+<span class=3D"nt">&lt;/body&gt;</span>
+<span class=3D"nt">&lt;/html&gt;</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"html-doctype">
+    <div class=3D"col">
+        <h3>HTML5 doctype</h3>
+        <p>=E5=9C=A8=E6=AF=8F=E4=B8=AA HTML =E9=A1=B5=E9=9D=A2=E5=BC=80=E5=
+=A4=B4=E4=BD=BF=E7=94=A8=E8=BF=99=E4=B8=AA=E7=AE=80=E5=8D=95=E5=9C=B0 docty=
+pe =E6=9D=A5=E5=90=AF=E7=94=A8=E6=A0=87=E5=87=86=E6=A8=A1=E5=BC=8F=EF=BC=8C=
+=E4=BD=BF=E5=85=B6=E6=AF=8F=E4=B8=AA=E6=B5=8F=E8=A7=88=E5=99=A8=E4=B8=AD=E5=
+=B0=BD=E5=8F=AF=E8=83=BD=E4=B8=80=E8=87=B4=E7=9A=84=E5=B1=95=E7=8E=B0=E3=80=
+=82</p>
+        <p>=E8=99=BD=E7=84=B6doctype=E4=B8=8D=E5=8C=BA=E5=88=86=E5=A4=A7=E5=
+=B0=8F=E5=86=99=EF=BC=8C=E4=BD=86=E6=98=AF=E6=8C=89=E7=85=A7=E6=83=AF=E4=BE=
+=8B=EF=BC=8Cdoctype=E5=A4=A7=E5=86=99 <a href=3D"http://stackoverflow.com/q=
+uestions/15594877/is-there-any-benefits-to-use-uppercase-or-lowercase-lette=
+rs-with-html5-tagname" target=3D"_blank">=E5=85=B3=E4=BA=8Ehtml=E5=B1=9E=E6=
+=80=A7=EF=BC=8C=E5=A4=A7=E5=86=99=E8=BF=98=E6=98=AF=E5=B0=8F=E5=86=99=E7=9A=
+=84=E4=B8=80=E7=AF=87=E6=96=87=E7=AB=A0</a></p>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-html" data-la=
+ng=3D"html"><span class=3D"cp">&lt;!DOCTYPE html&gt;</span>
+<span class=3D"nt">&lt;html&gt;</span>
+    <span class=3D"nt">&lt;head&gt;</span>
+    <span class=3D"nt">&lt;/head&gt;</span>
+<span class=3D"nt">&lt;/html&gt;</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"html-lang">
+  <div class=3D"col">
+    <h3>Language attribute</h3>
+    <p>From the HTML5 spec:</p>
+    <blockquote>
+      <p>Authors are encouraged to specify a lang attribute on the root htm=
+l element, giving the document's language. This aids speech synthesis tools=
+ to determine what pronunciations to use, translation tools to determine wh=
+at rules to use, and so forth.</p>
+    </blockquote>
+    <p>Read more about the <code>lang</code> attribute <a href=3D"http://ww=
+w.w3.org/html/wg/drafts/html/master/semantics.html#the-html-element">in the=
+ spec</a>.</p>
+    <p>Head to Sitepoint for a <a href=3D"http://reference.sitepoint.com/ht=
+ml/lang-codes">list of language codes</a>.</p>
+    <p>Sitepoint=E5=8F=AA=E6=98=AF=E7=BB=99=E5=87=BA=E4=BA=86=E8=AF=AD=E8=
+=A8=80=E4=BB=A3=E7=A0=81=E7=9A=84=E5=A4=A7=E7=B1=BB=EF=BC=8C=E6=AF=94=E5=A6=
+=82=E8=AF=B4=E4=B8=AD=E6=96=87=E5=B0=B1=E5=8F=AA=E7=BB=99=E5=87=BA=E4=BA=86=
+ZH=EF=BC=8C=E4=BD=86=E6=98=AF=E6=B2=A1=E6=9C=89=E5=8C=BA=E5=88=86=E9=A6=99=
+=E6=B8=AF=EF=BC=8C=E5=8F=B0=E6=B9=BE=EF=BC=8C=E5=A4=A7=E9=99=86=E7=AD=89=E3=
+=80=82=E8=80=8C=E5=BE=AE=E8=BD=AF=E7=BB=99=E5=87=BA=E7=9A=84=E4=B8=80=E4=BB=
+=BD=E7=BB=86=E5=88=86=E4=BA=86zh-cn,zh-hk,zh-tw, Head to Microsoft for a <a=
+ href=3D"http://msdn.microsoft.com/en-us/library/ms533052(v=3Dvs.85).aspx">=
+detail list of language codes</a>.</p>
+  </div>
+  <div class=3D"col">
+    <div class=3D"highlight"><pre><code class=3D"language-html" data-lang=
+=3D"html"><span class=3D"nt">&lt;html</span> <span class=3D"na">lang=3D</sp=
+an><span class=3D"s">"en-us"</span><span class=3D"nt">&gt;</span>
+    <span class=3D"c">&lt;!-- ... --&gt;</span>
+<span class=3D"nt">&lt;/html&gt;</span></code></pre></div>
+  </div>
+</div>
+
+<div class=3D"section" id=3D"html-ie-compatibility-mode">
+  <div class=3D"col">
+    <h3>IE compatibility mode</h3>
+    <p>Internet Explorer supports the use of a document compatibility <code=
+>&lt;meta&gt;</code> tag to specify what version of IE the page should be r=
+endered as. Unless circumstances require otherwise, it's most useful to ins=
+truct IE to use the latest supported mode with <strong>edge mode</strong>.<=
+/p>
+    <p>For more information, <a href=3D"http://stackoverflow.com/questions/=
+6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-=
+edge-e">read this awesome Stack Overflow article</a>.</p>
+      <p>=E4=B8=8D=E5=90=8Cdoctype=E5=9C=A8=E4=B8=8D=E5=90=8C=E6=B5=8F=E8=
+=A7=88=E5=99=A8=E4=B8=8B=E7=9A=84=E4=B8=8D=E5=90=8C=E6=B8=B2=E6=9F=93=E6=A8=
+=A1=E5=BC=8F=EF=BC=8C=E8=AF=A1=E5=BC=82=E6=A8=A1=E5=BC=8F<a href=3D"https:/=
+/hsivonen.fi/doctype/">=E6=80=BB=E7=BB=93=E7=9A=84=E5=BE=88=E5=88=B0=E4=BD=
+=8D</a>.</p>
+  </div>
+  <div class=3D"col">
+    <div class=3D"highlight"><pre><code class=3D"language-html" data-lang=
+=3D"html"><span class=3D"nt">&lt;meta</span> <span class=3D"na">http-equiv=
+=3D</span><span class=3D"s">"X-UA-Compatible"</span> <span class=3D"na">con=
+tent=3D</span><span class=3D"s">"IE=3DEdge"</span><span class=3D"nt">&gt;</=
+span></code></pre></div>
+  </div>
+</div>
+
+<div class=3D"section" id=3D"html-encoding">
+    <div class=3D"col">
+        <h3>=E5=AD=97=E7=AC=A6=E7=BC=96=E7=A0=81</h3>
+        <p>=E9=80=9A=E8=BF=87=E5=A3=B0=E6=98=8E=E4=B8=80=E4=B8=AA=E6=98=8E=
+=E7=A1=AE=E7=9A=84=E5=AD=97=E7=AC=A6=E7=BC=96=E7=A0=81=EF=BC=8C=E8=AE=A9=E6=
+=B5=8F=E8=A7=88=E5=99=A8=E8=BD=BB=E6=9D=BE=E3=80=81=E5=BF=AB=E9=80=9F=E7=9A=
+=84=E7=A1=AE=E5=AE=9A=E9=80=82=E5=90=88=E7=BD=91=E9=A1=B5=E5=86=85=E5=AE=B9=
+=E7=9A=84=E6=B8=B2=E6=9F=93=E6=96=B9=E5=BC=8F=E3=80=82=E5=90=8C=E6=97=B6=E4=
+=BD=A0=E4=B9=9F=E5=BA=94=E8=AF=A5=E9=81=BF=E5=85=8D=E4=BD=BF=E7=94=A8=E7=B1=
+=BB=E4=BC=BC=E4=BA=8E&lt;=E8=BF=99=E7=A7=8D=E5=AD=97=E7=AC=A6Entities, =E8=
+=80=8C=E4=BD=BF=E7=94=A8=E4=BB=96=E4=BB=AC=E7=9A=84entity_code &lt;</p>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-html" data-la=
+ng=3D"html"><span class=3D"nt">&lt;head&gt;</span>
+    <span class=3D"nt">&lt;meta</span> <span class=3D"na">charset=3D</span>=
+<span class=3D"s">"UTF-8"</span><span class=3D"nt">&gt;</span>
+<span class=3D"nt">&lt;/head&gt;</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"html-style-script">
+    <div class=3D"col">
+        <h3>=E5=BC=95=E5=85=A5 CSS =E5=92=8C JavaScript</h3>
+        <p>=E6=A0=B9=E6=8D=AE HTML5 =E8=A7=84=E8=8C=83, =E9=80=9A=E5=B8=B8=
+=E5=9C=A8=E5=BC=95=E5=85=A5 CSS =E5=92=8C JavaScript =E6=97=B6=E4=B8=8D=E9=
+=9C=80=E8=A6=81=E6=8C=87=E6=98=8E <code>type</code>=EF=BC=8C=E5=9B=A0=E4=B8=
+=BA <code>text/css</code> =E5=92=8C <code>text/javascript</code> =E5=88=86=
+=E5=88=AB=E6=98=AF=E4=BB=96=E4=BB=AC=E7=9A=84=E9=BB=98=E8=AE=A4=E5=80=BC=E3=
+=80=82</p>
+        <h4>HTML5 =E8=A7=84=E8=8C=83=E9=93=BE=E6=8E=A5</h4>
+        <ul>
+            <li><a href=3D"http://www.w3.org/TR/2011/WD-html5-20110525/sema=
+ntics.html#the-link-element">=E4=BD=BF=E7=94=A8 link</a></li>
+            <li><a href=3D"http://www.w3.org/TR/2011/WD-html5-20110525/sema=
+ntics.html#the-style-element">=E4=BD=BF=E7=94=A8 style</a></li>
+            <li><a href=3D"http://www.w3.org/TR/2011/WD-html5-20110525/scri=
+pting-1.html#the-script-element">=E4=BD=BF=E7=94=A8 script</a></li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-html" data-la=
+ng=3D"html"><span class=3D"c">&lt;!-- External CSS --&gt;</span>
+<span class=3D"nt">&lt;link</span> <span class=3D"na">rel=3D</span><span cl=
+ass=3D"s">"stylesheet"</span> <span class=3D"na">href=3D</span><span class=
+=3D"s">"code-guide.css"</span><span class=3D"nt">&gt;</span>
+
+<span class=3D"c">&lt;!-- In-document CSS --&gt;</span>
+<span class=3D"nt">&lt;style&gt;</span>
+    <span class=3D"c">/* ... */</span>
+<span class=3D"nt">&lt;/style&gt;</span>
+
+<span class=3D"c">&lt;!-- JavaScript --&gt;</span>
+<span class=3D"nt">&lt;script </span><span class=3D"na">src=3D</span><span =
+class=3D"s">"code-guide.js"</span><span class=3D"nt">&gt;&lt;/script&gt;</s=
+pan></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"html-practicality">
+    <div class=3D"col">
+        <h3>=E5=AE=9E=E7=94=A8=E9=AB=98=E4=BA=8E=E5=AE=8C=E7=BE=8E</h3>
+        <p>=E5=B0=BD=E9=87=8F=E9=81=B5=E5=BE=AA HTML =E6=A0=87=E5=87=86=E5=
+=92=8C=E8=AF=AD=E4=B9=89=EF=BC=8C=E4=BD=86=E6=98=AF=E4=B8=8D=E5=BA=94=E8=AF=
+=A5=E4=BB=A5=E6=B5=AA=E8=B4=B9=E5=AE=9E=E7=94=A8=E6=80=A7=E4=BD=9C=E4=B8=BA=
+=E4=BB=A3=E4=BB=B7=E3=80=82=E4=BB=BB=E4=BD=95=E6=97=B6=E5=80=99=E9=83=BD=E8=
+=A6=81=E7=94=A8=E5=B0=BD=E9=87=8F=E5=B0=8F=E7=9A=84=E5=A4=8D=E6=9D=82=E5=BA=
+=A6=E5=92=8C=E5=B0=BD=E9=87=8F=E5=B0=91=E7=9A=84=E6=A0=87=E7=AD=BE=E6=9D=A5=
+=E8=A7=A3=E5=86=B3=E9=97=AE=E9=A2=98=E3=80=82</p>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"html-attribute-order">
+    <div class=3D"col">
+        <h3>=E5=B1=9E=E6=80=A7=E9=A1=BA=E5=BA=8F</h3>
+        <p>HTML =E5=B1=9E=E6=80=A7=E5=BA=94=E8=AF=A5=E6=8C=89=E7=85=A7=E7=
+=89=B9=E5=AE=9A=E7=9A=84=E9=A1=BA=E5=BA=8F=E5=87=BA=E7=8E=B0=E4=BB=A5=E4=BF=
+=9D=E8=AF=81=E6=98=93=E8=AF=BB=E6=80=A7=E3=80=82</p>
+        <ul>
+            <li><code>class</code></li>
+            <li><code>id</code></li>
+            <li><code>name</code></li>
+            <li><code>data-*</code></li>
+            <li><code>src</code>, <code>for</code>, <code>type</code>, <cod=
+e>href</code>, <code>value</code> , <code>max-length</code>, <code>max</cod=
+e>, <code>min</code>, <code>pattern</code></li>
+            <li><code>placeholder</code>, <code>title</code>, <code>alt</co=
+de></li>
+            <li><code>aria-*</code>, <code>role</code></li>
+            <li><code>required</code>, <code>readonly</code>, <code>disable=
+d</code></li>
+        </ul>
+        <p>Classes =E6=98=AF=E4=B8=BA=E9=AB=98=E5=8F=AF=E5=A4=8D=E7=94=A8=
+=E7=BB=84=E4=BB=B6=E8=AE=BE=E8=AE=A1=E7=9A=84=EF=BC=8C=E7=90=86=E8=AE=BA=E4=
+=B8=8A=E4=BB=96=E4=BB=AC=E5=BA=94=E5=A4=84=E5=9C=A8=E7=AC=AC=E4=B8=80=E4=BD=
+=8D=E3=80=82Ids =E6=9B=B4=E5=8A=A0=E5=85=B7=E4=BD=93=E8=80=8C=E4=B8=94=E5=
+=BA=94=E8=AF=A5=E5=B0=BD=E9=87=8F=E5=B0=91=E4=BD=BF=E7=94=A8=EF=BC=88=E4=BE=
+=8B=E5=A6=82, =E9=A1=B5=E5=86=85=E4=B9=A6=E7=AD=BE=EF=BC=89=EF=BC=8C=E6=89=
+=80=E4=BB=A5=E4=BB=96=E4=BB=AC=E5=A4=84=E5=9C=A8=E7=AC=AC=E4=BA=8C=E4=BD=8D=
+=E3=80=82</p>
+
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-html" data-la=
+ng=3D"html"><span class=3D"nt">&lt;a</span> <span class=3D"na">id=3D</span>=
+<span class=3D"s">"..."</span> <span class=3D"na">class=3D</span><span clas=
+s=3D"s">"..."</span> <span class=3D"na">data-modal=3D</span><span class=3D"=
+s">"toggle"</span> <span class=3D"na">href=3D</span><span class=3D"s">"#"</=
+span><span class=3D"nt">&gt;</span>
+    Example link
+<span class=3D"nt">&lt;/a&gt;</span>
+
+<span class=3D"nt">&lt;input</span> <span class=3D"na">class=3D</span><span=
+ class=3D"s">"form-control"</span> <span class=3D"na">type=3D</span><span c=
+lass=3D"s">"text"</span><span class=3D"nt">&gt;</span>
+
+<span class=3D"nt">&lt;img</span> <span class=3D"na">src=3D</span><span cla=
+ss=3D"s">"..."</span> <span class=3D"na">alt=3D</span><span class=3D"s">"..=
+."</span><span class=3D"nt">&gt;</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"html-boolean-attributes">
+    <div class=3D"col">
+        <h3>Boolean =E5=B1=9E=E6=80=A7</h3>
+        <p>Boolean =E5=B1=9E=E6=80=A7=E6=8C=87=E4=B8=8D=E9=9C=80=E8=A6=81=
+=E5=A3=B0=E6=98=8E=E5=8F=96=E5=80=BC=E7=9A=84=E5=B1=9E=E6=80=A7=E3=80=82XHT=
+ML =E9=9C=80=E8=A6=81=E6=AF=8F=E4=B8=AA=E5=B1=9E=E6=80=A7=E5=A3=B0=E6=98=8E=
+=E5=8F=96=E5=80=BC=EF=BC=8C=E4=BD=86=E6=98=AF HTML5 =E5=B9=B6=E4=B8=8D=E9=
+=9C=80=E8=A6=81=E3=80=82</p>
+        <p>=E4=BA=86=E8=A7=A3=E6=9B=B4=E5=A4=9A=E5=86=85=E5=AE=B9=EF=BC=8C=
+=E5=8F=82=E8=80=83 <a href=3D"http://www.whatwg.org/specs/web-apps/current-=
+work/multipage/common-microsyntaxes.html#boolean-attributes">WhatWG section=
+ on boolean attributes</a>:</p>
+        <blockquote>
+            <p>=E4=B8=80=E4=B8=AA=E5=85=83=E7=B4=A0=E4=B8=AD Boolean =E5=B1=
+=9E=E6=80=A7=E7=9A=84=E5=AD=98=E5=9C=A8=E8=A1=A8=E7=A4=BA=E5=8F=96=E5=80=BC=
+ true=EF=BC=8C=E4=B8=8D=E5=AD=98=E5=9C=A8=E5=88=99=E8=A1=A8=E7=A4=BA=E5=8F=
+=96=E5=80=BC false=E3=80=82</p>
+        </blockquote>
+        <p>=E5=A6=82=E6=9E=9C=E4=BD=A0<em>=E5=BF=85=E9=A1=BB</em>=E4=B8=BA=
+=E5=B1=9E=E6=80=A7=E6=B7=BB=E5=8A=A0<strong>=E5=B9=B6=E4=B8=8D=E9=9C=80=E8=
+=A6=81=E7=9A=84</strong>=E5=8F=96=E5=80=BC=EF=BC=8C=E5=8F=82=E7=85=A7 WhatW=
+G =E7=9A=84=E6=8C=87=E5=BC=95:</p>
+        <blockquote>
+            <p>=E5=A6=82=E6=9E=9C=E5=B1=9E=E6=80=A7=E5=AD=98=E5=9C=A8=EF=BC=
+=8C=E4=BB=96=E7=9A=84=E5=8F=96=E5=80=BC=E5=BF=85=E9=A1=BB=E6=98=AF=E7=A9=BA=
+=E5=AD=97=E7=AC=A6=E4=B8=B2=E6=88=96=E8=80=85 [...] =E5=B1=9E=E6=80=A7=E7=
+=9A=84=E8=A7=84=E8=8C=83=E5=90=8D=E7=A7=B0=EF=BC=8C=E4=B8=8D=E8=A6=81=E5=9C=
+=A8=E9=A6=96=E5=B0=BE=E5=8C=85=E5=90=AB=E7=A9=BA=E7=99=BD=E5=AD=97=E7=AC=A6=
+=E3=80=82</p>
+        </blockquote>
+        <p><strong>=E7=AE=80=E8=80=8C=E8=A8=80=E4=B9=8B=EF=BC=8C=E4=B8=8D=
+=E8=A6=81=E4=B8=BA Boolean =E5=B1=9E=E6=80=A7=E6=B7=BB=E5=8A=A0=E5=8F=96=E5=
+=80=BC=E3=80=82</strong></p>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-html" data-la=
+ng=3D"html"><span class=3D"nt">&lt;input</span> <span class=3D"na">type=3D<=
+/span><span class=3D"s">"text"</span> <span class=3D"na">disabled</span><sp=
+an class=3D"nt">&gt;</span>
+
+<span class=3D"nt">&lt;input</span> <span class=3D"na">type=3D</span><span =
+class=3D"s">"checkbox"</span> <span class=3D"na">value=3D</span><span class=
+=3D"s">"1"</span> <span class=3D"na">checked</span><span class=3D"nt">&gt;<=
+/span>
+
+<span class=3D"nt">&lt;select&gt;</span>
+    <span class=3D"nt">&lt;option</span> <span class=3D"na">value=3D</span>=
+<span class=3D"s">"1"</span> <span class=3D"na">selected</span><span class=
+=3D"nt">&gt;</span>1<span class=3D"nt">&lt;/option&gt;</span>
+<span class=3D"nt">&lt;/select&gt;</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"html-reducing-markup">
+    <div class=3D"col">
+        <h3>=E5=87=8F=E5=B0=91=E6=A0=87=E7=AD=BE=E6=95=B0=E9=87=8F</h3>
+        <p>=E5=9C=A8=E7=BC=96=E5=86=99 HTML =E4=BB=A3=E7=A0=81=E6=97=B6=EF=
+=BC=8C=E9=9C=80=E8=A6=81=E5=B0=BD=E9=87=8F=E9=81=BF=E5=85=8D=E5=A4=9A=E4=BD=
+=99=E7=9A=84=E7=88=B6=E8=8A=82=E7=82=B9=E3=80=82=E5=BE=88=E5=A4=9A=E6=97=B6=
+=E5=80=99=EF=BC=8C=E9=9C=80=E8=A6=81=E9=80=9A=E8=BF=87=E8=BF=AD=E4=BB=A3=E5=
+=92=8C=E9=87=8D=E6=9E=84=E6=9D=A5=E4=BD=BF HTML =E5=8F=98=E5=BE=97=E6=9B=B4=
+=E5=B0=91=E3=80=82 =E5=8F=82=E8=80=83=E4=B8=8B=E9=9D=A2=E7=9A=84=E7=A4=BA=
+=E4=BE=8B:</p>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-html" data-la=
+ng=3D"html"><span class=3D"c">&lt;!-- Not so great --&gt;</span>
+<span class=3D"nt">&lt;span</span> <span class=3D"na">class=3D</span><span =
+class=3D"s">"avatar"</span><span class=3D"nt">&gt;</span>
+    <span class=3D"nt">&lt;img</span> <span class=3D"na">src=3D</span><span=
+ class=3D"s">"..."</span><span class=3D"nt">&gt;</span>
+<span class=3D"nt">&lt;/span&gt;</span>
+
+<span class=3D"c">&lt;!-- Better --&gt;</span>
+<span class=3D"nt">&lt;img</span> <span class=3D"na">class=3D</span><span c=
+lass=3D"s">"avatar"</span> <span class=3D"na">src=3D</span><span class=3D"s=
+">"..."</span><span class=3D"nt">&gt;</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"html-javascript">
+    <div class=3D"col">
+        <h3>JavaScript =E7=94=9F=E6=88=90=E6=A0=87=E7=AD=BE</h3>
+        <p>=E5=9C=A8 JavaScript =E6=96=87=E4=BB=B6=E4=B8=AD=E7=94=9F=E6=88=
+=90=E6=A0=87=E7=AD=BE=E8=AE=A9=E5=86=85=E5=AE=B9=E5=8F=98=E5=BE=97=E6=9B=B4=
+=E9=9A=BE=E6=9F=A5=E6=89=BE=EF=BC=8C=E6=9B=B4=E9=9A=BE=E7=BC=96=E8=BE=91=EF=
+=BC=8C=E6=80=A7=E8=83=BD=E6=9B=B4=E5=B7=AE=E3=80=82=E5=BA=94=E8=AF=A5=E5=B0=
+=BD=E9=87=8F=E9=81=BF=E5=85=8D=E8=BF=99=E7=A7=8D=E6=83=85=E5=86=B5=E7=9A=84=
+=E5=87=BA=E7=8E=B0=E3=80=82</p>
+    </div>
+</div>
+
+
+
+<div class=3D"heading" id=3D"css">
+  <h2>CSS</h2>
+</div>
+
+<div class=3D"section" id=3D"css-syntax">
+    <div class=3D"col">
+        <h3>=E8=AF=AD=E6=B3=95</h3>
+        <ul>
+            <li>=E4=BD=BF=E7=94=A8=E5=9B=9B=E4=B8=AA=E7=A9=BA=E6=A0=BC=E7=
+=9A=84 soft tabs =E2=80=94 =E8=BF=99=E6=98=AF=E4=BF=9D=E8=AF=81=E4=BB=A3=E7=
+=A0=81=E5=9C=A8=E5=90=84=E7=A7=8D=E7=8E=AF=E5=A2=83=E4=B8=8B=E6=98=BE=E7=A4=
+=BA=E4=B8=80=E8=87=B4=E7=9A=84=E5=94=AF=E4=B8=80=E6=96=B9=E5=BC=8F=E3=80=82=
+</li>
+            <li>=E4=BD=BF=E7=94=A8=E7=BB=84=E5=90=88=E9=80=89=E6=8B=A9=E5=
+=99=A8=E6=97=B6=EF=BC=8C=E4=BF=9D=E6=8C=81=E6=AF=8F=E4=B8=AA=E7=8B=AC=E7=AB=
+=8B=E7=9A=84=E9=80=89=E6=8B=A9=E5=99=A8=E5=8D=A0=E7=94=A8=E4=B8=80=E8=A1=8C=
+=E3=80=82</li>
+            <li>=E4=B8=BA=E4=BA=86=E4=BB=A3=E7=A0=81=E7=9A=84=E6=98=93=E8=
+=AF=BB=E6=80=A7=EF=BC=8C=E5=9C=A8=E6=AF=8F=E4=B8=AA=E5=A3=B0=E6=98=8E=E7=9A=
+=84=E5=B7=A6=E6=8B=AC=E5=8F=B7=E5=89=8D=E5=A2=9E=E5=8A=A0=E4=B8=80=E4=B8=AA=
+=E7=A9=BA=E6=A0=BC=E3=80=82</li>
+            <li>=E5=A3=B0=E6=98=8E=E5=9D=97=E7=9A=84=E5=8F=B3=E6=8B=AC=E5=
+=8F=B7=E5=BA=94=E8=AF=A5=E5=8F=A6=E8=B5=B7=E4=B8=80=E8=A1=8C=E3=80=82</li>
+            <li>=E6=AF=8F=E6=9D=A1=E5=A3=B0=E6=98=8E <code>:</code> =E5=90=
+=8E=E5=BA=94=E8=AF=A5=E6=8F=92=E5=85=A5=E4=B8=80=E4=B8=AA=E7=A9=BA=E6=A0=BC=
+=E3=80=82</li>
+            <li>=E6=AF=8F=E6=9D=A1=E5=A3=B0=E6=98=8E=E5=BA=94=E8=AF=A5=E5=
+=8F=AA=E5=8D=A0=E7=94=A8=E4=B8=80=E8=A1=8C=E6=9D=A5=E4=BF=9D=E8=AF=81=E9=94=
+=99=E8=AF=AF=E6=8A=A5=E5=91=8A=E6=9B=B4=E5=8A=A0=E5=87=86=E7=A1=AE=E3=80=82=
+</li>
+            <li>=E6=89=80=E6=9C=89=E5=A3=B0=E6=98=8E=E5=BA=94=E8=AF=A5=E4=
+=BB=A5=E5=88=86=E5=8F=B7=E7=BB=93=E5=B0=BE=E3=80=82=E8=99=BD=E7=84=B6=E6=9C=
+=80=E5=90=8E=E4=B8=80=E6=9D=A1=E5=A3=B0=E6=98=8E=E5=90=8E=E7=9A=84=E5=88=86=
+=E5=8F=B7=E6=98=AF=E5=8F=AF=E9=80=89=E7=9A=84=EF=BC=8C=E4=BD=86=E6=98=AF=E5=
+=A6=82=E6=9E=9C=E6=B2=A1=E6=9C=89=E4=BB=96=EF=BC=8C=E4=BD=A0=E7=9A=84=E4=BB=
+=A3=E7=A0=81=E4=BC=9A=E6=9B=B4=E5=AE=B9=E6=98=93=E5=87=BA=E9=94=99=E3=80=82=
+</li>
+            <li>=E9=80=97=E5=8F=B7=E5=88=86=E9=9A=94=E7=9A=84=E5=8F=96=E5=
+=80=BC=EF=BC=8C=E9=83=BD=E5=BA=94=E8=AF=A5=E5=9C=A8=E9=80=97=E5=8F=B7=E4=B9=
+=8B=E5=90=8E=E5=A2=9E=E5=8A=A0=E4=B8=80=E4=B8=AA=E7=A9=BA=E6=A0=BC=E3=80=82=
+=E6=AF=94=E5=A6=82=E8=AF=B4box-shadow</li>
+            <li>=E4=B8=8D=E8=A6=81=E5=9C=A8=E9=A2=9C=E8=89=B2=E5=80=BC <cod=
+e>rgb()</code> <code>rgba()</code> <code>hsl()</code> <code>hsla()</code>=
+=E5=92=8C <code>rect()</code> <em>=E4=B8=AD</em>=E5=A2=9E=E5=8A=A0=E7=A9=BA=
+=E6=A0=BC=EF=BC=8C=E5=B9=B6=E4=B8=94=E4=B8=8D=E8=A6=81=E5=B8=A6=E6=9C=89=E5=
+=8F=96=E5=80=BC=E5=89=8D=E9=9D=A2=E4=B8=8D=E5=BF=85=E8=A6=81=E7=9A=84 0 (=
+=E6=AF=94=E5=A6=82=EF=BC=8C=E4=BD=BF=E7=94=A8 .5 =E6=9B=BF=E4=BB=A3 0.5)=E3=
+=80=82This helps differentiate multiple color values (comma, no space) from=
+ multiple property values (comma with space).</li>
+            <li>=E6=89=80=E6=9C=89=E7=9A=84=E5=8D=81=E5=85=AD=E8=BF=9B=E5=
+=88=B6=E5=80=BC=E9=83=BD=E5=BA=94=E8=AF=A5=E4=BD=BF=E7=94=A8=E5=B0=8F=E5=86=
+=99=E5=AD=97=E6=AF=8D=EF=BC=8C=E4=BE=8B=E5=A6=82 <code>#fff</code>=E3=80=82=
+=E5=9B=A0=E4=B8=BA=E5=B0=8F=E5=86=99=E5=AD=97=E6=AF=8D=E6=9C=89=E6=9B=B4=E5=
+=A4=9A=E6=A0=B7=E7=9A=84=E5=A4=96=E5=BD=A2=EF=BC=8C=E5=9C=A8=E6=B5=8F=E8=A7=
+=88=E6=96=87=E6=A1=A3=E6=97=B6=EF=BC=8C=E4=BB=96=E4=BB=AC=E8=83=BD=E5=A4=9F=
+=E6=9B=B4=E8=BD=BB=E6=9D=BE=E7=9A=84=E8=A2=AB=E5=8C=BA=E5=88=86=E5=BC=80=E6=
+=9D=A5=E3=80=82</li>
+            <li>=E5=B0=BD=E5=8F=AF=E8=83=BD=E4=BD=BF=E7=94=A8=E7=9F=AD=E7=
+=9A=84=E5=8D=81=E5=85=AD=E8=BF=9B=E5=88=B6=E6=95=B0=E5=80=BC=EF=BC=8C=E4=BE=
+=8B=E5=A6=82=E4=BD=BF=E7=94=A8 <code>#fff</code> =E6=9B=BF=E4=BB=A3 <code>#=
+ffffff</code>=E3=80=82</li>
+            <li>=E4=B8=BA=E9=80=89=E6=8B=A9=E5=99=A8=E4=B8=AD=E7=9A=84=E5=
+=B1=9E=E6=80=A7=E5=8F=96=E5=80=BC=E6=B7=BB=E5=8A=A0=E5=BC=95=E5=8F=B7=EF=BC=
+=8C=E4=BE=8B=E5=A6=82 <code>input[type=3D"text"]</code>=E3=80=82 <a href=3D=
+"http://mathiasbynens.be/notes/unquoted-attribute-values#css">=E4=BB=96=E4=
+=BB=AC=E5=8F=AA=E5=9C=A8=E6=9F=90=E4=BA=9B=E6=83=85=E5=86=B5=E4=B8=8B=E5=8F=
+=AF=E6=9C=89=E5=8F=AF=E6=97=A0</a>=EF=BC=8C=E6=89=80=E4=BB=A5=E9=83=BD=E4=
+=BD=BF=E7=94=A8=E5=BC=95=E5=8F=B7=E5=8F=AF=E4=BB=A5=E5=A2=9E=E5=8A=A0=E4=B8=
+=80=E8=87=B4=E6=80=A7=E3=80=82</li>
+            <li>=E4=B8=8D=E8=A6=81=E4=B8=BA 0 =E6=8C=87=E6=98=8E=E5=8D=95=
+=E4=BD=8D=EF=BC=8C=E6=AF=94=E5=A6=82=E4=BD=BF=E7=94=A8 <code>margin: 0;</co=
+de> =E8=80=8C=E4=B8=8D=E6=98=AF <code>margin: 0px;</code>=E3=80=82</li>
+        </ul>
+        <p>=E5=AF=B9=E8=BF=99=E9=87=8C=E6=8F=90=E5=88=B0=E7=9A=84=E8=A7=84=
+=E5=88=99=E6=9C=89=E9=97=AE=E9=A2=98=E5=90=97=EF=BC=9F=E5=8F=82=E8=80=83 Wi=
+kipedia =E4=B8=AD=E7=9A=84<a href=3D"http://en.wikipedia.org/wiki/Cascading=
+_Style_Sheets#Syntax"> CSS =E8=AF=AD=E6=B3=95=E9=83=A8=E5=88=86</a>=E3=80=
+=82</p>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-css" data-lan=
+g=3D"css"><span class=3D"c">/* Bad CSS */</span>
+<span class=3D"nc">.selector</span><span class=3D"o">,</span> <span class=
+=3D"nc">.selector-secondary</span><span class=3D"o">,</span> <span class=3D=
+"nc">.selector</span><span class=3D"o">[</span><span class=3D"nt">type</spa=
+n><span class=3D"o">=3D</span><span class=3D"nt">text</span><span class=3D"=
+o">]</span> <span class=3D"p">{</span>
+    <span class=3D"k">padding</span><span class=3D"o">:</span> <span class=
+=3D"m">15px</span><span class=3D"p">;</span>
+    <span class=3D"k">margin</span><span class=3D"o">:</span> <span class=
+=3D"m">0px</span> <span class=3D"m">0px</span> <span class=3D"m">15px</span=
+><span class=3D"p">;</span>
+    <span class=3D"k">background-color</span><span class=3D"o">:</span> <sp=
+an class=3D"n">rgba</span><span class=3D"p">(</span><span class=3D"m">0</sp=
+an><span class=3D"o">,</span> <span class=3D"m">0</span><span class=3D"o">,=
+</span> <span class=3D"m">0</span><span class=3D"o">,</span> <span class=3D=
+"m">0</span><span class=3D"o">.</span><span class=3D"m">5</span><span class=
+=3D"p">);</span>
+    <span class=3D"n">box</span><span class=3D"o">-</span><span class=3D"n"=
+>shadow</span><span class=3D"o">:</span> <span class=3D"m">0</span> <span c=
+lass=3D"m">1px</span> <span class=3D"m">2px</span> <span class=3D"m">#CCC</=
+span><span class=3D"o">,</span> <span class=3D"k">inset</span> <span class=
+=3D"m">0</span> <span class=3D"m">1px</span> <span class=3D"m">0</span> <sp=
+an class=3D"m">#FFFFFF</span>
+<span class=3D"p">}</span>
+
+<span class=3D"c">/* Good CSS */</span>
+<span class=3D"nc">.selector</span><span class=3D"o">,</span>
+<span class=3D"nc">.selector-secondary</span><span class=3D"o">,</span>
+<span class=3D"nc">.selector</span><span class=3D"o">[</span><span class=3D=
+"nt">type</span><span class=3D"o">=3D</span><span class=3D"s2">"text"</span=
+><span class=3D"o">]</span> <span class=3D"p">{</span>
+    <span class=3D"k">padding</span><span class=3D"o">:</span> <span class=
+=3D"m">15px</span><span class=3D"p">;</span>
+    <span class=3D"k">margin-bottom</span><span class=3D"o">:</span> <span =
+class=3D"m">15px</span><span class=3D"p">;</span>
+    <span class=3D"k">background-color</span><span class=3D"o">:</span> <sp=
+an class=3D"n">rgba</span><span class=3D"p">(</span><span class=3D"m">0</sp=
+an><span class=3D"o">,</span><span class=3D"m">0</span><span class=3D"o">,<=
+/span><span class=3D"m">0</span><span class=3D"o">,.</span><span class=3D"m=
+">5</span><span class=3D"p">);</span>
+    <span class=3D"n">box</span><span class=3D"o">-</span><span class=3D"n"=
+>shadow</span><span class=3D"o">:</span> <span class=3D"m">0</span> <span c=
+lass=3D"m">1px</span> <span class=3D"m">2px</span> <span class=3D"m">#ccc</=
+span><span class=3D"o">,</span> <span class=3D"k">inset</span> <span class=
+=3D"m">0</span> <span class=3D"m">1px</span> <span class=3D"m">0</span> <sp=
+an class=3D"m">#fff</span><span class=3D"p">;</span>
+<span class=3D"p">}</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"css-declaration-order">
+    <div class=3D"col">
+        <h3>=E5=A3=B0=E6=98=8E=E9=A1=BA=E5=BA=8F</h3>
+        <p>=E7=9B=B8=E5=85=B3=E7=9A=84=E5=B1=9E=E6=80=A7=E5=A3=B0=E6=98=8E=
+=E5=BA=94=E8=AF=A5=E4=BB=A5=E4=B8=8B=E9=9D=A2=E7=9A=84=E9=A1=BA=E5=BA=8F=E5=
+=88=86=E7=BB=84=E5=A4=84=E7=90=86=EF=BC=9A</p>
+        <ol>
+            <li>Positioning</li>
+            <li>Box model =E7=9B=92=E6=A8=A1=E5=9E=8B</li>
+            <li>Typographic =E6=8E=92=E7=89=88</li>
+            <li>Visual =E5=A4=96=E8=A7=82</li>
+        </ol>
+        <p>Positioning =E5=A4=84=E5=9C=A8=E7=AC=AC=E4=B8=80=E4=BD=8D=EF=BC=
+=8C=E5=9B=A0=E4=B8=BA=E4=BB=96=E5=8F=AF=E4=BB=A5=E4=BD=BF=E4=B8=80=E4=B8=AA=
+=E5=85=83=E7=B4=A0=E8=84=B1=E7=A6=BB=E6=AD=A3=E5=B8=B8=E6=96=87=E6=9C=AC=E6=
+=B5=81=EF=BC=8C=E5=B9=B6=E4=B8=94=E8=A6=86=E7=9B=96=E7=9B=92=E6=A8=A1=E5=9E=
+=8B=E7=9B=B8=E5=85=B3=E7=9A=84=E6=A0=B7=E5=BC=8F=E3=80=82=E7=9B=92=E6=A8=A1=
+=E5=9E=8B=E7=B4=A7=E8=B7=9F=E5=85=B6=E5=90=8E=EF=BC=8C=E5=9B=A0=E4=B8=BA=E4=
+=BB=96=E5=86=B3=E5=AE=9A=E4=BA=86=E4=B8=80=E4=B8=AA=E7=BB=84=E4=BB=B6=E7=9A=
+=84=E5=A4=A7=E5=B0=8F=E5=92=8C=E4=BD=8D=E7=BD=AE=E3=80=82</p>
+        <p>=E5=85=B6=E4=BB=96=E5=B1=9E=E6=80=A7=E5=8F=AA=E5=9C=A8=E7=BB=84=
+=E4=BB=B6 <em>=E5=86=85=E9=83=A8</em> =E8=B5=B7=E4=BD=9C=E7=94=A8=E6=88=96=
+=E8=80=85=E4=B8=8D=E4=BC=9A=E5=AF=B9=E5=89=8D=E9=9D=A2=E4=B8=A4=E7=A7=8D=E6=
+=83=85=E5=86=B5=E7=9A=84=E7=BB=93=E6=9E=9C=E4=BA=A7=E7=94=9F=E5=BD=B1=E5=93=
+=8D=EF=BC=8C=E6=89=80=E4=BB=A5=E4=BB=96=E4=BB=AC=E6=8E=92=E5=9C=A8=E5=90=8E=
+=E9=9D=A2=E3=80=82</p>
+        <p>=E5=85=B3=E4=BA=8E=E5=AE=8C=E6=95=B4=E7=9A=84=E5=B1=9E=E6=80=A7=
+=E4=BB=A5=E5=8F=8A=E4=BB=96=E4=BB=AC=E7=9A=84=E9=A1=BA=E5=BA=8F=EF=BC=8C=E8=
+=AF=B7=E5=8F=82=E8=80=83 <a href=3D"http://twitter.github.com/recess">Reces=
+s</a>=E3=80=82</p>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-css" data-lan=
+g=3D"css"><span class=3D"nc">.declaration-order</span> <span class=3D"p">{<=
+/span>
+    <span class=3D"c">/* Positioning */</span>
+    <span class=3D"k">position</span><span class=3D"o">:</span> <span class=
+=3D"k">absolute</span><span class=3D"p">;</span>
+    <span class=3D"k">top</span><span class=3D"o">:</span> <span class=3D"m=
+">0</span><span class=3D"p">;</span>
+    <span class=3D"k">right</span><span class=3D"o">:</span> <span class=3D=
+"m">0</span><span class=3D"p">;</span>
+    <span class=3D"k">bottom</span><span class=3D"o">:</span> <span class=
+=3D"m">0</span><span class=3D"p">;</span>
+    <span class=3D"k">left</span><span class=3D"o">:</span> <span class=3D"=
+m">0</span><span class=3D"p">;</span>
+    <span class=3D"k">z-index</span><span class=3D"o">:</span> <span class=
+=3D"m">100</span><span class=3D"p">;</span>
+
+    <span class=3D"c">/* Box-model */</span>
+    <span class=3D"k">display</span><span class=3D"o">:</span> <span class=
+=3D"k">block</span><span class=3D"p">;</span>
+    <span class=3D"k">float</span><span class=3D"o">:</span> <span class=3D=
+"k">right</span><span class=3D"p">;</span>
+    <span class=3D"k">width</span><span class=3D"o">:</span> <span class=3D=
+"m">100px</span><span class=3D"p">;</span>
+    <span class=3D"k">height</span><span class=3D"o">:</span> <span class=
+=3D"m">100px</span><span class=3D"p">;</span>
+
+    <span class=3D"c">/* Typography */</span>
+    <span class=3D"k">font</span><span class=3D"o">:</span> <span class=3D"=
+k">normal</span> <span class=3D"m">13px</span> <span class=3D"s2">"Helvetic=
+a Neue"</span><span class=3D"o">,</span> <span class=3D"k">sans-serif</span=
+><span class=3D"p">;</span>
+    <span class=3D"k">line-height</span><span class=3D"o">:</span> <span cl=
+ass=3D"m">1</span><span class=3D"o">.</span><span class=3D"m">5</span><span=
+ class=3D"p">;</span>
+    <span class=3D"k">color</span><span class=3D"o">:</span> <span class=3D=
+"m">#333</span><span class=3D"p">;</span>
+    <span class=3D"k">text-align</span><span class=3D"o">:</span> <span cla=
+ss=3D"k">center</span><span class=3D"p">;</span>
+
+    <span class=3D"c">/* Visual */</span>
+    <span class=3D"k">background-color</span><span class=3D"o">:</span> <sp=
+an class=3D"m">#f5f5f5</span><span class=3D"p">;</span>
+    <span class=3D"k">border</span><span class=3D"o">:</span> <span class=
+=3D"m">1px</span> <span class=3D"k">solid</span> <span class=3D"m">#e5e5e5<=
+/span><span class=3D"p">;</span>
+    <span class=3D"k">border</span><span class=3D"o">-</span><span class=3D=
+"n">radius</span><span class=3D"o">:</span> <span class=3D"m">3px</span><sp=
+an class=3D"p">;</span>
+
+    <span class=3D"c">/* Misc */</span>
+    <span class=3D"k">opacity</span><span class=3D"o">:</span> <span class=
+=3D"m">1</span><span class=3D"p">;</span>
+<span class=3D"p">}</span></code></pre></div>
+        <div class=3D"highlight"><pre><code class=3D"language-javascript" d=
+ata-lang=3D"javascript"><span class=3D"c1">// =E4=B8=BA=E4=BA=86=E6=96=B9=
+=E4=BE=BF=E6=9F=A5=E9=98=85=EF=BC=8C =E6=88=91=E6=8A=8ARecess=E7=9A=84order=
+=E8=B4=B4=E4=BA=86=E4=B8=80=E4=BB=BD=E8=BF=87=E6=9D=A5, =E5=BC=95=E5=85=A5=
+=E6=97=B6=E9=97=B42014-05-05</span>
+
+<span class=3D"c1">// css property order</span>
+<span class=3D"kd">var</span> <span class=3D"nx">order</span> <span class=
+=3D"o">=3D</span> <span class=3D"p">[</span>
+    <span class=3D"s1">'position'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'top'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'right'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'bottom'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'left'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'z-index'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'display'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'float'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'width'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'height'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'max-width'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'max-height'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'min-width'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'min-height'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'padding'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'padding-top'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'padding-right'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'padding-bottom'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'padding-left'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'margin'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'margin-top'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'margin-right'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'margin-bottom'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'margin-left'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'margin-collapse'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'margin-top-collapse'</sp=
+an>
+    <span class=3D"p">,</span> <span class=3D"s1">'margin-right-collapse'</=
+span>
+    <span class=3D"p">,</span> <span class=3D"s1">'margin-bottom-collapse'<=
+/span>
+    <span class=3D"p">,</span> <span class=3D"s1">'margin-left-collapse'</s=
+pan>
+    <span class=3D"p">,</span> <span class=3D"s1">'overflow'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'overflow-x'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'overflow-y'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'clip'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'clear'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'font'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'font-family'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'font-size'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'font-smoothing'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'osx-font-smoothing'</spa=
+n>
+    <span class=3D"p">,</span> <span class=3D"s1">'font-style'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'font-weight'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'hyphens'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'src'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'line-height'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'letter-spacing'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'word-spacing'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'color'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'text-align'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'text-decoration'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'text-indent'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'text-overflow'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'text-rendering'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'text-size-adjust'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'text-shadow'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'text-transform'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'word-break'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'word-wrap'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'white-space'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'vertical-align'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'list-style'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'list-style-type'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'list-style-position'</sp=
+an>
+    <span class=3D"p">,</span> <span class=3D"s1">'list-style-image'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'pointer-events'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'cursor'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'background'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'background-attachment'</=
+span>
+    <span class=3D"p">,</span> <span class=3D"s1">'background-color'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'background-image'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'background-position'</sp=
+an>
+    <span class=3D"p">,</span> <span class=3D"s1">'background-repeat'</span=
+>
+    <span class=3D"p">,</span> <span class=3D"s1">'background-size'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-collapse'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-top'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-right'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-bottom'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-left'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-color'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-image'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-top-color'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-right-color'</spa=
+n>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-bottom-color'</sp=
+an>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-left-color'</span=
+>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-spacing'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-style'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-top-style'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-right-style'</spa=
+n>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-bottom-style'</sp=
+an>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-left-style'</span=
+>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-width'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-top-width'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-right-width'</spa=
+n>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-bottom-width'</sp=
+an>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-left-width'</span=
+>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-radius'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-top-right-radius'=
+</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-bottom-right-radi=
+us'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-bottom-left-radiu=
+s'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-top-left-radius'<=
+/span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-radius-topright'<=
+/span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-radius-bottomrigh=
+t'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-radius-bottomleft=
+'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'border-radius-topleft'</=
+span>
+    <span class=3D"p">,</span> <span class=3D"s1">'content'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'quotes'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'outline'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'outline-offset'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'opacity'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'filter'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'visibility'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'size'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'zoom'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'transform'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'box-align'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'box-flex'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'box-orient'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'box-pack'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'box-shadow'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'box-sizing'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'table-layout'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'animation'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'animation-delay'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'animation-duration'</spa=
+n>
+    <span class=3D"p">,</span> <span class=3D"s1">'animation-iteration-coun=
+t'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'animation-name'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'animation-play-state'</s=
+pan>
+    <span class=3D"p">,</span> <span class=3D"s1">'animation-timing-functio=
+n'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'animation-fill-mode'</sp=
+an>
+    <span class=3D"p">,</span> <span class=3D"s1">'transition'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'transition-delay'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'transition-duration'</sp=
+an>
+    <span class=3D"p">,</span> <span class=3D"s1">'transition-property'</sp=
+an>
+    <span class=3D"p">,</span> <span class=3D"s1">'transition-timing-functi=
+on'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'background-clip'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'backface-visibility'</sp=
+an>
+    <span class=3D"p">,</span> <span class=3D"s1">'resize'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'appearance'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'user-select'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'interpolation-mode'</spa=
+n>
+    <span class=3D"p">,</span> <span class=3D"s1">'direction'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'marks'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'page'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'set-link-source'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'unicode-bidi'</span>
+    <span class=3D"p">,</span> <span class=3D"s1">'speak'</span>
+<span class=3D"p">]</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"css-import">
+  <div class=3D"col">
+    <h3>Don't use <code>@import</code></h3>
+    <p>Compared to <code>&lt;link&gt;</code>s, <code>@import</code> is slow=
+er, adds extra page requests, and can cause other unforeseen problems. Avoi=
+d them and instead opt for an alternate approach:</p>
+    <ul>
+      <li>Use multiple <code>&lt;link&gt;</code> elements</li>
+      <li>Compile your CSS with a preprocessor like Sass or Less into a sin=
+gle file</li>
+      <li>Concatenate your CSS files with features provided in Rails, Jekyl=
+l, and other environments</li>
+    </ul>
+    <p>For more information, <a href=3D"http://www.stevesouders.com/blog/20=
+09/04/09/dont-use-import/">read this article by Steve Souders</a>.</p>
+  </div>
+  <div class=3D"col">
+    <div class=3D"highlight"><pre><code class=3D"language-html" data-lang=
+=3D"html"><span class=3D"c">&lt;!-- Use link elements --&gt;</span>
+<span class=3D"nt">&lt;link</span> <span class=3D"na">rel=3D</span><span cl=
+ass=3D"s">"stylesheet"</span> <span class=3D"na">href=3D</span><span class=
+=3D"s">"core.css"</span><span class=3D"nt">&gt;</span>
+
+<span class=3D"c">&lt;!-- Avoid @imports --&gt;</span>
+<span class=3D"nt">&lt;style&gt;</span>
+    <span class=3D"k">@import</span> <span class=3D"nt">url</span><span cla=
+ss=3D"o">(</span><span class=3D"s2">"more.css"</span><span class=3D"o">)</s=
+pan><span class=3D"p">;</span>
+<span class=3D"nt">&lt;/style&gt;</span></code></pre></div>
+  </div>
+</div>
+
+<div class=3D"section" id=3D"css-media-queries">
+    <div class=3D"col">
+        <h3>=E5=AA=92=E4=BD=93=E6=9F=A5=E8=AF=A2=E4=BD=8D=E7=BD=AE</h3>
+        <p>=E5=B0=BD=E9=87=8F=E5=B0=86=E5=AA=92=E4=BD=93=E6=9F=A5=E8=AF=A2=
+=E7=9A=84=E4=BD=8D=E7=BD=AE=E9=9D=A0=E8=BF=91=E4=BB=96=E4=BB=AC=E7=9B=B8=E5=
+=85=B3=E7=9A=84=E8=A7=84=E5=88=99=E3=80=82=E4=B8=8D=E8=A6=81=E5=B0=86=E4=BB=
+=96=E4=BB=AC=E4=B8=80=E8=B5=B7=E6=94=BE=E5=88=B0=E4=B8=80=E4=B8=AA=E7=8B=AC=
+=E7=AB=8B=E7=9A=84=E6=A0=B7=E5=BC=8F=E6=96=87=E4=BB=B6=E4=B8=AD=EF=BC=8C=E6=
+=88=96=E8=80=85=E4=B8=A2=E5=9C=A8=E6=96=87=E6=A1=A3=E7=9A=84=E6=9C=80=E5=BA=
+=95=E9=83=A8=E3=80=82=E8=BF=99=E6=A0=B7=E5=81=9A=E5=8F=AA=E4=BC=9A=E8=AE=A9=
+=E5=A4=A7=E5=AE=B6=E4=BB=A5=E5=90=8E=E6=9B=B4=E5=AE=B9=E6=98=93=E5=BF=98=E8=
+=AE=B0=E4=BB=96=E4=BB=AC=E3=80=82=E8=BF=99=E9=87=8C=E6=98=AF=E4=B8=80=E4=B8=
+=AA=E5=85=B8=E5=9E=8B=E7=9A=84=E6=A1=88=E4=BE=8B=E3=80=82</p>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-css" data-lan=
+g=3D"css"><span class=3D"nc">.element</span> <span class=3D"p">{</span> <sp=
+an class=3D"o">...</span> <span class=3D"p">}</span>
+<span class=3D"nc">.element-avatar</span> <span class=3D"p">{</span> <span =
+class=3D"o">...</span> <span class=3D"p">}</span>
+<span class=3D"nc">.element-selected</span> <span class=3D"p">{</span> <spa=
+n class=3D"o">...</span> <span class=3D"p">}</span>
+
+<span class=3D"k">@media</span> <span class=3D"o">(</span><span class=3D"nt=
+">min-width</span><span class=3D"o">:</span> <span class=3D"nt">480px</span=
+><span class=3D"o">)</span> <span class=3D"p">{</span>
+    <span class=3D"nc">.element</span> <span class=3D"p">{</span> <span cla=
+ss=3D"o">...</span><span class=3D"p">}</span>
+    <span class=3D"nc">.element-avatar</span> <span class=3D"p">{</span> <s=
+pan class=3D"o">...</span> <span class=3D"p">}</span>
+    <span class=3D"nc">.element-selected</span> <span class=3D"p">{</span> =
+<span class=3D"o">...</span> <span class=3D"p">}</span>
+<span class=3D"p">}</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"css-prefixed-properties">
+    <div class=3D"col">
+        <h3>=E5=89=8D=E7=BC=80=E5=B1=9E=E6=80=A7</h3>
+        <p>=E5=BD=93=E4=BD=BF=E7=94=A8=E5=8E=82=E5=95=86=E5=89=8D=E7=BC=80=
+=E5=B1=9E=E6=80=A7=E6=97=B6=EF=BC=8C=E9=80=9A=E8=BF=87=E7=BC=A9=E8=BF=9B=E4=
+=BD=BF=E5=8F=96=E5=80=BC=E5=9E=82=E7=9B=B4=E5=AF=B9=E9=BD=90=E4=BB=A5=E4=BE=
+=BF=E5=A4=9A=E8=A1=8C=E7=BC=96=E8=BE=91=E3=80=82</p>
+        <p>=E5=9C=A8 Textmate =E4=B8=AD=EF=BC=8C=E4=BD=BF=E7=94=A8 <strong>=
+Text =E2=86=92 Edit Each Line in Selection</strong> (=E2=8C=83=E2=8C=98A)=
+=E3=80=82 =E5=9C=A8 Sublime Text 2 =E4=B8=AD=EF=BC=8C =E4=BD=BF=E7=94=A8 <s=
+trong>Selection =E2=86=92 Add Previous Line</strong> (=E2=8C=83=E2=87=A7=E2=
+=86=91) =E5=92=8C <strong>Selection =E2=86=92  Add Next Line</strong> (=E2=
+=8C=83=E2=87=A7=E2=86=93)=E3=80=82</p>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-css" data-lan=
+g=3D"css"><span class=3D"c">/* Prefixed properties */</span>
+<span class=3D"nc">.selector</span> <span class=3D"p">{</span>
+    <span class=3D"o">-</span><span class=3D"n">webkit</span><span class=3D=
+"o">-</span><span class=3D"n">box</span><span class=3D"o">-</span><span cla=
+ss=3D"n">shadow</span><span class=3D"o">:</span> <span class=3D"m">0</span>=
+ <span class=3D"m">1px</span> <span class=3D"m">2px</span> <span class=3D"n=
+">rgba</span><span class=3D"p">(</span><span class=3D"m">0</span><span clas=
+s=3D"o">,</span><span class=3D"m">0</span><span class=3D"o">,</span><span c=
+lass=3D"m">0</span><span class=3D"o">,.</span><span class=3D"m">15</span><s=
+pan class=3D"p">);</span>
+            <span class=3D"n">box</span><span class=3D"o">-</span><span cla=
+ss=3D"n">shadow</span><span class=3D"o">:</span> <span class=3D"m">0</span>=
+ <span class=3D"m">1px</span> <span class=3D"m">2px</span> <span class=3D"n=
+">rgba</span><span class=3D"p">(</span><span class=3D"m">0</span><span clas=
+s=3D"o">,</span><span class=3D"m">0</span><span class=3D"o">,</span><span c=
+lass=3D"m">0</span><span class=3D"o">,.</span><span class=3D"m">15</span><s=
+pan class=3D"p">);</span>
+<span class=3D"p">}</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"css-single-declarations">
+    <div class=3D"col">
+        <h3>=E5=8D=95=E6=9D=A1=E5=A3=B0=E6=98=8E=E7=9A=84=E5=A3=B0=E6=98=8E=
+=E5=9D=97</h3>
+        <p>=E5=9C=A8=E4=B8=80=E4=B8=AA=E5=A3=B0=E6=98=8E=E5=9D=97=E4=B8=AD<=
+strong>=E5=8F=AA=E5=8C=85=E5=90=AB=E4=B8=80=E6=9D=A1=E5=A3=B0=E6=98=8E</str=
+ong>=E7=9A=84=E6=83=85=E5=86=B5=E4=B8=8B=EF=BC=8C=E4=B8=BA=E4=BA=86=E6=98=
+=93=E8=AF=BB=E6=80=A7=E5=92=8C=E5=BF=AB=E9=80=9F=E7=BC=96=E8=BE=91=E5=8F=AF=
+=E4=BB=A5=E8=80=83=E8=99=91=E7=A7=BB=E9=99=A4=E5=85=B6=E4=B8=AD=E7=9A=84=E6=
+=8D=A2=E8=A1=8C=E3=80=82=E6=89=80=E6=9C=89=E5=8C=85=E5=90=AB=E5=A4=9A=E6=9D=
+=A1=E5=A3=B0=E6=98=8E=E7=9A=84=E5=A3=B0=E6=98=8E=E5=9D=97=E5=BA=94=E8=AF=A5=
+=E5=88=86=E4=B8=BA=E5=A4=9A=E8=A1=8C=E3=80=82</p>
+        <p>=E8=BF=99=E6=A0=B7=E5=81=9A=E7=9A=84=E5=85=B3=E9=94=AE=E5=9B=A0=
+=E7=B4=A0=E6=98=AF=E9=94=99=E8=AF=AF=E6=A3=80=E6=B5=8B - =E4=BE=8B=E5=A6=82=
+=EF=BC=8C=E4=B8=80=E4=B8=AA CSS =E9=AA=8C=E8=AF=81=E7=A8=8B=E5=BA=8F=E6=98=
+=BE=E7=A4=BA=E4=BD=A0=E5=9C=A8 183 =E8=A1=8C=E6=9C=89=E4=B8=80=E4=B8=AA=E8=
+=AF=AD=E6=B3=95=E9=94=99=E8=AF=AF,=E5=A6=82=E6=9E=9C=E6=98=AF=E4=B8=80=E4=
+=B8=AA=E5=8D=95=E6=9D=A1=E5=A3=B0=E6=98=8E=E7=9A=84=E8=A1=8C=EF=BC=8C=E9=82=
+=A3=E5=B0=B1=E6=98=AF=E4=BB=96=E4=BA=86=E3=80=82=E5=9C=A8=E5=A4=9A=E4=B8=AA=
+=E5=A3=B0=E6=98=8E=E7=9A=84=E6=83=85=E5=86=B5=E4=B8=8B=EF=BC=8C=E4=BD=A0=E5=
+=BF=85=E9=A1=BB=E4=B8=BA=E5=93=AA=E9=87=8C=E5=87=BA=E9=94=99=E4=BA=86=E8=B4=
+=B9=E4=B8=8B=E8=84=91=E5=AD=90=E3=80=82</p>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-css" data-lan=
+g=3D"css"><span class=3D"c">/* Single declarations on one line */</span>
+<span class=3D"nc">.span1</span> <span class=3D"p">{</span> <span class=3D"=
+k">width</span><span class=3D"o">:</span> <span class=3D"m">60px</span><spa=
+n class=3D"p">;</span> <span class=3D"p">}</span>
+<span class=3D"nc">.span2</span> <span class=3D"p">{</span> <span class=3D"=
+k">width</span><span class=3D"o">:</span> <span class=3D"m">140px</span><sp=
+an class=3D"p">;</span> <span class=3D"p">}</span>
+<span class=3D"nc">.span3</span> <span class=3D"p">{</span> <span class=3D"=
+k">width</span><span class=3D"o">:</span> <span class=3D"m">220px</span><sp=
+an class=3D"p">;</span> <span class=3D"p">}</span>
+
+<span class=3D"c">/* Multiple declarations, one per line */</span>
+<span class=3D"nc">.sprite</span> <span class=3D"p">{</span>
+    <span class=3D"k">display</span><span class=3D"o">:</span> <span class=
+=3D"k">inline</span><span class=3D"o">-</span><span class=3D"k">block</span=
+><span class=3D"p">;</span>
+    <span class=3D"k">width</span><span class=3D"o">:</span> <span class=3D=
+"m">16px</span><span class=3D"p">;</span>
+    <span class=3D"k">height</span><span class=3D"o">:</span> <span class=
+=3D"m">15px</span><span class=3D"p">;</span>
+    <span class=3D"k">background-image</span><span class=3D"o">:</span> <sp=
+an class=3D"sx">url(../img/sprite.png)</span><span class=3D"p">;</span>
+<span class=3D"p">}</span>
+<span class=3D"nc">.icon</span>           <span class=3D"p">{</span> <span =
+class=3D"k">background-position</span><span class=3D"o">:</span> <span clas=
+s=3D"m">0</span> <span class=3D"m">0</span><span class=3D"p">;</span> <span=
+ class=3D"p">}</span>
+<span class=3D"nc">.icon-home</span>      <span class=3D"p">{</span> <span =
+class=3D"k">background-position</span><span class=3D"o">:</span> <span clas=
+s=3D"m">0</span> <span class=3D"m">-20px</span><span class=3D"p">;</span> <=
+span class=3D"p">}</span>
+<span class=3D"nc">.icon-account</span>   <span class=3D"p">{</span> <span =
+class=3D"k">background-position</span><span class=3D"o">:</span> <span clas=
+s=3D"m">0</span> <span class=3D"m">-40px</span><span class=3D"p">;</span> <=
+span class=3D"p">}</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"css-shorthand">
+    <div class=3D"col">
+        <h3>=E5=B1=9E=E6=80=A7=E7=AE=80=E5=86=99</h3>
+        <p>=E5=9D=9A=E6=8C=81=E9=99=90=E5=88=B6=E5=B1=9E=E6=80=A7=E5=8F=96=
+=E5=80=BC=E7=AE=80=E5=86=99=E7=9A=84=E4=BD=BF=E7=94=A8=EF=BC=8C=E5=B1=9E=E6=
+=80=A7=E7=AE=80=E5=86=99=E9=9C=80=E8=A6=81=E4=BD=A0=E5=BF=85=E9=A1=BB=E6=98=
+=BE=E5=BC=8F=E8=AE=BE=E7=BD=AE=E6=89=80=E6=9C=89=E5=8F=96=E5=80=BC=E3=80=82=
+=E5=B8=B8=E8=A7=81=E7=9A=84=E5=B1=9E=E6=80=A7=E7=AE=80=E5=86=99=E6=BB=A5=E7=
+=94=A8=E5=8C=85=E6=8B=AC:</p>
+        <ul>
+            <li><code>padding</code></li>
+            <li><code>margin</code></li>
+            <li><code>font</code></li>
+            <li><code>background</code></li>
+            <li><code>border</code></li>
+            <li><code>border-radius</code></li>
+        </ul>
+        <p>=E5=A4=A7=E5=A4=9A=E6=95=B0=E6=83=85=E5=86=B5=E4=B8=8B=EF=BC=8C=
+=E6=88=91=E4=BB=AC=E5=B9=B6=E4=B8=8D=E9=9C=80=E8=A6=81=E8=AE=BE=E7=BD=AE=E5=
+=B1=9E=E6=80=A7=E7=AE=80=E5=86=99=E4=B8=AD=E5=8C=85=E5=90=AB=E7=9A=84=E6=89=
+=80=E6=9C=89=E5=80=BC=E3=80=82=E4=BE=8B=E5=A6=82=EF=BC=8CHTML =E5=A4=B4=E9=
+=83=A8=E5=8F=AA=E8=AE=BE=E7=BD=AE=E4=B8=8A=E4=B8=8B=E7=9A=84 margin=EF=BC=
+=8C=E6=89=80=E4=BB=A5=E5=A6=82=E6=9E=9C=E9=9C=80=E8=A6=81=EF=BC=8C=E5=8F=AA=
+=E8=AE=BE=E7=BD=AE=E8=BF=99=E4=B8=A4=E4=B8=AA=E5=80=BC=E3=80=82=E8=BF=87=E5=
+=BA=A6=E4=BD=BF=E7=94=A8=E5=B1=9E=E6=80=A7=E7=AE=80=E5=86=99=E5=BE=80=E5=BE=
+=80=E4=BC=9A=E5=AF=BC=E8=87=B4=E6=9B=B4=E6=B7=B7=E4=B9=B1=E7=9A=84=E4=BB=A3=
+=E7=A0=81=EF=BC=8C=E5=85=B6=E4=B8=AD=E5=8C=85=E5=90=AB=E4=B8=8D=E5=BF=85=E8=
+=A6=81=E7=9A=84=E9=87=8D=E5=86=99=E5=92=8C=E6=84=8F=E6=83=B3=E4=B8=8D=E5=88=
+=B0=E7=9A=84=E5=89=AF=E4=BD=9C=E7=94=A8=E3=80=82</p>
+        <p>Mozilla Developer Network =E6=9C=89=E4=B8=80=E7=AF=87=E5=AF=B9=
+=E4=B8=8D=E7=86=9F=E6=82=89=E5=B1=9E=E6=80=A7=E7=AE=80=E5=86=99=E5=8F=8A=E5=
+=85=B6=E8=A1=8C=E4=B8=BA=E7=9A=84=E4=BA=BA=E6=9D=A5=E8=AF=B4=E5=BE=88=E6=A3=
+=92=E7=9A=84=E5=85=B3=E4=BA=8E <a href=3D"https://developer.mozilla.org/en-=
+US/docs/Web/CSS/Shorthand_properties">shorthand properties</a> =E7=9A=84=E6=
+=96=87=E7=AB=A0=E3=80=82</p>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-css" data-lan=
+g=3D"css"><span class=3D"c">/* Bad example */</span>
+<span class=3D"nc">.element</span> <span class=3D"p">{</span>
+    <span class=3D"k">margin</span><span class=3D"o">:</span> <span class=
+=3D"m">0</span> <span class=3D"m">0</span> <span class=3D"m">10px</span><sp=
+an class=3D"p">;</span>
+    <span class=3D"k">background</span><span class=3D"o">:</span> <span cla=
+ss=3D"nb">red</span><span class=3D"p">;</span>
+    <span class=3D"k">background</span><span class=3D"o">:</span> <span cla=
+ss=3D"sx">url("image.jpg")</span><span class=3D"p">;</span>
+    <span class=3D"k">border</span><span class=3D"o">-</span><span class=3D=
+"n">radius</span><span class=3D"o">:</span> <span class=3D"m">3px</span> <s=
+pan class=3D"m">3px</span> <span class=3D"m">0</span> <span class=3D"m">0</=
+span><span class=3D"p">;</span>
+<span class=3D"p">}</span>
+
+<span class=3D"c">/* Good example */</span>
+<span class=3D"nc">.element</span> <span class=3D"p">{</span>
+    <span class=3D"k">margin-bottom</span><span class=3D"o">:</span> <span =
+class=3D"m">10px</span><span class=3D"p">;</span>
+    <span class=3D"k">background-color</span><span class=3D"o">:</span> <sp=
+an class=3D"nb">red</span><span class=3D"p">;</span>
+    <span class=3D"k">background-image</span><span class=3D"o">:</span> <sp=
+an class=3D"sx">url("image.jpg")</span><span class=3D"p">;</span>
+    <span class=3D"k">border-top</span><span class=3D"o">-</span><span clas=
+s=3D"k">left</span><span class=3D"o">-</span><span class=3D"n">radius</span=
+><span class=3D"o">:</span> <span class=3D"m">3px</span><span class=3D"p">;=
+</span>
+    <span class=3D"k">border-top</span><span class=3D"o">-</span><span clas=
+s=3D"k">right</span><span class=3D"o">-</span><span class=3D"n">radius</spa=
+n><span class=3D"o">:</span> <span class=3D"m">3px</span><span class=3D"p">=
+;</span>
+<span class=3D"p">}</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"css-nesting">
+    <div class=3D"col">
+        <h3>Less =E5=92=8C Sass =E4=B8=AD=E7=9A=84=E5=B5=8C=E5=A5=97</h3>
+        <p>=E9=81=BF=E5=85=8D=E4=B8=8D=E5=BF=85=E8=A6=81=E7=9A=84=E5=B5=8C=
+=E5=A5=97=E3=80=82=E5=8F=AF=E4=BB=A5=E8=BF=9B=E8=A1=8C=E5=B5=8C=E5=A5=97=EF=
+=BC=8C=E4=B8=8D=E6=84=8F=E5=91=B3=E7=9D=80=E4=BD=A0=E5=BA=94=E8=AF=A5=E8=BF=
+=99=E6=A0=B7=E5=81=9A=E3=80=82=E5=8F=AA=E6=9C=89=E5=9C=A8=E9=9C=80=E8=A6=81=
+=E7=BB=99=E7=88=B6=E5=85=83=E7=B4=A0=E5=A2=9E=E5=8A=A0=E6=A0=B7=E5=BC=8F=E5=
+=B9=B6=E4=B8=94=E5=90=8C=E6=97=B6=E5=AD=98=E5=9C=A8=E5=A4=9A=E4=B8=AA=E5=AD=
+=90=E5=85=83=E7=B4=A0=E6=97=B6=E6=89=8D=E9=9C=80=E8=A6=81=E8=80=83=E8=99=91=
+=E5=B5=8C=E5=A5=97=E3=80=82</p>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-scss" data-la=
+ng=3D"scss"><span class=3D"c1">// Without nesting</span>
+<span class=3D"nc">.table</span> <span class=3D"o">&gt;</span> <span class=
+=3D"nt">thead</span> <span class=3D"o">&gt;</span> <span class=3D"nt">tr</s=
+pan> <span class=3D"o">&gt;</span> <span class=3D"nt">th</span> <span class=
+=3D"p">{</span> <span class=3D"err">=E2=80=A6</span> <span class=3D"p">}</s=
+pan>
+<span class=3D"nc">.table</span> <span class=3D"o">&gt;</span> <span class=
+=3D"nt">thead</span> <span class=3D"o">&gt;</span> <span class=3D"nt">tr</s=
+pan> <span class=3D"o">&gt;</span> <span class=3D"nt">td</span> <span class=
+=3D"p">{</span> <span class=3D"err">=E2=80=A6</span> <span class=3D"p">}</s=
+pan>
+
+<span class=3D"c1">// With nesting</span>
+<span class=3D"nc">.table</span> <span class=3D"o">&gt;</span> <span class=
+=3D"nt">thead</span> <span class=3D"o">&gt;</span> <span class=3D"nt">tr</s=
+pan> <span class=3D"p">{</span>
+    <span class=3D"o">&gt;</span> <span class=3D"nt">th</span> <span class=
+=3D"p">{</span> <span class=3D"err">=E2=80=A6</span> <span class=3D"p">}</s=
+pan>
+    <span class=3D"o">&gt;</span> <span class=3D"nt">td</span> <span class=
+=3D"p">{</span> <span class=3D"err">=E2=80=A6</span> <span class=3D"p">}</s=
+pan>
+<span class=3D"p">}</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"css-comments">
+    <div class=3D"col">
+        <h3>=E4=BB=A3=E7=A0=81=E6=B3=A8=E9=87=8A</h3>
+        <p>=E4=BB=A3=E7=A0=81=E6=98=AF=E7=94=B1=E4=BA=BA=E6=9D=A5=E7=BC=96=
+=E5=86=99=E5=92=8C=E7=BB=B4=E6=8A=A4=E7=9A=84=E3=80=82=E4=BF=9D=E8=AF=81=E4=
+=BD=A0=E7=9A=84=E4=BB=A3=E7=A0=81=E6=98=AF=E6=8F=8F=E8=BF=B0=E6=80=A7=E7=9A=
+=84=EF=BC=8C=E5=8C=85=E5=90=AB=E5=A5=BD=E7=9A=84=E6=B3=A8=E9=87=8A=EF=BC=8C=
+=E5=B9=B6=E4=B8=94=E5=AE=B9=E6=98=93=E8=A2=AB=E4=BB=96=E4=BA=BA=E7=90=86=E8=
+=A7=A3=E3=80=82=E5=A5=BD=E7=9A=84=E4=BB=A3=E7=A0=81=E6=B3=A8=E9=87=8A=E4=BC=
+=A0=E8=BE=BE=E4=B8=8A=E4=B8=8B=E6=96=87=E5=92=8C=E7=9B=AE=E6=A0=87=E3=80=82=
+=E4=B8=8D=E8=A6=81=E7=AE=80=E5=8D=95=E5=9C=B0=E9=87=8D=E7=94=B3=E7=BB=84=E4=
+=BB=B6=E6=88=96=E8=80=85 class =E5=90=8D=E7=A7=B0=E3=80=82</p>
+        <p>Be sure to write in complete sentences or larger comments and su=
+ccinct phrases for general notes.</p>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-css" data-lan=
+g=3D"css"><span class=3D"c">/* Bad example */</span>
+<span class=3D"c">/* Modal header */</span>
+<span class=3D"nc">.modal-header</span> <span class=3D"p">{</span>
+    <span class=3D"o">...</span>
+<span class=3D"p">}</span>
+
+<span class=3D"c">/* Good example */</span>
+<span class=3D"c">/* Wrapping element for .modal-title and .modal-close */<=
+/span>
+<span class=3D"nc">.modal-header</span> <span class=3D"p">{</span>
+    <span class=3D"o">...</span>
+<span class=3D"p">}</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"css-classes">
+    <div class=3D"col">
+        <h3>Class =E5=91=BD=E5=90=8D</h3>
+        <ul>
+            <li>=E4=BF=9D=E6=8C=81 Class =E5=91=BD=E5=90=8D=E4=B8=BA=E5=85=
+=A8=E5=B0=8F=E5=86=99=EF=BC=8C=E5=8F=AF=E4=BB=A5=E4=BD=BF=E7=94=A8=E7=9F=AD=
+=E5=88=92=E7=BA=BF=EF=BC=88=E4=B8=8D=E8=A6=81=E4=BD=BF=E7=94=A8=E4=B8=8B=E5=
+=88=92=E7=BA=BF=E5=92=8C camelCase =E5=91=BD=E5=90=8D=EF=BC=89=E3=80=82=E7=
+=9F=AD=E5=88=92=E7=BA=BF=E5=BA=94=E8=AF=A5=E4=BD=9C=E4=B8=BA=E7=9B=B8=E5=85=
+=B3=E7=B1=BB=E7=9A=84=E8=87=AA=E7=84=B6=E9=97=B4=E6=96=AD=E3=80=82(=E4=BE=
+=8B=E5=A6=82=EF=BC=8C<code>.btn</code> =E5=92=8C <code>.btn-danger</code>)=
+=E3=80=82</li>
+            <li>=E9=81=BF=E5=85=8D=E8=BF=87=E5=BA=A6=E4=BD=BF=E7=94=A8=E7=
+=AE=80=E5=86=99=E3=80=82<code>.btn</code> =E5=8F=AF=E4=BB=A5=E5=BE=88=E5=A5=
+=BD=E5=9C=B0=E6=8F=8F=E8=BF=B0 <em>button</em>=EF=BC=8C=E4=BD=86=E6=98=AF <=
+code>.s</code> =E4=B8=8D=E8=83=BD=E4=BB=A3=E8=A1=A8=E4=BB=BB=E4=BD=95=E5=85=
+=83=E7=B4=A0=E3=80=82</li>
+            <li>Class =E7=9A=84=E5=91=BD=E5=90=8D=E5=BA=94=E8=AF=A5=E5=B0=
+=BD=E9=87=8F=E7=9F=AD=EF=BC=8C=E4=B9=9F=E8=A6=81=E5=B0=BD=E9=87=8F=E6=98=8E=
+=E7=A1=AE=E3=80=82</li>
+            <li>=E4=BD=BF=E7=94=A8=E6=9C=89=E6=84=8F=E4=B9=89=E7=9A=84=E5=
+=90=8D=E7=A7=B0=EF=BC=9B=E4=BD=BF=E7=94=A8=E7=BB=93=E6=9E=84=E5=8C=96=E6=88=
+=96=E8=80=85=E4=BD=9C=E7=94=A8=E7=9B=AE=E6=A0=87=E7=9B=B8=E5=85=B3=EF=BC=8C=
+=E8=80=8C=E4=B8=8D=E6=98=AF=E6=8A=BD=E8=B1=A1=E7=9A=84=E5=90=8D=E7=A7=B0=E3=
+=80=82</li>
+            <li>=E5=91=BD=E5=90=8D=E6=97=B6=E4=BD=BF=E7=94=A8=E6=9C=80=E8=
+=BF=91=E7=9A=84=E7=88=B6=E8=8A=82=E7=82=B9=E6=88=96=E8=80=85=E7=88=B6 class=
+ =E4=BD=9C=E4=B8=BA=E5=89=8D=E7=BC=80=E3=80=82</li>
+            <li>=E4=BD=BF=E7=94=A8 <code>.js-*</code> classes =E6=9D=A5=E8=
+=A1=A8=E7=A4=BA=E8=A1=8C=E4=B8=BA(=E7=9B=B8=E5=AF=B9=E4=BA=8E=E6=A0=B7=E5=
+=BC=8F)=EF=BC=8C=E4=BD=86=E6=98=AF=E4=B8=8D=E8=A6=81=E5=9C=A8 CSS =E4=B8=AD=
+=E5=8C=85=E5=90=AB=E8=BF=99=E4=BA=9B classes=E3=80=82</li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-css" data-lan=
+g=3D"css"><span class=3D"c">/* Bad example */</span>
+<span class=3D"nc">.t</span> <span class=3D"p">{</span> <span class=3D"o">.=
+..</span> <span class=3D"p">}</span>
+<span class=3D"nc">.red</span> <span class=3D"p">{</span> <span class=3D"o"=
+>...</span> <span class=3D"p">}</span>
+<span class=3D"nc">.header</span> <span class=3D"p">{</span> <span class=3D=
+"o">...</span> <span class=3D"p">}</span>
+
+<span class=3D"c">/* Good example */</span>
+<span class=3D"nc">.tweet</span> <span class=3D"p">{</span> <span class=3D"=
+o">...</span> <span class=3D"p">}</span>
+<span class=3D"nc">.important</span> <span class=3D"p">{</span> <span class=
+=3D"o">...</span> <span class=3D"p">}</span>
+<span class=3D"nc">.tweet-header</span> <span class=3D"p">{</span> <span cl=
+ass=3D"o">...</span> <span class=3D"p">}</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"css-selectors">
+    <div class=3D"col">
+        <h3>=E9=80=89=E6=8B=A9=E5=99=A8</h3>
+        <ul>
+            <li>=E4=BD=BF=E7=94=A8 classes =E8=80=8C=E4=B8=8D=E6=98=AF=E9=
+=80=9A=E7=94=A8=E5=85=83=E7=B4=A0=E6=A0=87=E7=AD=BE=E6=9D=A5=E4=BC=98=E5=8C=
+=96=E6=B8=B2=E6=9F=93=E6=80=A7=E8=83=BD=E3=80=82</li>
+            <li>=E9=81=BF=E5=85=8D=E5=9C=A8=E7=BB=8F=E5=B8=B8=E5=87=BA=E7=
+=8E=B0=E7=9A=84=E7=BB=84=E4=BB=B6=E4=B8=AD=E4=BD=BF=E7=94=A8=E4=B8=80=E4=BA=
+=9B=E5=B1=9E=E6=80=A7=E9=80=89=E6=8B=A9=E5=99=A8 (=E4=BE=8B=E5=A6=82=EF=BC=
+=8C<code>[class^=3D"..."]</code>)=E3=80=82=E6=B5=8F=E8=A7=88=E5=99=A8=E6=80=
+=A7=E8=83=BD=E4=BC=9A=E5=8F=97=E5=88=B0=E8=BF=99=E4=BA=9B=E6=83=85=E5=86=B5=
+=E7=9A=84=E5=BD=B1=E5=93=8D=E3=80=82</li>
+            <li>=E5=87=8F=E5=B0=91=E9=80=89=E6=8B=A9=E5=99=A8=E7=9A=84=E9=
+=95=BF=E5=BA=A6=EF=BC=8C=E6=AF=8F=E4=B8=AA=E7=BB=84=E5=90=88=E9=80=89=E6=8B=
+=A9=E5=99=A8=E9=80=89=E6=8B=A9=E5=99=A8=E7=9A=84=E6=9D=A1=E7=9B=AE=E5=BA=94=
+=E8=AF=A5=E5=B0=BD=E9=87=8F=E6=8E=A7=E5=88=B6=E5=9C=A8 3 =E4=B8=AA=E4=BB=A5=
+=E5=86=85=E3=80=82</li>
+            <li><strong>=E5=8F=AA</strong>=E5=9C=A8=E5=BF=85=E8=A6=81=E7=9A=
+=84=E6=83=85=E5=86=B5=E4=B8=8B=E4=BD=BF=E7=94=A8=E5=90=8E=E4=BB=A3=E9=80=89=
+=E6=8B=A9=E5=99=A8 (=E4=BE=8B=E5=A6=82=EF=BC=8C=E6=B2=A1=E6=9C=89=E4=BD=BF=
+=E7=94=A8=E5=B8=A6=E5=89=8D=E7=BC=80 classes =E7=9A=84=E6=83=85=E5=86=B5).<=
+/li>
+        </ul>
+        <p>=E6=89=A9=E5=B1=95=E9=98=85=E8=AF=BB:</p>
+        <ul>
+            <li><a href=3D"http://markdotto.com/2012/02/16/scope-css-classe=
+s-with-prefixes/">Scope CSS classes with prefixes</a></li>
+            <li><a href=3D"http://markdotto.com/2012/03/02/stop-the-cascade=
+/">Stop the cascade</a></li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-css" data-lan=
+g=3D"css"><span class=3D"c">/* Bad example */</span>
+<span class=3D"nt">span</span> <span class=3D"p">{</span> <span class=3D"o"=
+>...</span> <span class=3D"p">}</span>
+<span class=3D"nc">.page-container</span> <span class=3D"nf">#stream</span>=
+ <span class=3D"nc">.stream-item</span> <span class=3D"nc">.tweet</span> <s=
+pan class=3D"nc">.tweet-header</span> <span class=3D"nc">.username</span> <=
+span class=3D"p">{</span> <span class=3D"o">...</span> <span class=3D"p">}<=
+/span>
+<span class=3D"nc">.avatar</span> <span class=3D"p">{</span> <span class=3D=
+"o">...</span> <span class=3D"p">}</span>
+
+<span class=3D"c">/* Good example */</span>
+<span class=3D"nc">.avatar</span> <span class=3D"p">{</span> <span class=3D=
+"o">...</span> <span class=3D"p">}</span>
+<span class=3D"nc">.tweet-header</span> <span class=3D"nc">.username</span>=
+ <span class=3D"p">{</span> <span class=3D"o">...</span> <span class=3D"p">=
+}</span>
+<span class=3D"nc">.tweet</span> <span class=3D"nc">.avatar</span> <span cl=
+ass=3D"p">{</span> <span class=3D"o">...</span> <span class=3D"p">}</span><=
+/code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"css-organization">
+    <div class=3D"col">
+        <h3>=E4=BB=A3=E7=A0=81=E7=BB=84=E7=BB=87</h3>
+        <ul>
+            <li>=E4=BB=A5=E7=BB=84=E4=BB=B6=E4=B8=BA=E5=8D=95=E4=BD=8D=E7=
+=BB=84=E7=BB=87=E4=BB=A3=E7=A0=81=E3=80=82</li>
+            <li>=E5=88=B6=E5=AE=9A=E4=B8=80=E4=B8=AA=E4=B8=80=E8=87=B4=E7=
+=9A=84=E6=B3=A8=E9=87=8A=E5=B1=82=E7=BA=A7=E7=BB=93=E6=9E=84=E3=80=82</li>
+            <li>=E4=BD=BF=E7=94=A8=E4=B8=80=E8=87=B4=E7=9A=84=E7=A9=BA=E7=
+=99=BD=E6=9D=A5=E5=88=86=E5=89=B2=E4=BB=A3=E7=A0=81=E5=9D=97=EF=BC=8C=E8=BF=
+=99=E6=A0=B7=E5=81=9A=E5=9C=A8=E6=9F=A5=E7=9C=8B=E5=A4=A7=E7=9A=84=E6=96=87=
+=E6=A1=A3=E6=97=B6=E6=9B=B4=E6=9C=89=E4=BC=98=E5=8A=BF=E3=80=82</li>
+            <li>=E5=BD=93=E4=BD=BF=E7=94=A8=E5=A4=9A=E4=B8=AA CSS =E6=96=87=
+=E4=BB=B6=E6=97=B6=EF=BC=8C=E9=80=9A=E8=BF=87=E7=BB=84=E4=BB=B6=E8=80=8C=E4=
+=B8=8D=E6=98=AF=E9=A1=B5=E9=9D=A2=E6=9D=A5=E5=8C=BA=E5=88=86=E4=BB=96=E4=BB=
+=AC=E3=80=82=E9=A1=B5=E9=9D=A2=E4=BC=9A=E8=A2=AB=E9=87=8D=E6=96=B0=E6=8E=92=
+=E5=88=97=EF=BC=8C=E8=80=8C=E7=BB=84=E4=BB=B6=E7=A7=BB=E5=8A=A8=E5=B0=B1=E5=
+=8F=AF=E4=BB=A5=E4=BA=86=E3=80=82</li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-css" data-lan=
+g=3D"css"><span class=3D"c">/*</span>
+<span class=3D"c"> * Component section heading</span>
+<span class=3D"c"> */</span>
+
+<span class=3D"nc">.element</span> <span class=3D"p">{</span> <span class=
+=3D"o">...</span> <span class=3D"p">}</span>
+
+
+<span class=3D"c">/*</span>
+<span class=3D"c"> * Component section heading</span>
+<span class=3D"c"> *</span>
+<span class=3D"c"> * Sometimes you need to include optional context for the=
+ entire component. Do that up here if it's important enough.</span>
+<span class=3D"c"> */</span>
+
+<span class=3D"nc">.element</span> <span class=3D"p">{</span> <span class=
+=3D"o">...</span> <span class=3D"p">}</span>
+
+<span class=3D"c">/* Contextual sub-component or modifer */</span>
+<span class=3D"nc">.element-heading</span> <span class=3D"p">{</span> <span=
+ class=3D"o">...</span> <span class=3D"p">}</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"css-editor-prefs">
+    <div class=3D"col">
+        <h3>=E7=BC=96=E8=BE=91=E5=99=A8=E9=85=8D=E7=BD=AE</h3>
+        <p>=E6=A0=B9=E6=8D=AE=E4=BB=A5=E4=B8=8B=E7=9A=84=E8=AE=BE=E7=BD=AE=
+=E6=9D=A5=E9=85=8D=E7=BD=AE=E4=BD=A0=E7=9A=84=E7=BC=96=E8=BE=91=E5=99=A8=EF=
+=BC=8C=E6=9D=A5=E9=81=BF=E5=85=8D=E5=B8=B8=E8=A7=81=E7=9A=84=E4=BB=A3=E7=A0=
+=81=E4=B8=8D=E4=B8=80=E8=87=B4=E5=92=8C=E4=B8=91=E9=99=8B=E7=9A=84 diffs=E3=
+=80=82</p>
+        <ul>
+            <li>=E4=BD=BF=E7=94=A8=E5=9B=9B=E4=B8=AA=E7=A9=BA=E6=A0=BC=E7=
+=9A=84 soft-tabs=E3=80=82</li>
+            <li>=E5=9C=A8=E4=BF=9D=E5=AD=98=E6=97=B6=E5=88=A0=E9=99=A4=E5=
+=B0=BE=E9=83=A8=E7=9A=84=E7=A9=BA=E7=99=BD=E5=AD=97=E7=AC=A6=E3=80=82</li>
+            <li>=E5=9C=A8=E4=BF=9D=E5=AD=98=E6=97=B6=E5=88=A0=E9=99=A4=E5=
+=B0=BE=E9=83=A8=E7=9A=84=E7=A9=BA=E7=99=BD=E5=AD=97=E7=AC=A6=E3=80=82 <a hr=
+ef=3D"http://programmers.stackexchange.com/questions/121555/why-is-trailing=
+-whitespace-a-big-deal" target=3D"_blank">=E4=B8=BA=E4=BB=80=E4=B9=88=E8=BF=
+=99=E4=B9=88=E5=81=9A=EF=BC=9F</a></li>
+            <li>=E8=AE=BE=E7=BD=AE=E6=96=87=E4=BB=B6=E7=BC=96=E7=A0=81=E4=
+=B8=BA UTF-8=E3=80=82</li>
+            <li>=E5=9C=A8=E6=96=87=E4=BB=B6=E7=BB=93=E5=B0=BE=E6=B7=BB=E5=
+=8A=A0=E4=B8=80=E4=B8=AA=E7=A9=BA=E7=99=BD=E8=A1=8C=E3=80=82</li>
+            <li>=E5=9C=A8=E6=96=87=E4=BB=B6=E7=BB=93=E5=B0=BE=E6=B7=BB=E5=
+=8A=A0=E4=B8=80=E4=B8=AA=E7=A9=BA=E7=99=BD=E8=A1=8C=E3=80=82<a href=3D"http=
+://www.zhihu.com/question/20018991" target=3D"_blank">=E4=B8=BA=E4=BB=80=E4=
+=B9=88=E8=BF=99=E4=B9=88=E5=81=9A=EF=BC=9F</a></li>
+        </ul>
+        <p>=E5=8F=82=E7=85=A7=E6=96=87=E6=A1=A3=EF=BC=8C=E5=B0=86=E8=BF=99=
+=E4=BA=9B=E8=AE=BE=E7=BD=AE=E5=BA=94=E7=94=A8=E5=88=B0=E9=A1=B9=E7=9B=AE=E7=
+=9A=84 <code>.editorconfig</code> =E6=96=87=E4=BB=B6=E3=80=82 =E4=BE=8B=E5=
+=A6=82=EF=BC=8C<a href=3D"https://github.com/twbs/bootstrap/blob/master/.ed=
+itorconfig">Bootstrap =E4=B8=AD=E7=9A=84 <code>.editorconfig</code> =E6=96=
+=87=E4=BB=B6</a>=E3=80=82 =E9=80=9A=E8=BF=87 <a href=3D"http://editorconfig=
+.org/">=E5=85=B3=E4=BA=8E EditorConfig</a> =E4=BA=86=E8=A7=A3=E6=9B=B4=E5=
+=A4=9A=E5=86=85=E5=AE=B9=E3=80=82</p>
+    </div>
+</div>
+
+<div class=3D"heading" id=3D"JavaScript">
+    <h2>JavaScript</h2>
+</div>
+
+<div class=3D"section" id=3D"js-indentation">
+    <div class=3D"col">
+        <h3>Indentation,=E5=88=86=E5=8F=B7,=E5=8D=95=E8=A1=8C=E9=95=BF=E5=
+=BA=A6</h3>
+        <ul>
+            <li>=E4=B8=80=E5=BE=8B=E4=BD=BF=E7=94=A84=E4=B8=AA=E7=A9=BA=E6=
+=A0=BC</li>
+            <li>continuation-indentation =E5=90=8C=E6=A0=B7=E9=80=82=E7=94=
+=A84=E4=B8=AA=E7=A9=BA=E6=A0=BC=EF=BC=8C=E8=B7=9F=E4=B8=8A=E4=B8=80=E8=A1=
+=8C=E5=AF=B9=E9=BD=90</li>
+            <li>Statement =E4=B9=8B=E5=90=8E=E4=B8=80=E5=BE=8B=E4=BB=A5=E5=
+=88=86=E5=8F=B7=E7=BB=93=E6=9D=9F=EF=BC=8C =E4=B8=8D=E5=8F=AF=E4=BB=A5=E7=
+=9C=81=E7=95=A5</li>
+            <li>=E5=8D=95=E8=A1=8C=E9=95=BF=E5=BA=A6=EF=BC=8C=E7=90=86=E8=
+=AE=BA=E4=B8=8A=E4=B8=8D=E8=A6=81=E8=B6=85=E8=BF=8780=E5=88=97=EF=BC=8C=E4=
+=B8=8D=E8=BF=87=E5=A6=82=E6=9E=9C=E7=BC=96=E8=BE=91=E5=99=A8=E5=BC=80=E5=90=
+=AF soft wrap =E7=9A=84=E8=AF=9D=E5=8F=AF=E4=BB=A5=E4=B8=8D=E8=80=83=E8=99=
+=91=E5=8D=95=E8=A1=8C=E9=95=BF=E5=BA=A6</li>
+            <li>=E6=8E=A5=E4=B8=8A=E4=B8=80=E6=9D=A1=EF=BC=8C=E5=A6=82=E6=
+=9E=9C=E9=9C=80=E8=A6=81=E6=8D=A2=E8=A1=8C=EF=BC=8C=E5=AD=98=E5=9C=A8=E6=93=
+=8D=E4=BD=9C=E7=AC=A6=E7=9A=84=E6=83=85=E5=86=B5=EF=BC=8C=E4=B8=80=E5=AE=9A=
+=E5=9C=A8=E6=93=8D=E4=BD=9C=E7=AC=A6=E5=90=8E=E6=8D=A2=E8=A1=8C=EF=BC=8C=E7=
+=84=B6=E5=90=8E=E6=8D=A2=E7=9A=84=E8=A1=8C=E7=BC=A9=E8=BF=9B4=E4=B8=AA=E7=
+=A9=BA=E6=A0=BC</li>
+            <li>=E8=BF=99=E9=87=8C=E8=A6=81=E6=B3=A8=E6=84=8F=EF=BC=8C=E5=
+=A6=82=E6=9E=9C=E6=98=AF=E5=A4=9A=E6=AC=A1=E6=8D=A2=E8=A1=8C=E7=9A=84=E8=AF=
+=9D=E5=B0=B1=E6=B2=A1=E6=9C=89=E5=BF=85=E8=A6=81=E7=BB=A7=E7=BB=AD=E7=BC=A9=
+=E8=BF=9B=E4=BA=86=EF=BC=8C=E6=AF=94=E5=A6=82=E8=AF=B4=E5=8F=B3=E8=BE=B9=E7=
+=AC=AC=E4=BA=8C=E6=AE=B5=E8=BF=99=E7=A7=8D=E5=B0=B1=E6=98=AF=E6=9C=80=E4=BD=
+=B3=E6=A0=BC=E5=BC=8F=E3=80=82</li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-javascript" d=
+ata-lang=3D"javascript"><span class=3D"k">if</span> <span class=3D"p">(</sp=
+an><span class=3D"k">typeof</span> <span class=3D"nx">qqfind</span> <span c=
+lass=3D"o">=3D=3D=3D</span> <span class=3D"s2">"undefined"</span> <span cla=
+ss=3D"o">||</span>
+    <span class=3D"k">typeof</span> <span class=3D"nx">qqfind</span><span c=
+lass=3D"p">.</span><span class=3D"nx">cdnrejected</span> <span class=3D"o">=
+=3D=3D=3D</span> <span class=3D"s2">"undefined"</span> <span class=3D"o">||=
+</span>
+    <span class=3D"nx">qqfind</span><span class=3D"p">.</span><span class=
+=3D"nx">cdnrejected</span> <span class=3D"o">!=3D=3D</span> <span class=3D"=
+kc">true</span><span class=3D"p">)</span> <span class=3D"p">{</span>
+    <span class=3D"nx">url</span> <span class=3D"o">=3D</span> <span class=
+=3D"s2">"http://pub.idqqimg.com/qqfind/js/location4.js"</span><span class=
+=3D"p">;</span>
+<span class=3D"p">}</span> <span class=3D"k">else</span> <span class=3D"p">=
+{</span>
+    <span class=3D"nx">url</span> <span class=3D"o">=3D</span> <span class=
+=3D"s2">"http://find.qq.com/js/location4.js"</span><span class=3D"p">;</spa=
+n>
+<span class=3D"p">}</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-blank-lines">
+    <div class=3D"col">
+        <h3>=E7=A9=BA=E8=A1=8C</h3>
+        <ul>
+            <li>=E6=96=B9=E6=B3=95=E4=B9=8B=E9=97=B4=E5=8A=A0</li>
+            <li>=E5=8D=95=E8=A1=8C=E6=88=96=E5=A4=9A=E8=A1=8C=E6=B3=A8=E9=
+=87=8A=E5=89=8D=E5=8A=A0</li>
+            <li>=E9=80=BB=E8=BE=91=E5=9D=97=E4=B9=8B=E9=97=B4=E5=8A=A0=E7=
+=A9=BA=E8=A1=8C=E5=A2=9E=E5=8A=A0=E5=8F=AF=E8=AF=BB=E6=80=A7</li>
+        </ul>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-variable-naming">
+    <div class=3D"col">
+        <h3>=E5=8F=98=E9=87=8F=E5=91=BD=E5=90=8D</h3>
+        <ul>
+            <li>=E6=A0=87=E5=87=86=E5=8F=98=E9=87=8F=E9=87=87=E7=94=A8=E9=
+=A9=BC=E5=B3=B0=E6=A0=87=E8=AF=86</li>
+            <li>=E4=BD=BF=E7=94=A8=E7=9A=84ID=E7=9A=84=E5=9C=B0=E6=96=B9=E4=
+=B8=80=E5=AE=9A=E5=85=A8=E5=A4=A7=E5=86=99</li>
+            <li>=E4=BD=BF=E7=94=A8=E7=9A=84URL=E7=9A=84=E5=9C=B0=E6=96=B9=
+=E4=B8=80=E5=AE=9A=E5=85=A8=E5=A4=A7=E5=86=99, =E6=AF=94=E5=A6=82=E8=AF=B4 =
+reportURL</li>
+            <li>=E6=B6=89=E5=8F=8AAndroid=E7=9A=84=EF=BC=8C=E4=B8=80=E5=BE=
+=8B=E5=A4=A7=E5=86=99=E7=AC=AC=E4=B8=80=E4=B8=AA=E5=AD=97=E6=AF=8D</li>
+            <li>=E6=B6=89=E5=8F=8AiOS=E7=9A=84=EF=BC=8C=E4=B8=80=E5=BE=8B=
+=E5=B0=8F=E5=86=99=E7=AC=AC=E4=B8=80=E4=B8=AA=EF=BC=8C=E5=A4=A7=E5=86=99=E5=
+=90=8E=E4=B8=A4=E4=B8=AA=E5=AD=97=E6=AF=8D</li>
+            <li>=E5=B8=B8=E9=87=8F=E9=87=87=E7=94=A8=E5=A4=A7=E5=86=99=E5=
+=AD=97=E6=AF=8D=EF=BC=8C=E4=B8=8B=E5=88=92=E7=BA=BF=E8=BF=9E=E6=8E=A5=E7=9A=
+=84=E6=96=B9=E5=BC=8F</li>
+            <li>=E6=9E=84=E9=80=A0=E5=87=BD=E6=95=B0=EF=BC=8C=E5=A4=A7=E5=
+=86=99=E7=AC=AC=E4=B8=80=E4=B8=AA=E5=AD=97=E6=AF=8D</li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-javascript" d=
+ata-lang=3D"javascript"><span class=3D"kd">var</span> <span class=3D"nx">th=
+isIsMyName</span><span class=3D"p">;</span>
+
+<span class=3D"kd">var</span> <span class=3D"nx">goodID</span><span class=
+=3D"p">;</span>
+
+<span class=3D"kd">var</span> <span class=3D"nx">AndroidVersion</span><span=
+ class=3D"p">;</span>
+
+<span class=3D"kd">var</span> <span class=3D"nx">iOSVersion</span><span cla=
+ss=3D"p">;</span>
+
+<span class=3D"kd">var</span> <span class=3D"nx">MAX_COUNT</span> <span cla=
+ss=3D"o">=3D</span> <span class=3D"mi">10</span><span class=3D"p">;</span>
+
+<span class=3D"kd">function</span> <span class=3D"nx">Person</span><span cl=
+ass=3D"p">(</span><span class=3D"nx">name</span><span class=3D"p">)</span> =
+<span class=3D"p">{</span>
+    <span class=3D"k">this</span><span class=3D"p">.</span><span class=3D"n=
+x">name</span> <span class=3D"o">=3D</span> <span class=3D"nx">name</span>
+<span class=3D"p">}</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-literal-value-string">
+    <div class=3D"col">
+        <h3>=E5=AD=97=E7=AC=A6=E5=B8=B8=E9=87=8F</h3>
+        <ul>
+            <li>=E4=B8=80=E8=88=AC=E6=83=85=E5=86=B5=E4=B8=8B=E7=BB=9F=E4=
+=B8=80=E4=BD=BF=E7=94=A8 '' =E5=8D=95=E5=BC=95=E5=8F=B7</li>
+        </ul>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-literal-value-null">
+    <div class=3D"col">
+        <h3>null=E7=9A=84=E4=BD=BF=E7=94=A8=E5=9C=BA=E6=99=AF</h3>
+        <ul>
+            <li>To initialize a variable that may later be assigned an obje=
+ct value</li>
+            <li>To compare against an initialized variable that may or may =
+not have an object value</li>
+            <li>To pass into a function where an object is expected</li>
+            <li>To return from a function where an object is expected</li>
+        </ul>
+        <h3>=E4=B8=8D=E9=80=82=E5=90=88null=E7=9A=84=E4=BD=BF=E7=94=A8=E5=
+=9C=BA=E6=99=AF</h3>
+        <ul>
+            <li>Do not use null to test whether an argument was supplied</l=
+i>
+            <li>Do not test an uninitialized variable for the value null</l=
+i>
+        </ul>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-literal-value-undefined">
+    <div class=3D"col">
+        <h3>undefined=E4=BD=BF=E7=94=A8=E5=9C=BA=E6=99=AF</h3>
+        <ul>
+            <li>=E6=B0=B8=E8=BF=9C=E4=B8=8D=E8=A6=81=E7=9B=B4=E6=8E=A5=E4=
+=BD=BF=E7=94=A8undefined=E8=BF=9B=E8=A1=8C=E5=8F=98=E9=87=8F=E5=88=A4=E6=96=
+=AD</li>
+            <li>=E4=BD=BF=E7=94=A8=E5=AD=97=E7=AC=A6=E4=B8=B2 "undefined" =
+=E5=AF=B9=E5=8F=98=E9=87=8F=E8=BF=9B=E8=A1=8C=E5=88=A4=E6=96=AD</li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-javascript" d=
+ata-lang=3D"javascript"><span class=3D"c1">// Bad</span>
+<span class=3D"kd">var</span> <span class=3D"nx">person</span><span class=
+=3D"p">;</span>
+<span class=3D"nx">console</span><span class=3D"p">.</span><span class=3D"n=
+x">log</span><span class=3D"p">(</span><span class=3D"nx">person</span> <sp=
+an class=3D"o">=3D=3D=3D</span> <span class=3D"kc">undefined</span><span cl=
+ass=3D"p">);</span>    <span class=3D"c1">//true</span>
+
+<span class=3D"c1">// Good</span>
+<span class=3D"nx">console</span><span class=3D"p">.</span><span class=3D"n=
+x">log</span><span class=3D"p">(</span><span class=3D"k">typeof</span> <spa=
+n class=3D"nx">person</span><span class=3D"p">);</span>    <span class=3D"c=
+1">// "undefined"</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-literal-value-object">
+    <div class=3D"col">
+        <h3>Object Literals</h3>
+        <div class=3D"highlight"><pre><code class=3D"language-javascript" d=
+ata-lang=3D"javascript"><span class=3D"c1">// Bad</span>
+<span class=3D"kd">var</span> <span class=3D"nx">team</span> <span class=3D=
+"o">=3D</span> <span class=3D"k">new</span> <span class=3D"nx">Team</span><=
+span class=3D"p">();</span>
+<span class=3D"nx">team</span><span class=3D"p">.</span><span class=3D"nx">=
+title</span> <span class=3D"o">=3D</span> <span class=3D"s2">"AlloyTeam"</s=
+pan><span class=3D"p">;</span>
+<span class=3D"nx">team</span><span class=3D"p">.</span><span class=3D"nx">=
+count</span> <span class=3D"o">=3D</span> <span class=3D"mi">25</span><span=
+ class=3D"p">;</span>
+
+<span class=3D"c1">// Good  semi colon =E9=87=87=E7=94=A8 Followed by space=
+ =E7=9A=84=E5=BD=A2=E5=BC=8F</span>
+<span class=3D"kd">var</span> <span class=3D"nx">team</span> <span class=3D=
+"o">=3D</span> <span class=3D"p">{</span>
+    <span class=3D"nx">title</span><span class=3D"o">:</span> <span class=
+=3D"s2">"AlloyTeam"</span><span class=3D"p">,</span>
+    <span class=3D"nx">count</span><span class=3D"o">:</span> <span class=
+=3D"mi">25</span>
+<span class=3D"p">};</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-literal-value-array">
+    <div class=3D"col">
+        <h3>Array Literals</h3>
+        <div class=3D"highlight"><pre><code class=3D"language-javascript" d=
+ata-lang=3D"javascript"><span class=3D"c1">// Bad</span>
+<span class=3D"kd">var</span> <span class=3D"nx">colors</span> <span class=
+=3D"o">=3D</span> <span class=3D"k">new</span> <span class=3D"nb">Array</sp=
+an><span class=3D"p">(</span><span class=3D"s2">"red"</span><span class=3D"=
+p">,</span> <span class=3D"s2">"green"</span><span class=3D"p">,</span> <sp=
+an class=3D"s2">"blue"</span><span class=3D"p">);</span>
+<span class=3D"kd">var</span> <span class=3D"nx">numbers</span> <span class=
+=3D"o">=3D</span> <span class=3D"k">new</span> <span class=3D"nb">Array</sp=
+an><span class=3D"p">(</span><span class=3D"mi">1</span><span class=3D"p">,=
+</span> <span class=3D"mi">2</span><span class=3D"p">,</span> <span class=
+=3D"mi">3</span><span class=3D"p">,</span> <span class=3D"mi">4</span><span=
+ class=3D"p">);</span>
+
+
+<span class=3D"c1">// Good</span>
+<span class=3D"kd">var</span> <span class=3D"nx">colors</span> <span class=
+=3D"o">=3D</span> <span class=3D"p">[</span> <span class=3D"s2">"red"</span=
+><span class=3D"p">,</span> <span class=3D"s2">"green"</span><span class=3D=
+"p">,</span> <span class=3D"s2">"blue"</span> <span class=3D"p">];</span>
+<span class=3D"kd">var</span> <span class=3D"nx">numbers</span> <span class=
+=3D"o">=3D</span> <span class=3D"p">[</span> <span class=3D"mi">1</span><sp=
+an class=3D"p">,</span> <span class=3D"mi">2</span><span class=3D"p">,</spa=
+n> <span class=3D"mi">3</span><span class=3D"p">,</span> <span class=3D"mi"=
+>4</span> <span class=3D"p">];</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-comments-single-line">
+    <div class=3D"col">
+        <h3>=E5=8D=95=E8=A1=8C=E6=B3=A8=E9=87=8A</h3>
+        <ul>
+            <li>=E5=8F=8C=E6=96=9C=E7=BA=BF=E5=90=8E=EF=BC=8C=E5=BF=85=E9=
+=A1=BB=E8=B7=9F=E6=B3=A8=E9=87=8A=E5=86=85=E5=AE=B9=E4=BF=9D=E7=95=99=E4=B8=
+=80=E4=B8=AA=E7=A9=BA=E6=A0=BC</li>
+            <li>=E5=8F=AF=E7=8B=AC=E5=8D=A0=E4=B8=80=E8=A1=8C, =E5=89=8D=E8=
+=BE=B9=E4=B8=8D=E8=AE=B8=E6=9C=89=E7=A9=BA=E8=A1=8C, =E7=BC=A9=E8=BF=9B=E4=
+=B8=8E=E4=B8=8B=E4=B8=80=E8=A1=8C=E4=BB=A3=E7=A0=81=E4=BF=9D=E6=8C=81=E4=B8=
+=80=E8=87=B4</li>
+            <li>=E5=8F=AF=E4=BD=8D=E4=BA=8E=E4=B8=80=E4=B8=AA=E4=BB=A3=E7=
+=A0=81=E8=A1=8C=E7=9A=84=E6=9C=AB=E5=B0=BE=EF=BC=8C=E6=B3=A8=E6=84=8F=E8=BF=
+=99=E9=87=8C=E7=9A=84=E6=A0=BC=E5=BC=8F</li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-javascript" d=
+ata-lang=3D"javascript"><span class=3D"c1">// Good</span>
+<span class=3D"k">if</span> <span class=3D"p">(</span><span class=3D"nx">co=
+ndition</span><span class=3D"p">)</span> <span class=3D"p">{</span>
+
+    <span class=3D"c1">// if you made it here, then all security checks pas=
+sed</span>
+    <span class=3D"nx">allowed</span><span class=3D"p">();</span>
+<span class=3D"p">}</span>
+
+<span class=3D"kd">var</span> <span class=3D"nx">zhangsan</span> <span clas=
+s=3D"o">=3D</span> <span class=3D"s2">"zhangsan"</span><span class=3D"p">;<=
+/span>    <span class=3D"c1">// =E5=8F=8C=E6=96=9C=E7=BA=BF=E8=B7=9D=E7=A6=
+=BB=E5=88=86=E5=8F=B7=E5=9B=9B=E4=B8=AA=E7=A9=BA=E6=A0=BC=EF=BC=8C=E5=8F=8C=
+=E6=96=9C=E7=BA=BF=E5=90=8E=E5=A7=8B=E7=BB=88=E4=BF=9D=E7=95=99=E4=B8=80=E4=
+=B8=AA=E7=A9=BA=E6=A0=BC</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-comments-multiline">
+    <div class=3D"col">
+        <h3>=E5=A4=9A=E8=A1=8C=E6=B3=A8=E9=87=8A=E6=A0=BC=E5=BC=8F</h3>
+        <ul>
+            <li>=E6=9C=80=E5=B0=91=E4=B8=89=E8=A1=8C, =E6=A0=BC=E5=BC=8F=E5=
+=A6=82=E5=8F=B3</li>
+            <li>=E5=89=8D=E8=BE=B9=E7=95=99=E7=A9=BA=E4=B8=80=E8=A1=8C</li>
+        </ul>
+        <h3>=E4=BD=95=E6=97=B6=E4=BD=BF=E7=94=A8</h3>
+        <ul>
+            <li>=E9=9A=BE=E4=BA=8E=E7=90=86=E8=A7=A3=E7=9A=84=E4=BB=A3=E7=
+=A0=81=E6=AE=B5</li>
+            <li>=E5=8F=AF=E8=83=BD=E5=AD=98=E5=9C=A8=E9=94=99=E8=AF=AF=E7=
+=9A=84=E4=BB=A3=E7=A0=81=E6=AE=B5</li>
+            <li>=E6=B5=8F=E8=A7=88=E5=99=A8=E7=89=B9=E6=AE=8A=E7=9A=84HACK=
+=E4=BB=A3=E7=A0=81</li>
+            <li>=E6=83=B3=E5=90=90=E6=A7=BD=E7=9A=84=E4=BA=A7=E5=93=81=E9=
+=80=BB=E8=BE=91, =E5=90=88=E4=BD=9C=E5=90=8C=E4=BA=8B</li>
+            <li>=E4=B8=9A=E5=8A=A1=E9=80=BB=E8=BE=91=E5=BC=BA=E7=9B=B8=E5=
+=85=B3=E7=9A=84=E4=BB=A3=E7=A0=81</li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-javascript" d=
+ata-lang=3D"javascript"><span class=3D"cm">/*</span>
+<span class=3D"cm"> * =E6=B3=A8=E9=87=8A=E5=86=85=E5=AE=B9=E4=B8=8E=E6=98=
+=9F=E6=A0=87=E5=89=8D=E4=BF=9D=E7=95=99=E4=B8=80=E4=B8=AA=E7=A9=BA=E6=A0=BC=
+</span>
+<span class=3D"cm"> */</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-comments-documentation">
+    <div class=3D"col">
+        <h3>=E6=96=87=E6=A1=A3=E6=B3=A8=E9=87=8A</h3>
+        <ul>
+            <li>=E5=90=84=E7=B1=BB=E6=A0=87=E7=AD=BE @param @method =E7=AD=
+=89 =E5=8F=82=E8=80=83 <a href=3D"http://usejsdoc.org/" target=3D"_blank">h=
+ttp://usejsdoc.org/</a></li>
+            <li>=E6=A0=BC=E5=BC=8F=E5=A6=82=E5=8F=B3</li>
+        </ul>
+        <h3>=E7=94=A8=E5=9C=A8=E5=93=AA=E9=87=8C</h3>
+        <ul>
+            <li>All methods</li>
+            <li>All constructors</li>
+            <li>All objects with documented methods</li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-javascript" d=
+ata-lang=3D"javascript"><span class=3D"cm">/**</span>
+<span class=3D"cm"> * here boy, look here , here is girl</span>
+<span class=3D"cm"> * @method lookGril</span>
+<span class=3D"cm"> * @param {Object} balabalabala</span>
+<span class=3D"cm"> * @return {Object} balabalabala</span>
+<span class=3D"cm"> */</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-brace">
+    <div class=3D"col">
+        <h3>=E6=8B=AC=E5=8F=B7=E5=AF=B9=E9=BD=90</h3>
+        <ul>
+            <li>=E6=A0=87=E5=87=86=E7=A4=BA=E4=BE=8B =E6=8B=AC=E5=8F=B7=E5=
+=89=8D=E5=90=8E=E6=9C=89=E7=A9=BA=E6=A0=BC=EF=BC=8C =E8=8A=B1=E6=8B=AC=E5=
+=8F=B7=E8=B5=B7=E5=A7=8B =E4=B8=8D=E5=8F=A6=E6=8D=A2=E8=A1=8C=EF=BC=8C=E7=
+=BB=93=E5=B0=BE=E6=96=B0=E8=B5=B7=E4=B8=80=E8=A1=8C</li>
+            <li>=E8=8A=B1=E6=8B=AC=E5=8F=B7=E5=BF=85=E9=A1=BB=E8=A6=81=EF=
+=BC=8C =E5=8D=B3=E4=BD=BF=E5=86=85=E5=AE=B9=E5=8F=AA=E6=9C=89=E4=B8=80=E8=
+=A1=8C=EF=BC=8C =E5=86=B3=E4=B8=8D=E5=85=81=E8=AE=B8=E5=8F=B3=E8=BE=B9=E7=
+=AC=AC=E4=BA=8C=E7=A7=8D=E6=83=85=E5=86=B5</li>
+            <li>=E6=B6=89=E5=8F=8A if for while do...while try...catch...fi=
+nally =E7=9A=84=E5=9C=B0=E6=96=B9=E9=83=BD=E5=BF=85=E9=A1=BB=E4=BD=BF=E7=94=
+=A8=E8=8A=B1=E6=8B=AC=E5=8F=B7</li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-javascript" d=
+ata-lang=3D"javascript"><span class=3D"c1">// Good</span>
+<span class=3D"k">if</span> <span class=3D"p">(</span><span class=3D"nx">co=
+ndition</span><span class=3D"p">)</span> <span class=3D"p">{</span>
+    <span class=3D"nx">doSomething</span><span class=3D"p">();</span>
+<span class=3D"p">}</span>
+
+<span class=3D"k">if</span> <span class=3D"p">(</span><span class=3D"nx">co=
+ndition</span><span class=3D"p">)</span>
+    <span class=3D"nx">doSomething</span><span class=3D"p">();</span>
+    <span class=3D"nx">doSomethingElse</span><span class=3D"p">();</span></=
+code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-if-else">
+    <div class=3D"col">
+        <h3>if else else=E5=89=8D=E5=90=8E=E7=95=99=E6=9C=89=E7=A9=BA=E6=A0=
+=BC</h3>
+        <div class=3D"col">
+            <div class=3D"highlight"><pre><code class=3D"language-javascrip=
+t" data-lang=3D"javascript"><span class=3D"k">if</span> <span class=3D"p">(=
+</span><span class=3D"nx">condition</span><span class=3D"p">)</span> <span =
+class=3D"p">{</span>
+    <span class=3D"nx">doSomething</span><span class=3D"p">();</span>
+<span class=3D"p">}</span> <span class=3D"k">else</span> <span class=3D"p">=
+{</span>
+    <span class=3D"nx">doSomethingElse</span><span class=3D"p">();</span>
+<span class=3D"p">}</span></code></pre></div>
+        </div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-switch">
+    <div class=3D"col">
+        <h3>switch</h3>
+        <ul>
+            <li>=E9=87=87=E7=94=A8=E5=8F=B3=E8=BE=B9=E7=9A=84=E6=A0=BC=E5=
+=BC=8F=EF=BC=8C switch=E5=92=8C=E6=8B=AC=E5=8F=B7=E4=B9=8B=E9=97=B4=E6=9C=
+=89=E7=A9=BA=E6=A0=BC=EF=BC=8C case=E9=9C=80=E8=A6=81=E7=BC=A9=E8=BF=9B=EF=
+=BC=8C break=E4=B9=8B=E5=90=8E=E8=B7=9F=E4=B8=8B=E4=B8=80=E4=B8=AAcase=E4=
+=B8=AD=E9=97=B4=E7=95=99=E4=B8=80=E4=B8=AAblank line</li>
+            <li>=E8=8A=B1=E6=8B=AC=E5=8F=B7=E5=BF=85=E9=A1=BB=E8=A6=81=EF=
+=BC=8C =E5=8D=B3=E4=BD=BF=E5=86=85=E5=AE=B9=E5=8F=AA=E6=9C=89=E4=B8=80=E8=
+=A1=8C=E3=80=82</li>
+            <li> =E5=A6=82=E5=8F=B3=E4=BE=A7=E7=AC=AC=E4=BA=8C=E7=A7=8D=E6=
+=83=85=E5=86=B5=EF=BC=8Cswitch =E7=9A=84 falling through =E4=B8=80=E5=AE=9A=
+=E8=A6=81=E6=9C=89=E6=B3=A8=E9=87=8A=E7=89=B9=E5=88=AB=E8=AF=B4=E6=98=8E=EF=
+=BC=8C no default =E7=9A=84=E6=83=85=E5=86=B5=E4=B9=9F=E9=9C=80=E8=A6=81=E6=
+=B3=A8=E9=87=8A=E7=89=B9=E5=88=AB=E8=AF=B4=E6=98=8E=E5=86=B5</li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-javascript" d=
+ata-lang=3D"javascript"><span class=3D"k">switch</span> <span class=3D"p">(=
+</span><span class=3D"nx">condition</span><span class=3D"p">)</span> <span =
+class=3D"p">{</span>
+    <span class=3D"k">case</span> <span class=3D"s2">"first"</span><span cl=
+ass=3D"o">:</span>
+        <span class=3D"c1">// code</span>
+        <span class=3D"k">break</span><span class=3D"p">;</span>
+
+    <span class=3D"k">case</span> <span class=3D"s2">"third"</span><span cl=
+ass=3D"o">:</span>
+        <span class=3D"c1">// code</span>
+        <span class=3D"k">break</span><span class=3D"p">;</span>
+
+    <span class=3D"k">default</span><span class=3D"o">:</span>
+    <span class=3D"c1">// code</span>
+<span class=3D"p">}</span>
+
+
+<span class=3D"k">switch</span> <span class=3D"p">(</span><span class=3D"nx=
+">condition</span><span class=3D"p">)</span> <span class=3D"p">{</span>
+
+    <span class=3D"c1">// obvious fall through    // =E8=BF=99=E9=87=8C=E4=
+=B8=BA=E5=95=A5JSHint=E9=BB=98=E8=AE=A4=E5=B0=B1=E4=BC=9A=E6=94=BE=E8=BF=87=
+=EF=BC=8C=E5=9B=A0=E4=B8=BA case "first" =E5=86=85=E6=97=A0=E5=86=85=E5=AE=
+=B9</span>
+    <span class=3D"k">case</span> <span class=3D"s2">"first"</span><span cl=
+ass=3D"o">:</span>
+    <span class=3D"k">case</span> <span class=3D"s2">"second"</span><span c=
+lass=3D"o">:</span>
+        <span class=3D"c1">// code</span>
+        <span class=3D"k">break</span><span class=3D"p">;</span>
+
+    <span class=3D"k">case</span> <span class=3D"s2">"third"</span><span cl=
+ass=3D"o">:</span>
+    <span class=3D"c1">// code</span>
+
+    <span class=3D"cm">/* falls through */</span> <span class=3D"c1">// =E8=
+=BF=99=E9=87=8C=E4=B8=BA=E5=95=A5=E8=A6=81=E5=8A=A0=E8=BF=99=E6=A0=B7=E7=9A=
+=84=E6=B3=A8=E9=87=8A=EF=BC=8C =E6=98=8E=E7=A1=AE=E5=91=8A=E7=9F=A5JSHint=
+=E6=94=BE=E8=BF=87=E6=AD=A4=E5=A4=84=E5=91=8A=E8=AD=A6</span>
+    <span class=3D"k">default</span><span class=3D"o">:</span>
+    <span class=3D"c1">// code</span>
+<span class=3D"p">}</span>
+
+<span class=3D"k">switch</span><span class=3D"p">(</span><span class=3D"nx"=
+>condition</span><span class=3D"p">)</span> <span class=3D"p">{</span>
+    <span class=3D"k">case</span> <span class=3D"s2">"first"</span><span cl=
+ass=3D"o">:</span>
+        <span class=3D"c1">// code</span>
+        <span class=3D"k">break</span><span class=3D"p">;</span>
+
+    <span class=3D"k">case</span> <span class=3D"s2">"second"</span><span c=
+lass=3D"o">:</span>
+        <span class=3D"c1">// code</span>
+        <span class=3D"k">break</span><span class=3D"p">;</span>
+
+    <span class=3D"c1">// no default</span>
+<span class=3D"p">}</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-for">
+    <div class=3D"col">
+        <h3>for</h3>
+        <ul>
+            <li>=E6=99=AE=E9=80=9Afor=E5=BE=AA=E7=8E=AF, =E5=88=86=E5=8F=B7=
+=E5=90=8E=E7=95=99=E6=9C=89=E4=B8=80=E4=B8=AA=E7=A9=BA=E6=A0=BC=EF=BC=8C =
+=E5=88=A4=E6=96=AD=E6=9D=A1=E4=BB=B6=E7=AD=89=E5=86=85=E7=9A=84=E6=93=8D=E4=
+=BD=9C=E7=AC=A6=E4=B8=A4=E8=BE=B9=E4=B8=8D=E7=95=99=E7=A9=BA=E6=A0=BC=EF=BC=
+=8C =E5=89=8D=E7=BD=AE=E6=9D=A1=E4=BB=B6=E5=A6=82=E6=9E=9C=E6=9C=89=E5=A4=
+=9A=E4=B8=AA=EF=BC=8C=E9=80=97=E5=8F=B7=E5=90=8E=E7=95=99=E4=B8=80=E4=B8=AA=
+=E7=A9=BA=E6=A0=BC</li>
+            <li>for-in =E4=B8=80=E5=AE=9A=E8=A6=81=E6=9C=89 hasOwnProperty =
+=E7=9A=84=E5=88=A4=E6=96=AD=EF=BC=8C =E5=90=A6=E5=88=99 JSLint =E6=88=96=E8=
+=80=85 JSHint =E9=83=BD=E4=BC=9A=E6=9C=89=E4=B8=80=E4=B8=AA warn</li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-javascript" d=
+ata-lang=3D"javascript"><span class=3D"kd">var</span> <span class=3D"nx">va=
+lues</span> <span class=3D"o">=3D</span> <span class=3D"p">[</span> <span c=
+lass=3D"mi">1</span><span class=3D"p">,</span> <span class=3D"mi">2</span><=
+span class=3D"p">,</span> <span class=3D"mi">3</span><span class=3D"p">,</s=
+pan> <span class=3D"mi">4</span><span class=3D"p">,</span> <span class=3D"m=
+i">5</span><span class=3D"p">,</span> <span class=3D"mi">6</span><span clas=
+s=3D"p">,</span> <span class=3D"mi">7</span> <span class=3D"p">],</span>
+    <span class=3D"nx">i</span><span class=3D"p">,</span> <span class=3D"nx=
+">len</span><span class=3D"p">;</span>
+
+<span class=3D"k">for</span> <span class=3D"p">(</span><span class=3D"nx">i=
+</span><span class=3D"o">=3D</span><span class=3D"mi">0</span><span class=
+=3D"p">,</span> <span class=3D"nx">len</span><span class=3D"o">=3D</span><s=
+pan class=3D"nx">values</span><span class=3D"p">.</span><span class=3D"nx">=
+length</span><span class=3D"p">;</span> <span class=3D"nx">i</span><span cl=
+ass=3D"o">&lt;</span><span class=3D"nx">len</span><span class=3D"p">;</span=
+> <span class=3D"nx">i</span><span class=3D"o">++</span><span class=3D"p">)=
+</span> <span class=3D"p">{</span>
+    <span class=3D"nx">process</span><span class=3D"p">(</span><span class=
+=3D"nx">values</span><span class=3D"p">[</span><span class=3D"nx">i</span><=
+span class=3D"p">]);</span>
+<span class=3D"p">}</span>
+
+
+
+<span class=3D"kd">var</span> <span class=3D"nx">prop</span><span class=3D"=
+p">;</span>
+
+<span class=3D"k">for</span> <span class=3D"p">(</span><span class=3D"nx">p=
+rop</span> <span class=3D"k">in</span> <span class=3D"nx">object</span><spa=
+n class=3D"p">)</span> <span class=3D"p">{</span>
+
+    <span class=3D"c1">// =E6=B3=A8=E6=84=8F=E8=BF=99=E9=87=8C=E4=B8=80=E5=
+=AE=9A=E8=A6=81=E6=9C=89 hasOwnProperty =E7=9A=84=E5=88=A4=E6=96=AD=EF=BC=
+=8C =E5=90=A6=E5=88=99 JSLint =E6=88=96=E8=80=85 JSHint =E9=83=BD=E4=BC=9A=
+=E6=9C=89=E4=B8=80=E4=B8=AA warn =EF=BC=81</span>
+    <span class=3D"k">if</span> <span class=3D"p">(</span><span class=3D"nx=
+">object</span><span class=3D"p">.</span><span class=3D"nx">hasOwnProperty<=
+/span><span class=3D"p">(</span><span class=3D"nx">prop</span><span class=
+=3D"p">))</span> <span class=3D"p">{</span>
+        <span class=3D"nx">console</span><span class=3D"p">.</span><span cl=
+ass=3D"nx">log</span><span class=3D"p">(</span><span class=3D"s2">"Property=
+ name is "</span> <span class=3D"o">+</span> <span class=3D"nx">prop</span>=
+<span class=3D"p">);</span>
+        <span class=3D"nx">console</span><span class=3D"p">.</span><span cl=
+ass=3D"nx">log</span><span class=3D"p">(</span><span class=3D"s2">"Property=
+ value is "</span> <span class=3D"o">+</span> <span class=3D"nx">object</sp=
+an><span class=3D"p">[</span><span class=3D"nx">prop</span><span class=3D"p=
+">]);</span>
+    <span class=3D"p">}</span>
+<span class=3D"p">}</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-variable-declaration">
+    <div class=3D"col">
+        <h3>=E5=8F=98=E9=87=8F=E5=A3=B0=E6=98=8E</h3>
+        <ul>
+            <li>=E6=89=80=E6=9C=89=E5=87=BD=E6=95=B0=E5=86=85=E5=8F=98=E9=
+=87=8F=E5=A3=B0=E6=98=8E=E6=94=BE=E5=9C=A8=E5=87=BD=E6=95=B0=E5=86=85=E5=A4=
+=B4=E9=83=A8=EF=BC=8C=E5=8F=AA=E4=BD=BF=E7=94=A8=E4=B8=80=E4=B8=AA var(=E5=
+=A4=9A=E4=BA=86JSLint=E6=8A=A5=E9=94=99)=EF=BC=8C =E4=B8=80=E4=B8=AA=E5=8F=
+=98=E9=87=8F=E4=B8=80=E8=A1=8C=EF=BC=8C =E5=9C=A8=E8=A1=8C=E6=9C=AB=E8=B7=
+=9F=E6=B3=A8=E9=87=8A=EF=BC=8C =E6=B3=A8=E9=87=8A=E5=95=8A=EF=BC=8C=E6=B3=
+=A8=E9=87=8A=E5=95=8A=EF=BC=8C=E4=BA=B2</li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-javascript" d=
+ata-lang=3D"javascript"><span class=3D"kd">function</span> <span class=3D"n=
+x">doSomethingWithItems</span><span class=3D"p">(</span><span class=3D"nx">=
+items</span><span class=3D"p">)</span> <span class=3D"p">{</span>
+
+    <span class=3D"kd">var</span> <span class=3D"nx">value</span> <span cla=
+ss=3D"o">=3D</span> <span class=3D"mi">10</span><span class=3D"p">,</span> =
+   <span class=3D"c1">// =E6=B3=A8=E9=87=8A=E5=95=8A=EF=BC=8C=E6=B3=A8=E9=
+=87=8A=E5=95=8A=EF=BC=8C=E4=BA=B2</span>
+        <span class=3D"nx">result</span> <span class=3D"o">=3D</span> <span=
+ class=3D"nx">value</span> <span class=3D"o">+</span> <span class=3D"mi">10=
+</span><span class=3D"p">,</span>    <span class=3D"c1">// =E6=B3=A8=E9=87=
+=8A=E5=95=8A=EF=BC=8C=E6=B3=A8=E9=87=8A=E5=95=8A</span>
+        <span class=3D"nx">i</span><span class=3D"p">,</span>    <span clas=
+s=3D"c1">// =E6=B3=A8=E9=87=8A=E5=95=8A=EF=BC=8C=E6=B3=A8=E9=87=8A=E5=95=8A=
+=EF=BC=8C=E4=BA=B2</span>
+        <span class=3D"nx">len</span><span class=3D"p">;</span>    <span cl=
+ass=3D"c1">// =E6=B3=A8=E9=87=8A=E5=95=8A=EF=BC=8C=E6=B3=A8=E9=87=8A=E5=95=
+=8A=EF=BC=8C=E4=BA=B2</span>
+
+    <span class=3D"k">for</span> <span class=3D"p">(</span><span class=3D"n=
+x">i</span><span class=3D"o">=3D</span><span class=3D"mi">0</span><span cla=
+ss=3D"p">,</span> <span class=3D"nx">len</span><span class=3D"o">=3D</span>=
+<span class=3D"nx">items</span><span class=3D"p">.</span><span class=3D"nx"=
+>length</span><span class=3D"p">;</span> <span class=3D"nx">i</span> <span =
+class=3D"o">&lt;</span> <span class=3D"nx">len</span><span class=3D"p">;</s=
+pan> <span class=3D"nx">i</span><span class=3D"o">++</span><span class=3D"p=
+">)</span> <span class=3D"p">{</span>
+        <span class=3D"nx">doSomething</span><span class=3D"p">(</span><spa=
+n class=3D"nx">items</span><span class=3D"p">[</span><span class=3D"nx">i</=
+span><span class=3D"p">]);</span>
+    <span class=3D"p">}</span>
+<span class=3D"p">}</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-function-declaration">
+    <div class=3D"col">
+        <h3>=E5=87=BD=E6=95=B0=E5=A3=B0=E6=98=8E</h3>
+        <ul>
+            <li>=E4=B8=80=E5=AE=9A=E5=85=88=E5=A3=B0=E6=98=8E=E5=86=8D=E4=
+=BD=BF=E7=94=A8=EF=BC=8C =E4=B8=8D=E8=A6=81=E5=88=A9=E7=94=A8 JavaScript en=
+gine=E7=9A=84hoist=E7=89=B9=E6=80=A7, =E8=BF=9D=E5=8F=8D=E4=BA=86=E8=BF=99=
+=E4=B8=AA=E8=A7=84=E5=88=99 JSLint =E5=92=8C JSHint=E9=83=BD=E4=BC=9A=E6=8A=
+=A5 warn</li>
+            <li>function declaration =E5=92=8C function expression =E7=9A=
+=84=E4=B8=8D=E5=90=8C=EF=BC=8Cfunction expression =E7=9A=84=EF=BC=88=EF=BC=
+=89=E5=89=8D=E5=90=8E=E5=BF=85=E9=A1=BB=E6=9C=89=E7=A9=BA=E6=A0=BC=EF=BC=8C=
+=E8=80=8Cfunction declaration =E5=9C=A8=E6=9C=89=E5=87=BD=E6=95=B0=E5=90=8D=
+=E7=9A=84=E6=97=B6=E5=80=99=E4=B8=8D=E9=9C=80=E8=A6=81=E7=A9=BA=E6=A0=BC=EF=
+=BC=8C =E6=B2=A1=E6=9C=89=E5=87=BD=E6=95=B0=E5=90=8D=E7=9A=84=E6=97=B6=E5=
+=80=99=E9=9C=80=E8=A6=81=E7=A9=BA=E6=A0=BC=E3=80=82</li>
+            <li>=E5=87=BD=E6=95=B0=E8=B0=83=E7=94=A8=E6=8B=AC=E5=8F=B7=E5=
+=89=8D=E5=90=8E=E4=B8=8D=E9=9C=80=E8=A6=81=E7=A9=BA=E6=A0=BC</li>
+            <li>=E7=AB=8B=E5=8D=B3=E6=89=A7=E8=A1=8C=E5=87=BD=E6=95=B0=E7=
+=9A=84=E5=86=99=E6=B3=95, =E6=9C=80=E5=A4=96=E5=B1=82=E5=BF=85=E9=A1=BB=E5=
+=8C=85=E4=B8=80=E5=B1=82=E6=8B=AC=E5=8F=B7</li>
+            <li>"use strict" =E5=86=B3=E4=B8=8D=E5=85=81=E8=AE=B8=E5=85=A8=
+=E5=B1=80=E4=BD=BF=E7=94=A8=EF=BC=8C =E5=BF=85=E9=A1=BB=E6=94=BE=E5=9C=A8=
+=E5=87=BD=E6=95=B0=E7=9A=84=E7=AC=AC=E4=B8=80=E8=A1=8C=EF=BC=8C =E5=8F=AF=
+=E4=BB=A5=E7=94=A8=E8=87=AA=E6=89=A7=E8=A1=8C=E5=87=BD=E6=95=B0=E5=8C=85=E5=
+=90=AB=E5=A4=A7=E7=9A=84=E4=BB=A3=E7=A0=81=E6=AE=B5, =E5=A6=82=E6=9E=9C "us=
+e strict" =E5=9C=A8=E5=87=BD=E6=95=B0=E5=A4=96=E4=BD=BF=E7=94=A8=EF=BC=8C J=
+SLint =E5=92=8C JSHint =E5=9D=87=E4=BC=9A=E6=8A=A5=E9=94=99</li>
+        </ul>
+    </div>
+    <div class=3D"col">
+        <div class=3D"highlight"><pre><code class=3D"language-javascript" d=
+ata-lang=3D"javascript"><span class=3D"kd">function</span> <span class=3D"n=
+x">doSomething</span><span class=3D"p">(</span><span class=3D"nx">item</spa=
+n><span class=3D"p">)</span> <span class=3D"p">{</span>
+    <span class=3D"c1">// do something</span>
+<span class=3D"p">}</span>
+
+<span class=3D"kd">var</span> <span class=3D"nx">doSomething</span> <span c=
+lass=3D"o">=3D</span> <span class=3D"kd">function</span> <span class=3D"p">=
+(</span><span class=3D"nx">item</span><span class=3D"p">)</span> <span clas=
+s=3D"p">{</span>
+    <span class=3D"c1">// do something</span>
+<span class=3D"p">}</span>
+
+
+<span class=3D"c1">// Good</span>
+<span class=3D"nx">doSomething</span><span class=3D"p">(</span><span class=
+=3D"nx">item</span><span class=3D"p">);</span>
+
+<span class=3D"c1">// Bad: Looks like a block statement</span>
+<span class=3D"nx">doSomething</span> <span class=3D"p">(</span><span class=
+=3D"nx">item</span><span class=3D"p">);</span>
+
+
+<span class=3D"c1">// Good</span>
+<span class=3D"kd">var</span> <span class=3D"nx">value</span> <span class=
+=3D"o">=3D</span> <span class=3D"p">(</span><span class=3D"kd">function</sp=
+an><span class=3D"p">()</span> <span class=3D"p">{</span>
+
+    <span class=3D"c1">// function body</span>
+    <span class=3D"k">return</span> <span class=3D"p">{</span>
+        <span class=3D"nx">message</span><span class=3D"o">:</span> <span c=
+lass=3D"s2">"Hi"</span>
+    <span class=3D"p">}</span>
+<span class=3D"p">}());</span>
+
+
+<span class=3D"c1">// Good</span>
+<span class=3D"p">(</span><span class=3D"kd">function</span><span class=3D"=
+p">()</span> <span class=3D"p">{</span>
+    <span class=3D"s2">"use strict"</span><span class=3D"p">;</span>
+
+    <span class=3D"kd">function</span> <span class=3D"nx">doSomething</span=
+><span class=3D"p">()</span> <span class=3D"p">{</span>
+        <span class=3D"c1">// code</span>
+    <span class=3D"p">}</span>
+
+    <span class=3D"kd">function</span> <span class=3D"nx">doSomethingElse</=
+span><span class=3D"p">()</span> <span class=3D"p">{</span>
+        <span class=3D"c1">// code</span>
+    <span class=3D"p">}</span>
+
+<span class=3D"p">})();</span></code></pre></div>
+    </div>
+</div>
+
+<div class=3D"section" id=3D"js-miscellaneous">
+    <div class=3D"col">
+        <h3>=E6=9D=82=E9=A1=B9</h3>
+        <ul>
+            <li>=E5=AE=8C=E5=85=A8=E9=81=BF=E5=85=8D =3D=3D !=3D =E7=9A=84=
+=E4=BD=BF=E7=94=A8=EF=BC=8C =E7=94=A8=E4=B8=A5=E6=A0=BC=E6=AF=94=E8=BE=83=
+=E6=9D=A1=E4=BB=B6 =3D=3D=3D  !=3D=3D</li>
+            <li>eval =E9=9D=9E=E7=89=B9=E6=AE=8A=E4=B8=9A=E5=8A=A1=EF=BC=8C=
+ =E7=A6=81=E7=94=A8=EF=BC=81=EF=BC=81=EF=BC=81</li>
+            <li>with =E9=9D=9E=E7=89=B9=E6=AE=8A=E4=B8=9A=E5=8A=A1=EF=BC=8C=
+ =E7=A6=81=E7=94=A8=EF=BC=81=EF=BC=81=EF=BC=81</li>
+        </ul>
+    </div>
+</div>
+
+
+    <footer class=3D"footer">
+  <p>&lt;3</p>
+  <p>Heavily inspired by <a href=3D"https://github.com/necolas/idiomatic-cs=
+s">Idiomatic CSS</a> and the <a href=3D"http://github.com/styleguide">GitHu=
+b Styleguide</a>. origin Project by <a href=3D"https://github.com/mdo">@mdo=
+</a>. partly chinese translated by <a href=3D"http://zoomzhao.github.io/cod=
+e-guide/" target=3D"_blank">@zoomzhao</a>. Made with all the love by <a hre=
+f=3D"https://twitter.com/materliu">@AlloyTeam-materliu</a>.</p>
+  <p>Open sourced under MIT. Copyright 2015 <a href=3D"https://twitter.com/=
+materliu">@materliu</a>.</p>
+
+  <ul class=3D"quick-links">
+    <li>
+      <iframe class=3D"github-btn" src=3D"cid:frame-255-91c14170-27ca-4fe9-=
+820c-f4077d0f1ac3@mhtml.blink" allowtransparency=3D"true" frameborder=3D"0"=
+ scrolling=3D"0" width=3D"112px" height=3D"20px"></iframe>
+    </li>
+    <li>
+      <iframe class=3D"github-btn" src=3D"cid:frame-256-2d82ab08-8ad1-4b09-=
+afe8-81dfd7378cae@mhtml.blink" allowtransparency=3D"true" frameborder=3D"0"=
+ scrolling=3D"0" width=3D"98px" height=3D"20px"></iframe>
+    </li>
+  </ul>
+  <ul class=3D"quick-links">
+    <li class=3D"follow-btn">
+      <a href=3D"https://twitter.com/materliu" class=3D"twitter-follow-butt=
+on" data-link-color=3D"#0069D6" data-show-count=3D"true">Follow @materliu</=
+a>
+    </li>
+    <li class=3D"tweet-btn">
+      <a href=3D"https://twitter.com/share" class=3D"twitter-share-button" =
+data-url=3D"http://materliu.github.io/code-guide/" data-count=3D"horizontal=
+" data-via=3D"materliu">Tweet</a>
+    </li>
+  </ul>
+</footer>
+
+
+    </body></html>
+------MultipartBoundary--HpVszEFQT6yuyLex0Qtn31bPReLO1GSWhbJa47cpD5----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://materliu.github.io/code-guide/styles/style.css
+
+@charset "utf-8";
+
+#toTop { display: none; position: fixed; bottom: 5px; right: 5px; width: 64=
+px; height: 64px; background-image: url("http://geniuscarrier.com/images/up=
+.png"); background-repeat: no-repeat; opacity: 0.4; }
+
+#toTop:hover { opacity: 0.8; }
+------MultipartBoundary--HpVszEFQT6yuyLex0Qtn31bPReLO1GSWhbJa47cpD5----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://materliu.github.io/code-guide/code-guide.css
+
+@charset "utf-8";
+
+@font-face { font-family: fontello; src: url("font/fontello.eot#iefix") for=
+mat("embedded-opentype"), url("font/fontello.woff") format("woff"), url("fo=
+nt/fontello.ttf") format("truetype"), url("font/fontello.svg") format("svg"=
+); font-weight: normal; font-style: normal; }
+
+[class^=3D"icon-"]::before, [class*=3D" icon-"]::before { font-family: font=
+ello; font-style: normal; font-weight: normal; speak: none; display: inline=
+-block; text-decoration: inherit; width: 1em; margin-right: 0.2em; text-ali=
+gn: center; font-variant-ligatures: normal; font-variant-caps: normal; text=
+-transform: none; }
+
+.icon-github-circled::before { content: "=EE=A0=80"; }
+
+.icon-twitter::before { content: "=EE=A0=81"; }
+
+html { font-size: 16px; }
+
+@media (min-width: 48em) {
+  html { font-size: 20px; }
+}
+
+body { margin: 0px; font-style: normal; font-variant: normal; font-weight: =
+normal; font-stretch: normal; font-size: 1rem; line-height: 1.5; font-famil=
+y: =E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91, "PT Sans", sans-serif; color: rgb(=
+90, 90, 90); }
+
+a { color: rgb(0, 136, 204); text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+h1, h2, h3, h4 { margin: 0px 0px 0.5rem; font-weight: normal; line-height: =
+1; color: rgb(42, 42, 42); letter-spacing: -0.05em; }
+
+h1 { font-size: 3rem; }
+
+h2 { font-size: 2.5rem; }
+
+h3 { font-size: 1.75rem; }
+
+h4 { font-size: 1.25rem; }
+
+p { margin: 0px 0px 1rem; }
+
+.lead { font-size: 1.3rem; }
+
+blockquote { position: relative; margin: 0px 1rem 1rem; font-style: italic;=
+ color: rgb(122, 122, 122); }
+
+blockquote p { margin-bottom: 0px; }
+
+ul li { margin-bottom: 0.25rem; }
+
+p:last-child, ul:last-child, blockquote:last-child { margin-bottom: 0px; }
+
+code, pre { font-family: "PT Mono", Menlo, "Courier New", monospace; font-s=
+ize: 95%; }
+
+code { padding: 2px 4px; font-size: 85%; color: rgb(212, 73, 80); backgroun=
+d-color: rgb(247, 247, 249); border-radius: 0.2rem; }
+
+pre { display: block; margin: 0px 0px 1rem; line-height: 1.4; white-space: =
+pre-wrap; }
+
+pre code { padding: 0px; color: inherit; background-color: transparent; bor=
+der: 0px; }
+
+.highlight { margin: 0px; }
+
+.highlight pre { margin-bottom: 0px; }
+
+.highlight + .highlight { margin-top: 1rem; }
+
+.col { padding: 2rem 1rem; }
+
+.col p { max-width: 40rem; }
+
+.col + .col { border-top: 1px solid rgb(223, 225, 232); background-color: r=
+gb(247, 247, 249); }
+
+@media (min-width: 38em) {
+  .col { padding: 2rem; }
+}
+
+@media (min-width: 48em) {
+  .section { display: table; width: 100%; table-layout: fixed; }
+  .col { display: table-cell; padding: 3rem; vertical-align: top; }
+  .col + .col { border-top: 0px; }
+}
+
+.toc .col + .col { background-color: rgb(255, 255, 255); }
+
+.masthead { padding: 3rem 1rem; color: rgba(255, 255, 255, 0.5); text-align=
+: center; background-color: rgb(42, 52, 64); }
+
+.masthead h1 { color: rgb(255, 255, 255); margin-bottom: 0.25rem; }
+
+.masthead .icon { display: inline-block; font-size: 3rem; margin: 0px 0.5re=
+m; }
+
+.masthead-links { font-size: 2rem; }
+
+.masthead-links a { color: rgba(255, 255, 255, 0.5); text-decoration: none;=
+ transition: all 0.15s linear; }
+
+.masthead-links a:hover { color: rgb(255, 255, 255); }
+
+@media (min-width: 38em) {
+  .masthead { padding-top: 4rem; padding-bottom: 4rem; }
+}
+
+.heading { padding: 2rem 1rem 1.5rem; background-color: rgb(223, 225, 232);=
+ }
+
+@media (min-width: 38em) {
+  .heading { padding: 3rem 3rem 2.5rem; }
+}
+
+.section { border-bottom: 1px solid rgb(223, 225, 232); }
+
+.footer { padding: 3rem 1rem; font-size: 90%; text-align: center; }
+
+.footer p { margin-bottom: 0.5rem; }
+
+.quick-links { list-style: none; margin-left: 0px; }
+
+.quick-links li { display: inline; }
+
+.hll { background-color: rgb(255, 255, 204); }
+
+.c { color: rgb(153, 153, 153); }
+
+.err { color: rgb(170, 0, 0); background-color: rgb(255, 170, 170); }
+
+.k { color: rgb(0, 102, 153); }
+
+.o { color: rgb(85, 85, 85); }
+
+.cm { color: rgb(153, 153, 153); }
+
+.cp { color: rgb(0, 153, 153); }
+
+.c1 { color: rgb(153, 153, 153); }
+
+.cs { color: rgb(153, 153, 153); }
+
+.gd { background-color: rgb(255, 204, 204); border: 1px solid rgb(204, 0, 0=
+); }
+
+.ge { font-style: italic; }
+
+.gr { color: rgb(255, 0, 0); }
+
+.gh { color: rgb(0, 51, 0); }
+
+.gi { background-color: rgb(204, 255, 204); border: 1px solid rgb(0, 204, 0=
+); }
+
+.go { color: rgb(170, 170, 170); }
+
+.gp { color: rgb(0, 0, 153); }
+
+.gs { }
+
+.gu { color: rgb(0, 51, 0); }
+
+.gt { color: rgb(153, 204, 102); }
+
+.kc { color: rgb(0, 102, 153); }
+
+.kd { color: rgb(0, 102, 153); }
+
+.kn { color: rgb(0, 102, 153); }
+
+.kp { color: rgb(0, 102, 153); }
+
+.kr { color: rgb(0, 102, 153); }
+
+.kt { color: rgb(0, 119, 136); }
+
+.m { color: rgb(255, 102, 0); }
+
+.s { color: rgb(212, 73, 80); }
+
+.na { color: rgb(79, 159, 207); }
+
+.nb { color: rgb(51, 102, 102); }
+
+.nc { color: rgb(0, 170, 136); }
+
+.no { color: rgb(51, 102, 0); }
+
+.nd { color: rgb(153, 153, 255); }
+
+.ni { color: rgb(153, 153, 153); }
+
+.ne { color: rgb(204, 0, 0); }
+
+.nf { color: rgb(204, 0, 255); }
+
+.nl { color: rgb(153, 153, 255); }
+
+.nn { color: rgb(0, 204, 255); }
+
+.nt { color: rgb(47, 111, 159); }
+
+.nv { color: rgb(0, 51, 51); }
+
+.ow { color: rgb(0, 0, 0); }
+
+.w { color: rgb(187, 187, 187); }
+
+.mf { color: rgb(255, 102, 0); }
+
+.mh { color: rgb(255, 102, 0); }
+
+.mi { color: rgb(255, 102, 0); }
+
+.mo { color: rgb(255, 102, 0); }
+
+.sb { color: rgb(204, 51, 0); }
+
+.sc { color: rgb(204, 51, 0); }
+
+.sd { color: rgb(204, 51, 0); font-style: italic; }
+
+.s2 { color: rgb(204, 51, 0); }
+
+.se { color: rgb(204, 51, 0); }
+
+.sh { color: rgb(204, 51, 0); }
+
+.si { color: rgb(170, 0, 0); }
+
+.sx { color: rgb(204, 51, 0); }
+
+.sr { color: rgb(51, 170, 170); }
+
+.s1 { color: rgb(204, 51, 0); }
+
+.ss { color: rgb(255, 204, 51); }
+
+.bp { color: rgb(51, 102, 102); }
+
+.vc { color: rgb(0, 51, 51); }
+
+.vg { color: rgb(0, 51, 51); }
+
+.vi { color: rgb(0, 51, 51); }
+
+.il { color: rgb(255, 102, 0); }
+
+.css .o, .css .o + .nt, .css .nt + .nt { color: rgb(153, 153, 153); }
+------MultipartBoundary--HpVszEFQT6yuyLex0Qtn31bPReLO1GSWhbJa47cpD5----
+Content-Type: application/font-woff
+Content-Transfer-Encoding: base64
+Content-Location: http://materliu.github.io/code-guide/font/fontello.woff
+
+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
+------MultipartBoundary--HpVszEFQT6yuyLex0Qtn31bPReLO1GSWhbJa47cpD5----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Mono&subset=latin,cyrillic
+
+@charset "utf-8";
+
+@font-face { font-family: "PT Mono"; font-style: normal; font-weight: 400; =
+src: local("PT Mono"), local("PTMono-Regular"), url("http://fonts.gstatic.c=
+om/s/ptmono/v5/rFGHhFPYIVvC08PGjJIN1_Y6323mHUZFJMgTvxaG2iE.woff2") format("=
+woff2"); unicode-range: U+460-52F, U+20B4, U+2DE0-2DFF, U+A640-A69F; }
+
+@font-face { font-family: "PT Mono"; font-style: normal; font-weight: 400; =
+src: local("PT Mono"), local("PTMono-Regular"), url("http://fonts.gstatic.c=
+om/s/ptmono/v5/CaVdAWGUSxTocbxGJLiki_Y6323mHUZFJMgTvxaG2iE.woff2") format("=
+woff2"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "PT Mono"; font-style: normal; font-weight: 400; =
+src: local("PT Mono"), local("PTMono-Regular"), url("http://fonts.gstatic.c=
+om/s/ptmono/v5/eEAdzx7eU---nbdfQm1E0fY6323mHUZFJMgTvxaG2iE.woff2") format("=
+woff2"); unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U=
++2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "PT Mono"; font-style: normal; font-weight: 400; =
+src: local("PT Mono"), local("PTMono-Regular"), url("http://fonts.gstatic.c=
+om/s/ptmono/v5/h6kfiL-5Ady2K9sB3hOqcw.woff2") format("woff2"); unicode-rang=
+e: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20=
+AC, U+2212, U+2215; }
+
+@font-face { font-family: "PT Sans"; font-style: italic; font-weight: 400; =
+src: local("PT Sans Italic"), local("PTSans-Italic"), url("http://fonts.gst=
+atic.com/s/ptsans/v9/GpWpM_6S4VQLPNAQ3iWvVRJtnKITppOI_IvcXXDNrsc.woff2") fo=
+rmat("woff2"); unicode-range: U+460-52F, U+20B4, U+2DE0-2DFF, U+A640-A69F; =
+}
+
+@font-face { font-family: "PT Sans"; font-style: italic; font-weight: 400; =
+src: local("PT Sans Italic"), local("PTSans-Italic"), url("http://fonts.gst=
+atic.com/s/ptsans/v9/7dSh6BcuqDLzS2qAASIeuhJtnKITppOI_IvcXXDNrsc.woff2") fo=
+rmat("woff2"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "PT Sans"; font-style: italic; font-weight: 400; =
+src: local("PT Sans Italic"), local("PTSans-Italic"), url("http://fonts.gst=
+atic.com/s/ptsans/v9/DVKQJxMmC9WF_oplMzlQqRJtnKITppOI_IvcXXDNrsc.woff2") fo=
+rmat("woff2"); unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-2=
+0CF, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "PT Sans"; font-style: italic; font-weight: 400; =
+src: local("PT Sans Italic"), local("PTSans-Italic"), url("http://fonts.gst=
+atic.com/s/ptsans/v9/PIPMHY90P7jtyjpXuZ2cLFtXRa8TVwTICgirnJhmVJw.woff2") fo=
+rmat("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC=
+, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+@font-face { font-family: "PT Sans"; font-style: italic; font-weight: 700; =
+src: local("PT Sans Bold Italic"), local("PTSans-BoldItalic"), url("http://=
+fonts.gstatic.com/s/ptsans/v9/lILlYDvubYemzYzN7GbLkK-j2U0lmluP9RWlSytm3ho.w=
+off2") format("woff2"); unicode-range: U+460-52F, U+20B4, U+2DE0-2DFF, U+A6=
+40-A69F; }
+
+@font-face { font-family: "PT Sans"; font-style: italic; font-weight: 700; =
+src: local("PT Sans Bold Italic"), local("PTSans-BoldItalic"), url("http://=
+fonts.gstatic.com/s/ptsans/v9/lILlYDvubYemzYzN7GbLkJX5f-9o1vgP2EXwfjgl7AY.w=
+off2") format("woff2"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2=
+116; }
+
+@font-face { font-family: "PT Sans"; font-style: italic; font-weight: 700; =
+src: local("PT Sans Bold Italic"), local("PTSans-BoldItalic"), url("http://=
+fonts.gstatic.com/s/ptsans/v9/lILlYDvubYemzYzN7GbLkD0LW-43aMEzIO6XUTLjad8.w=
+off2") format("woff2"); unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB,=
+ U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "PT Sans"; font-style: italic; font-weight: 700; =
+src: local("PT Sans Bold Italic"), local("PTSans-BoldItalic"), url("http://=
+fonts.gstatic.com/s/ptsans/v9/lILlYDvubYemzYzN7GbLkOgdm0LZdjqr5-oayXSOefg.w=
+off2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2=
+DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+@font-face { font-family: "PT Sans"; font-style: normal; font-weight: 400; =
+src: local("PT Sans"), local("PTSans-Regular"), url("http://fonts.gstatic.c=
+om/s/ptsans/v9/JX7MlXqjSJNjQvI4heMMGvY6323mHUZFJMgTvxaG2iE.woff2") format("=
+woff2"); unicode-range: U+460-52F, U+20B4, U+2DE0-2DFF, U+A640-A69F; }
+
+@font-face { font-family: "PT Sans"; font-style: normal; font-weight: 400; =
+src: local("PT Sans"), local("PTSans-Regular"), url("http://fonts.gstatic.c=
+om/s/ptsans/v9/vtwNVMP8y9C17vLvIBNZI_Y6323mHUZFJMgTvxaG2iE.woff2") format("=
+woff2"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "PT Sans"; font-style: normal; font-weight: 400; =
+src: local("PT Sans"), local("PTSans-Regular"), url("http://fonts.gstatic.c=
+om/s/ptsans/v9/9kaD4V2pNPMMeUVBHayd7vY6323mHUZFJMgTvxaG2iE.woff2") format("=
+woff2"); unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U=
++2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "PT Sans"; font-style: normal; font-weight: 400; =
+src: local("PT Sans"), local("PTSans-Regular"), url("http://fonts.gstatic.c=
+om/s/ptsans/v9/ATKpv8nLYAKUYexo8iqqrg.woff2") format("woff2"); unicode-rang=
+e: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20=
+AC, U+2212, U+2215; }
+
+@font-face { font-family: "PT Sans"; font-style: normal; font-weight: 700; =
+src: local("PT Sans Bold"), local("PTSans-Bold"), url("http://fonts.gstatic=
+.com/s/ptsans/v9/kTYfCWJhlldPf5LnG4ZnHCEAvth_LlrfE80CYdSH47w.woff2") format=
+("woff2"); unicode-range: U+460-52F, U+20B4, U+2DE0-2DFF, U+A640-A69F; }
+
+@font-face { font-family: "PT Sans"; font-style: normal; font-weight: 700; =
+src: local("PT Sans Bold"), local("PTSans-Bold"), url("http://fonts.gstatic=
+.com/s/ptsans/v9/g46X4VH_KHOWAAa-HpnGPiEAvth_LlrfE80CYdSH47w.woff2") format=
+("woff2"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "PT Sans"; font-style: normal; font-weight: 700; =
+src: local("PT Sans Bold"), local("PTSans-Bold"), url("http://fonts.gstatic=
+.com/s/ptsans/v9/hpORcvLZtemlH8gI-1S-7iEAvth_LlrfE80CYdSH47w.woff2") format=
+("woff2"); unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF,=
+ U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "PT Sans"; font-style: normal; font-weight: 700; =
+src: local("PT Sans Bold"), local("PTSans-Bold"), url("http://fonts.gstatic=
+.com/s/ptsans/v9/0XxGQsSc1g4rdRdjJKZrNPk_vArhqVIZ0nv9q090hN8.woff2") format=
+("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+=
+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+------MultipartBoundary--HpVszEFQT6yuyLex0Qtn31bPReLO1GSWhbJa47cpD5----
+Content-Type: font/woff2
+Content-Transfer-Encoding: base64
+Content-Location: http://fonts.gstatic.com/s/ptmono/v5/h6kfiL-5Ady2K9sB3hOqcw.woff2
+
+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
+VoDztIhO0xskwwVKpEL6lE7TdYyCc2oMAA==
+------MultipartBoundary--HpVszEFQT6yuyLex0Qtn31bPReLO1GSWhbJa47cpD5----
+Content-Type: text/html
+Content-ID: <frame-255-91c14170-27ca-4fe9-820c-f4077d0f1ac3@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://ghbtns.com/github-btn.html?user=materliu&repo=code-guide&type=watch&count=true
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"></head><body><style>body{padding:0;margin:0;font:700 11px/14px 'H=
+elvetica Neue',Helvetica,Arial,sans-serif;overflow:hidden}.github-btn{heigh=
+t:20px;overflow:hidden}.gh-btn,.gh-count,.gh-ico{float:left}.gh-btn,.gh-cou=
+nt{padding:2px 5px 2px 4px;color:#333;text-decoration:none;text-shadow:0 1p=
+x 0 #fff;white-space:nowrap;cursor:pointer;border-radius:3px}.gh-btn{backgr=
+ound-color:#eee;background-image:-webkit-gradient(linear,left top,left bott=
+om,color-stop(0,#fcfcfc),color-stop(100%,#eee));background-image:-webkit-li=
+near-gradient(top,#fcfcfc 0,#eee 100%);background-image:-moz-linear-gradien=
+t(top,#fcfcfc 0,#eee 100%);background-image:-ms-linear-gradient(top,#fcfcfc=
+ 0,#eee 100%);background-image:-o-linear-gradient(top,#fcfcfc 0,#eee 100%);=
+background-image:linear-gradient(to bottom,#fcfcfc 0,#eee 100%);filter:prog=
+id:DXImageTransform.Microsoft.gradient(startColorstr=3D'#fcfcfc', endColors=
+tr=3D'#eeeeee', GradientType=3D0);background-repeat:no-repeat;border:1px so=
+lid #d5d5d5}.gh-btn:focus,.gh-btn:hover{text-decoration:none;background-col=
+or:#ddd;background-image:-webkit-gradient(linear,left top,left bottom,color=
+-stop(0,#eee),color-stop(100%,#ddd));background-image:-webkit-linear-gradie=
+nt(top,#eee 0,#ddd 100%);background-image:-moz-linear-gradient(top,#eee 0,#=
+ddd 100%);background-image:-ms-linear-gradient(top,#eee 0,#ddd 100%);backgr=
+ound-image:-o-linear-gradient(top,#eee 0,#ddd 100%);background-image:linear=
+-gradient(to bottom,#eee 0,#ddd 100%);filter:progid:DXImageTransform.Micros=
+oft.gradient(startColorstr=3D'#eeeeee', endColorstr=3D'#dddddd', GradientTy=
+pe=3D0);border-color:#ccc}.gh-btn:active{background-image:none;background-c=
+olor:#dcdcdc;border-color:#b5b5b5;box-shadow:inset 0 2px 4px rgba(0,0,0,.15=
+)}.gh-ico{width:14px;height:14px;margin-right:4px;background-image:url(data=
+:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciI=
+HhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEi=
+IGlkPSJMYXllcl8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjQwcHgiIGhlaWdodD0iNDBweCI=
+gdmlld0JveD0iMTIgMTIgNDAgNDAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMTIgMTIgNDAgND=
+AiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiMzMzMzMzMiIGQ9Ik0zMiAxMy40Y=
+y0xMC41IDAtMTkgOC41LTE5IDE5YzAgOC40IDUuNSAxNS41IDEzIDE4YzEgMC4yIDEuMy0wLjQg=
+MS4zLTAuOWMwLTAuNSAwLTEuNyAwLTMuMiBjLTUuMyAxLjEtNi40LTIuNi02LjQtMi42QzIwIDQ=
+xLjYgMTguOCA0MSAxOC44IDQxYy0xLjctMS4yIDAuMS0xLjEgMC4xLTEuMWMxLjkgMC4xIDIuOS=
+AyIDIuOSAyYzEuNyAyLjkgNC41IDIuMSA1LjUgMS42IGMwLjItMS4yIDAuNy0yLjEgMS4yLTIuN=
+mMtNC4yLTAuNS04LjctMi4xLTguNy05LjRjMC0yLjEgMC43LTMuNyAyLTUuMWMtMC4yLTAuNS0w=
+LjgtMi40IDAuMi01YzAgMCAxLjYtMC41IDUuMiAyIGMxLjUtMC40IDMuMS0wLjcgNC44LTAuN2M=
+xLjYgMCAzLjMgMC4yIDQuNyAwLjdjMy42LTIuNCA1LjItMiA1LjItMmMxIDIuNiAwLjQgNC42ID=
+AuMiA1YzEuMiAxLjMgMiAzIDIgNS4xYzAgNy4zLTQuNSA4LjktOC43IDkuNCBjMC43IDAuNiAxL=
+jMgMS43IDEuMyAzLjVjMCAyLjYgMCA0LjYgMCA1LjJjMCAwLjUgMC40IDEuMSAxLjMgMC45Yzcu=
+NS0yLjYgMTMtOS43IDEzLTE4LjFDNTEgMjEuOSA0Mi41IDEzLjQgMzIgMTMuNHoiLz48L3N2Zz4=
+=3D);background-size:100% 100%;background-repeat:no-repeat}.gh-count{positi=
+on:relative;display:none;margin-left:4px;background-color:#fafafa;border:1p=
+x solid #d4d4d4}.gh-count:focus,.gh-count:hover{color:#4183C4}.gh-count:aft=
+er,.gh-count:before{content:'';position:absolute;display:inline-block;width=
+:0;height:0;border-color:transparent;border-style:solid}.gh-count:before{to=
+p:50%;left:-3px;margin-top:-4px;border-width:4px 4px 4px 0;border-right-col=
+or:#fafafa}.gh-count:after{top:50%;left:-4px;z-index:-1;margin-top:-5px;bor=
+der-width:5px 5px 5px 0;border-right-color:#d4d4d4}.github-btn-large{height=
+:30px}.github-btn-large .gh-btn,.github-btn-large .gh-count{padding:3px 10p=
+x 3px 8px;font-size:16px;line-height:22px;border-radius:4px}.github-btn-lar=
+ge .gh-ico{width:20px;height:20px}.github-btn-large .gh-count{margin-left:6=
+px}.github-btn-large .gh-count:before{left:-5px;margin-top:-6px;border-widt=
+h:6px 6px 6px 0}.github-btn-large .gh-count:after{left:-6px;margin-top:-7px=
+;border-width:7px 7px 7px 0}</style><span class=3D"github-btn github-starga=
+zers" id=3D"github-btn"><a class=3D"gh-btn" id=3D"gh-btn" href=3D"https://g=
+ithub.com/materliu/code-guide/" target=3D"_blank" aria-label=3D"Star on Git=
+Hub"><span class=3D"gh-ico" aria-hidden=3D"true"></span> <span class=3D"gh-=
+text" id=3D"gh-text">Star</span></a> <a class=3D"gh-count" id=3D"gh-count" =
+href=3D"https://github.com/materliu/code-guide/stargazers" target=3D"_blank=
+" aria-label=3D"77 stargazers on GitHub" style=3D"display: block;">77</a></=
+span></body></html>
+------MultipartBoundary--HpVszEFQT6yuyLex0Qtn31bPReLO1GSWhbJa47cpD5----
+Content-Type: text/html
+Content-ID: <frame-256-2d82ab08-8ad1-4b09-afe8-81dfd7378cae@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://ghbtns.com/github-btn.html?user=materliu&repo=code-guide&type=fork&count=true
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"></head><body><style>body{padding:0;margin:0;font:700 11px/14px 'H=
+elvetica Neue',Helvetica,Arial,sans-serif;overflow:hidden}.github-btn{heigh=
+t:20px;overflow:hidden}.gh-btn,.gh-count,.gh-ico{float:left}.gh-btn,.gh-cou=
+nt{padding:2px 5px 2px 4px;color:#333;text-decoration:none;text-shadow:0 1p=
+x 0 #fff;white-space:nowrap;cursor:pointer;border-radius:3px}.gh-btn{backgr=
+ound-color:#eee;background-image:-webkit-gradient(linear,left top,left bott=
+om,color-stop(0,#fcfcfc),color-stop(100%,#eee));background-image:-webkit-li=
+near-gradient(top,#fcfcfc 0,#eee 100%);background-image:-moz-linear-gradien=
+t(top,#fcfcfc 0,#eee 100%);background-image:-ms-linear-gradient(top,#fcfcfc=
+ 0,#eee 100%);background-image:-o-linear-gradient(top,#fcfcfc 0,#eee 100%);=
+background-image:linear-gradient(to bottom,#fcfcfc 0,#eee 100%);filter:prog=
+id:DXImageTransform.Microsoft.gradient(startColorstr=3D'#fcfcfc', endColors=
+tr=3D'#eeeeee', GradientType=3D0);background-repeat:no-repeat;border:1px so=
+lid #d5d5d5}.gh-btn:focus,.gh-btn:hover{text-decoration:none;background-col=
+or:#ddd;background-image:-webkit-gradient(linear,left top,left bottom,color=
+-stop(0,#eee),color-stop(100%,#ddd));background-image:-webkit-linear-gradie=
+nt(top,#eee 0,#ddd 100%);background-image:-moz-linear-gradient(top,#eee 0,#=
+ddd 100%);background-image:-ms-linear-gradient(top,#eee 0,#ddd 100%);backgr=
+ound-image:-o-linear-gradient(top,#eee 0,#ddd 100%);background-image:linear=
+-gradient(to bottom,#eee 0,#ddd 100%);filter:progid:DXImageTransform.Micros=
+oft.gradient(startColorstr=3D'#eeeeee', endColorstr=3D'#dddddd', GradientTy=
+pe=3D0);border-color:#ccc}.gh-btn:active{background-image:none;background-c=
+olor:#dcdcdc;border-color:#b5b5b5;box-shadow:inset 0 2px 4px rgba(0,0,0,.15=
+)}.gh-ico{width:14px;height:14px;margin-right:4px;background-image:url(data=
+:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciI=
+HhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEi=
+IGlkPSJMYXllcl8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjQwcHgiIGhlaWdodD0iNDBweCI=
+gdmlld0JveD0iMTIgMTIgNDAgNDAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMTIgMTIgNDAgND=
+AiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiMzMzMzMzMiIGQ9Ik0zMiAxMy40Y=
+y0xMC41IDAtMTkgOC41LTE5IDE5YzAgOC40IDUuNSAxNS41IDEzIDE4YzEgMC4yIDEuMy0wLjQg=
+MS4zLTAuOWMwLTAuNSAwLTEuNyAwLTMuMiBjLTUuMyAxLjEtNi40LTIuNi02LjQtMi42QzIwIDQ=
+xLjYgMTguOCA0MSAxOC44IDQxYy0xLjctMS4yIDAuMS0xLjEgMC4xLTEuMWMxLjkgMC4xIDIuOS=
+AyIDIuOSAyYzEuNyAyLjkgNC41IDIuMSA1LjUgMS42IGMwLjItMS4yIDAuNy0yLjEgMS4yLTIuN=
+mMtNC4yLTAuNS04LjctMi4xLTguNy05LjRjMC0yLjEgMC43LTMuNyAyLTUuMWMtMC4yLTAuNS0w=
+LjgtMi40IDAuMi01YzAgMCAxLjYtMC41IDUuMiAyIGMxLjUtMC40IDMuMS0wLjcgNC44LTAuN2M=
+xLjYgMCAzLjMgMC4yIDQuNyAwLjdjMy42LTIuNCA1LjItMiA1LjItMmMxIDIuNiAwLjQgNC42ID=
+AuMiA1YzEuMiAxLjMgMiAzIDIgNS4xYzAgNy4zLTQuNSA4LjktOC43IDkuNCBjMC43IDAuNiAxL=
+jMgMS43IDEuMyAzLjVjMCAyLjYgMCA0LjYgMCA1LjJjMCAwLjUgMC40IDEuMSAxLjMgMC45Yzcu=
+NS0yLjYgMTMtOS43IDEzLTE4LjFDNTEgMjEuOSA0Mi41IDEzLjQgMzIgMTMuNHoiLz48L3N2Zz4=
+=3D);background-size:100% 100%;background-repeat:no-repeat}.gh-count{positi=
+on:relative;display:none;margin-left:4px;background-color:#fafafa;border:1p=
+x solid #d4d4d4}.gh-count:focus,.gh-count:hover{color:#4183C4}.gh-count:aft=
+er,.gh-count:before{content:'';position:absolute;display:inline-block;width=
+:0;height:0;border-color:transparent;border-style:solid}.gh-count:before{to=
+p:50%;left:-3px;margin-top:-4px;border-width:4px 4px 4px 0;border-right-col=
+or:#fafafa}.gh-count:after{top:50%;left:-4px;z-index:-1;margin-top:-5px;bor=
+der-width:5px 5px 5px 0;border-right-color:#d4d4d4}.github-btn-large{height=
+:30px}.github-btn-large .gh-btn,.github-btn-large .gh-count{padding:3px 10p=
+x 3px 8px;font-size:16px;line-height:22px;border-radius:4px}.github-btn-lar=
+ge .gh-ico{width:20px;height:20px}.github-btn-large .gh-count{margin-left:6=
+px}.github-btn-large .gh-count:before{left:-5px;margin-top:-6px;border-widt=
+h:6px 6px 6px 0}.github-btn-large .gh-count:after{left:-6px;margin-top:-7px=
+;border-width:7px 7px 7px 0}</style><span class=3D"github-btn github-forks"=
+ id=3D"github-btn"><a class=3D"gh-btn" id=3D"gh-btn" href=3D"https://github=
+.com/materliu/code-guide/fork" target=3D"_blank" aria-label=3D"Fork on GitH=
+ub"><span class=3D"gh-ico" aria-hidden=3D"true"></span> <span class=3D"gh-t=
+ext" id=3D"gh-text">Fork</span></a> <a class=3D"gh-count" id=3D"gh-count" h=
+ref=3D"https://github.com/materliu/code-guide/network" target=3D"_blank" ar=
+ia-label=3D"1,016 forks on GitHub" style=3D"display: block;">1,016</a></spa=
+n></body></html>
+------MultipartBoundary--HpVszEFQT6yuyLex0Qtn31bPReLO1GSWhbJa47cpD5------
