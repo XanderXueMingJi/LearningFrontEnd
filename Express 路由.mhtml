@@ -1,0 +1,3426 @@
+From: <Saved by Blink>
+X-Snapshot-Version: 1.0
+X-Snapshot-Title: =?utf-8?Q?Express =E8=B7=AF=E7=94=B1?=
+X-Snapshot-Content-Location: http://www.expressjs.com.cn/guide/routing.html
+Subject: Express ??
+Date: Thu, 13 Dec 2017 06:06:20 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--7zsyASwOkZgyE2YGp8jH2I3bIzN42C7c4ytT3r1i18----"
+
+------MultipartBoundary--7zsyASwOkZgyE2YGp8jH2I3bIzN42C7c4ytT3r1i18----
+Content-Type: text/html
+Content-ID: <frame-97-2bf3bebd-4be8-4f69-8921-e6bf02e63a16@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.expressjs.com.cn/guide/routing.html
+
+<!DOCTYPE html><html lang=3D"zh-CN"><head><meta http-equiv=3D"Content-Type"=
+ content=3D"text/html; charset=3DUTF-8">
+      <title>Express =E8=B7=AF=E7=94=B1</title>
+     =20
+      <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+      <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scal=
+e=3D1">
+     =20
+      <link rel=3D"stylesheet" href=3D"http://www.expressjs.com.cn/css/styl=
+e.css">
+      <link rel=3D"stylesheet" href=3D"http://www.expressjs.com.cn/css/drop=
+it.css">
+      <link rel=3D"stylesheet" href=3D"http://www.expressjs.com.cn/css/pris=
+m.css">
+      <link href=3D"http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awes=
+ome.min.css" rel=3D"stylesheet">
+      <link rel=3D"stylesheet" href=3D"http://fonts.googleapis.bootcss.com/=
+css?family=3DOpen+Sans:300,400,600,700&amp;amp;subset=3Dlatin,latin-ext">
+ =20
+     =20
+     =20
+     =20
+     =20
+     =20
+      </head>
+
+  <body class=3D"">
+
+    <section class=3D"content">
+
+      <header>
+        <div id=3D"mobile-menu">
+            <div id=3D"nav-button" class=3D"fa fa-bars fa-2x button"></div>
+        </div>
+        <section id=3D"logo"><a href=3D"http://www.expressjs.com.cn/" class=
+=3D"express">Express</a>
+        </section>
+        <div id=3D"navbar">
+            <ul id=3D"navmenu">
+                <li><a href=3D"http://www.expressjs.com.cn/" id=3D"home-men=
+u">=E9=A6=96=E9=A1=B5</a></li>
+                <li>
+                    <ul id=3D"getting-started-menu" class=3D"menu dropit">
+                        <li class=3D"dropit-trigger"><a href=3D"http://www.=
+expressjs.com.cn/starter/installing.html">=E5=85=A5=E9=97=A8</a>
+                            <ul class=3D"dropit-submenu" style=3D"display: =
+none;">
+                                <li>
+                                  <a href=3D"http://www.expressjs.com.cn/st=
+arter/installing.html">
+                                    =E5=AE=89=E8=A3=85
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href=3D"http://www.expressjs.com.cn/st=
+arter/hello-world.html">
+                                    Hello world
+                                  </a>
+                                </li>
+                                <li>
+                                <a href=3D"http://www.expressjs.com.cn/star=
+ter/generator.html">
+                                  Express =E5=BA=94=E7=94=A8=E7=94=9F=E6=88=
+=90=E5=99=A8
+                                </a>
+                                </li>
+                                <li>
+                                  <a href=3D"http://www.expressjs.com.cn/st=
+arter/basic-routing.html">
+                                    =E5=9F=BA=E6=9C=AC=E8=B7=AF=E7=94=B1
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href=3D"http://www.expressjs.com.cn/st=
+arter/static-files.html">
+                                    =E9=9D=99=E6=80=81=E6=96=87=E4=BB=B6
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href=3D"http://www.expressjs.com.cn/st=
+arter/faq.html">
+                                    =E5=B8=B8=E8=A7=81=E9=97=AE=E9=A2=98
+                                  </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class=3D"dropit-open">
+                    <ul id=3D"guide-menu" class=3D"menu dropit">
+                        <li class=3D"dropit-trigger dropit-open"><a href=3D=
+"http://www.expressjs.com.cn/guide/routing.html">=E4=BD=BF=E7=94=A8=E6=8C=
+=87=E5=8D=97</a>
+                            <ul class=3D"dropit-submenu" style=3D"display: =
+none;">
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+guide/routing.html">=E8=B7=AF=E7=94=B1</a>
+                                </li>
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+guide/using-middleware.html">=E4=B8=AD=E9=97=B4=E4=BB=B6</a>
+                                </li>
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+guide/using-template-engines.html">=E6=A8=A1=E6=9D=BF=E5=BC=95=E6=93=8E</a>
+                                </li>
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+guide/error-handling.html">=E9=94=99=E8=AF=AF=E5=A4=84=E7=90=86</a>
+                                </li>
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+guide/debugging.html">=E8=B0=83=E8=AF=95</a>
+                                </li>
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+guide/behind-proxies.html">=E4=B8=BA Express =E8=AE=BE=E7=BD=AE=E4=BB=A3=E7=
+=90=86</a>
+                                </li>
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+guide/migrating-4.html">=E5=8D=87=E7=BA=A7=E5=88=B0 Express 4</a>
+                                </li>
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+guide/database-integration.html">=E6=95=B0=E6=8D=AE=E5=BA=93=E9=9B=86=E6=88=
+=90</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul id=3D"application-menu" class=3D"menu dropit">
+                        <li class=3D"dropit-trigger"><a href=3D"http://www.=
+expressjs.com.cn/4x/api.html">API =E4=B8=AD=E6=96=87=E6=89=8B=E5=86=8C</a>
+                            <ul class=3D"dropit-submenu" style=3D"display: =
+none;">
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+4x/api.html">4.x =E7=89=88=E6=9C=AC</a>
+                                </li>
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+3x/api.html">3.x =E7=89=88=E6=9C=AC</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul id=3D"advanced-topics-menu" class=3D"menu dropit">
+                        <li class=3D"dropit-trigger"><a href=3D"http://www.=
+expressjs.com.cn/advanced/developing-template-engines.html">=E8=BF=9B=E9=98=
+=B6=E8=AF=9D=E9=A2=98</a>
+                            <ul class=3D"dropit-submenu" style=3D"display: =
+none;">
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+advanced/developing-template-engines.html">=E6=A8=A1=E6=9D=BF=E5=BC=95=E6=
+=93=8E</a>
+                                </li>
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+advanced/pm.html">=E8=BF=9B=E7=A8=8B=E7=AE=A1=E7=90=86=E5=99=A8</a>
+                                </li>
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+advanced/security-updates.html">=E5=AE=89=E5=85=A8=E6=9B=B4=E6=96=B0</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul id=3D"resources-menu" class=3D"menu dropit">
+                        <li class=3D"dropit-trigger"><a href=3D"http://www.=
+expressjs.com.cn/resources/glossary.html">=E6=9C=89=E7=94=A8=E7=9A=84=E8=B5=
+=84=E6=BA=90</a>
+                            <ul class=3D"dropit-submenu" style=3D"display: =
+none;">
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+resources/glossary.html">=E6=9C=AF=E8=AF=AD=E8=A1=A8</a>
+                                </li>
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+resources/middleware.html">=E4=B8=AD=E9=97=B4=E4=BB=B6</a>
+                                </li>
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+resources/community.html">=E7=A4=BE=E5=8C=BA</a>
+                                </li>
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+resources/books-blogs.html">=E4=B9=A6=E7=B1=8D=E4=B8=8E=E5=8D=9A=E5=AE=A2</=
+a>
+                                </li>
+                                <li><a href=3D"http://www.expressjs.com.cn/=
+resources/applications.html">=E5=AE=9E=E4=BE=8B=E5=B1=95=E7=A4=BA</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+      </header>
+      <div id=3D"overlay"></div>
+   =20
+     =20
+<h1 id=3D"section">=E8=B7=AF=E7=94=B1</h1>
+
+<p>=E8=B7=AF=E7=94=B1=E6=98=AF=E6=8C=87=E5=A6=82=E4=BD=95=E5=AE=9A=E4=B9=89=
+=E5=BA=94=E7=94=A8=E7=9A=84=E7=AB=AF=E7=82=B9=EF=BC=88URIs=EF=BC=89=E4=BB=
+=A5=E5=8F=8A=E5=A6=82=E4=BD=95=E5=93=8D=E5=BA=94=E5=AE=A2=E6=88=B7=E7=AB=AF=
+=E7=9A=84=E8=AF=B7=E6=B1=82=E3=80=82</p>
+
+<p>=E8=B7=AF=E7=94=B1=E6=98=AF=E7=94=B1=E4=B8=80=E4=B8=AA URI=E3=80=81HTTP =
+=E8=AF=B7=E6=B1=82=EF=BC=88GET=E3=80=81POST=E7=AD=89=EF=BC=89=E5=92=8C=E8=
+=8B=A5=E5=B9=B2=E4=B8=AA=E5=8F=A5=E6=9F=84=E7=BB=84=E6=88=90=EF=BC=8C=E5=AE=
+=83=E7=9A=84=E7=BB=93=E6=9E=84=E5=A6=82=E4=B8=8B=EF=BC=9A <code>app.METHOD(=
+path, [callback...], callback)</code>=EF=BC=8C <code>app</code> =E6=98=AF <=
+code>express</code> =E5=AF=B9=E8=B1=A1=E7=9A=84=E4=B8=80=E4=B8=AA=E5=AE=9E=
+=E4=BE=8B=EF=BC=8C <code>METHOD</code> =E6=98=AF=E4=B8=80=E4=B8=AA <a href=
+=3D"http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP =E8=AF=
+=B7=E6=B1=82=E6=96=B9=E6=B3=95</a>=EF=BC=8C <code>path</code> =E6=98=AF=E6=
+=9C=8D=E5=8A=A1=E5=99=A8=E4=B8=8A=E7=9A=84=E8=B7=AF=E5=BE=84=EF=BC=8C <code=
+>callback</code> =E6=98=AF=E5=BD=93=E8=B7=AF=E7=94=B1=E5=8C=B9=E9=85=8D=E6=
+=97=B6=E8=A6=81=E6=89=A7=E8=A1=8C=E7=9A=84=E5=87=BD=E6=95=B0=E3=80=82</p>
+
+<p>=E4=B8=8B=E9=9D=A2=E6=98=AF=E4=B8=80=E4=B8=AA=E5=9F=BA=E6=9C=AC=E7=9A=84=
+=E8=B7=AF=E7=94=B1=E7=A4=BA=E4=BE=8B=EF=BC=9A</p>
+
+<pre class=3D"  language-javascript"><code class=3D"  language-javascript">=
+<span class=3D"token keyword">var</span> express <span class=3D"token opera=
+tor">=3D</span> <span class=3D"token function">require<span class=3D"token =
+punctuation">(</span></span><span class=3D"token string">'express'</span><s=
+pan class=3D"token punctuation">)</span><span class=3D"token punctuation">;=
+</span>
+<span class=3D"token keyword">var</span> app <span class=3D"token operator"=
+>=3D</span> <span class=3D"token function">express<span class=3D"token punc=
+tuation">(</span></span><span class=3D"token punctuation">)</span><span cla=
+ss=3D"token punctuation">;</span>
+
+<span class=3D"token comment" spellcheck=3D"true">// respond with "hello wo=
+rld" when a GET request is made to the homepage
+</span>app<span class=3D"token punctuation">.</span><span class=3D"token ke=
+yword">get</span><span class=3D"token punctuation">(</span><span class=3D"t=
+oken string">'/'</span><span class=3D"token punctuation">,</span> <span cla=
+ss=3D"token keyword">function</span><span class=3D"token punctuation">(</sp=
+an>req<span class=3D"token punctuation">,</span> res<span class=3D"token pu=
+nctuation">)</span> <span class=3D"token punctuation">{</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'hello world'</span><span class=3D"token punctuation">)</span><sp=
+an class=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+</code></pre>
+
+<h2 id=3D"route-methods">=E8=B7=AF=E7=94=B1=E6=96=B9=E6=B3=95</h2>
+
+<p>=E8=B7=AF=E7=94=B1=E6=96=B9=E6=B3=95=E6=BA=90=E4=BA=8E HTTP =E8=AF=B7=E6=
+=B1=82=E6=96=B9=E6=B3=95=EF=BC=8C=E5=92=8C <code>express</code> =E5=AE=9E=
+=E4=BE=8B=E7=9B=B8=E5=85=B3=E8=81=94=E3=80=82</p>
+
+<p>=E4=B8=8B=E9=9D=A2=E8=BF=99=E4=B8=AA=E4=BE=8B=E5=AD=90=E5=B1=95=E7=A4=BA=
+=E4=BA=86=E4=B8=BA=E5=BA=94=E7=94=A8=E8=B7=9F=E8=B7=AF=E5=BE=84=E5=AE=9A=E4=
+=B9=89=E7=9A=84 GET =E5=92=8C POST =E8=AF=B7=E6=B1=82=EF=BC=9A</p>
+
+<pre class=3D"  language-javascript"><code class=3D"  language-javascript">=
+<span class=3D"token comment" spellcheck=3D"true">// GET method route
+</span>app<span class=3D"token punctuation">.</span><span class=3D"token ke=
+yword">get</span><span class=3D"token punctuation">(</span><span class=3D"t=
+oken string">'/'</span><span class=3D"token punctuation">,</span> <span cla=
+ss=3D"token keyword">function</span> <span class=3D"token punctuation">(</s=
+pan>req<span class=3D"token punctuation">,</span> res<span class=3D"token p=
+unctuation">)</span> <span class=3D"token punctuation">{</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'GET request to the homepage'</span><span class=3D"token punctuat=
+ion">)</span><span class=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+
+<span class=3D"token comment" spellcheck=3D"true">// POST method route
+</span>app<span class=3D"token punctuation">.</span><span class=3D"token fu=
+nction">post<span class=3D"token punctuation">(</span></span><span class=3D=
+"token string">'/'</span><span class=3D"token punctuation">,</span> <span c=
+lass=3D"token keyword">function</span> <span class=3D"token punctuation">(<=
+/span>req<span class=3D"token punctuation">,</span> res<span class=3D"token=
+ punctuation">)</span> <span class=3D"token punctuation">{</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'POST request to the homepage'</span><span class=3D"token punctua=
+tion">)</span><span class=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+
+</code></pre>
+
+<p>Express =E5=AE=9A=E4=B9=89=E4=BA=86=E5=A6=82=E4=B8=8B=E5=92=8C HTTP =E8=
+=AF=B7=E6=B1=82=E5=AF=B9=E5=BA=94=E7=9A=84=E8=B7=AF=E7=94=B1=E6=96=B9=E6=B3=
+=95=EF=BC=9A <code>get</code>, <code>post</code>, <code>put</code>, <code>h=
+ead</code>, <code>delete</code>, <code>options</code>, <code>trace</code>, =
+<code>copy</code>, <code>lock</code>, <code>mkcol</code>, <code>move</code>=
+, <code>purge</code>, <code>propfind</code>, <code>proppatch</code>, <code>=
+unlock</code>, <code>report</code>, <code>mkactivity</code>, <code>checkout=
+</code>, <code>merge</code>, <code>m-search</code>, <code>notify</code>, <c=
+ode>subscribe</code>, <code>unsubscribe</code>, <code>patch</code>, <code>s=
+earch</code>, =E5=92=8C <code>connect</code>=E3=80=82</p>
+
+<div class=3D"doc-box doc-info">
+  <p>=E6=9C=89=E4=BA=9B=E8=B7=AF=E7=94=B1=E6=96=B9=E6=B3=95=E5=90=8D=E4=B8=
+=8D=E6=98=AF=E5=90=88=E8=A7=84=E7=9A=84 JavaScript =E5=8F=98=E9=87=8F=E5=90=
+=8D=EF=BC=8C=E6=AD=A4=E6=97=B6=E4=BD=BF=E7=94=A8=E6=8B=AC=E5=8F=B7=E8=AE=B0=
+=E6=B3=95=EF=BC=8C=E6=AF=94=E5=A6=82=EF=BC=9A
+<code>app['m-search']('/', function ...</code></p>
+</div>
+
+<p><code>app.all()</code> =E6=98=AF=E4=B8=80=E4=B8=AA=E7=89=B9=E6=AE=8A=E7=
+=9A=84=E8=B7=AF=E7=94=B1=E6=96=B9=E6=B3=95=EF=BC=8C=E6=B2=A1=E6=9C=89=E4=BB=
+=BB=E4=BD=95 HTTP =E6=96=B9=E6=B3=95=E4=B8=8E=E5=85=B6=E5=AF=B9=E5=BA=94=EF=
+=BC=8C=E5=AE=83=E7=9A=84=E4=BD=9C=E7=94=A8=E6=98=AF=E5=AF=B9=E4=BA=8E=E4=B8=
+=80=E4=B8=AA=E8=B7=AF=E5=BE=84=E4=B8=8A=E7=9A=84=E6=89=80=E6=9C=89=E8=AF=B7=
+=E6=B1=82=E5=8A=A0=E8=BD=BD=E4=B8=AD=E9=97=B4=E4=BB=B6=E3=80=82</p>
+
+<p>=E5=9C=A8=E4=B8=8B=E9=9D=A2=E7=9A=84=E4=BE=8B=E5=AD=90=E4=B8=AD=EF=BC=8C=
+=E6=9D=A5=E8=87=AA =E2=80=9C/secret=E2=80=9D =E7=9A=84=E8=AF=B7=E6=B1=82=EF=
+=BC=8C=E4=B8=8D=E7=AE=A1=E4=BD=BF=E7=94=A8 GET=E3=80=81POST=E3=80=81PUT=E3=
+=80=81DELETE =E6=88=96=E5=85=B6=E4=BB=96=E4=BB=BB=E4=BD=95 <a href=3D"https=
+://nodejs.org/api/http.html#http_http_methods">http =E6=A8=A1=E5=9D=97</a>=
+=E6=94=AF=E6=8C=81=E7=9A=84 HTTP =E8=AF=B7=E6=B1=82=EF=BC=8C=E5=8F=A5=E6=9F=
+=84=E9=83=BD=E4=BC=9A=E5=BE=97=E5=88=B0=E6=89=A7=E8=A1=8C=E3=80=82</p>
+
+<pre class=3D"  language-javascript"><code class=3D"  language-javascript">=
+app<span class=3D"token punctuation">.</span><span class=3D"token function"=
+>all<span class=3D"token punctuation">(</span></span><span class=3D"token s=
+tring">'/secret'</span><span class=3D"token punctuation">,</span> <span cla=
+ss=3D"token keyword">function</span> <span class=3D"token punctuation">(</s=
+pan>req<span class=3D"token punctuation">,</span> res<span class=3D"token p=
+unctuation">,</span> next<span class=3D"token punctuation">)</span> <span c=
+lass=3D"token punctuation">{</span>
+  console<span class=3D"token punctuation">.</span><span class=3D"token fun=
+ction">log<span class=3D"token punctuation">(</span></span><span class=3D"t=
+oken string">'Accessing the secret section ...'</span><span class=3D"token =
+punctuation">)</span><span class=3D"token punctuation">;</span>
+  <span class=3D"token function">next<span class=3D"token punctuation">(</s=
+pan></span><span class=3D"token punctuation">)</span><span class=3D"token p=
+unctuation">;</span> <span class=3D"token comment" spellcheck=3D"true">// p=
+ass control to the next handler
+</span><span class=3D"token punctuation">}</span><span class=3D"token punct=
+uation">)</span><span class=3D"token punctuation">;</span>
+</code></pre>
+
+<h2 id=3D"route-paths">=E8=B7=AF=E7=94=B1=E8=B7=AF=E5=BE=84</h2>
+
+<p>=E8=B7=AF=E7=94=B1=E8=B7=AF=E5=BE=84=E5=92=8C=E8=AF=B7=E6=B1=82=E6=96=B9=
+=E6=B3=95=E4=B8=80=E8=B5=B7=E5=AE=9A=E4=B9=89=E4=BA=86=E8=AF=B7=E6=B1=82=E7=
+=9A=84=E7=AB=AF=E7=82=B9=EF=BC=8C=E5=AE=83=E5=8F=AF=E4=BB=A5=E6=98=AF=E5=AD=
+=97=E7=AC=A6=E4=B8=B2=E3=80=81=E5=AD=97=E7=AC=A6=E4=B8=B2=E6=A8=A1=E5=BC=8F=
+=E6=88=96=E8=80=85=E6=AD=A3=E5=88=99=E8=A1=A8=E8=BE=BE=E5=BC=8F=E3=80=82</p=
+>
+
+<div class=3D"doc-box doc-info">
+  <p>Express =E4=BD=BF=E7=94=A8 <a href=3D"https://www.npmjs.com/package/pa=
+th-to-regexp">path-to-regexp</a> =E5=8C=B9=E9=85=8D=E8=B7=AF=E7=94=B1=E8=B7=
+=AF=E5=BE=84=EF=BC=8C=E8=AF=B7=E5=8F=82=E8=80=83=E6=96=87=E6=A1=A3=E6=9F=A5=
+=E9=98=85=E6=89=80=E6=9C=89=E5=AE=9A=E4=B9=89=E8=B7=AF=E7=94=B1=E8=B7=AF=E5=
+=BE=84=E7=9A=84=E6=96=B9=E6=B3=95=E3=80=82 <a href=3D"http://forbeslindesay=
+.github.io/express-route-tester/">Express Route Tester</a> =E6=98=AF=E6=B5=
+=8B=E8=AF=95=E5=9F=BA=E6=9C=AC Express =E8=B7=AF=E5=BE=84=E7=9A=84=E5=A5=BD=
+=E5=B7=A5=E5=85=B7=EF=BC=8C=E4=BD=86=E4=B8=8D=E6=94=AF=E6=8C=81=E6=A8=A1=E5=
+=BC=8F=E5=8C=B9=E9=85=8D=E3=80=82</p>
+</div>
+
+<div class=3D"doc-box doc-warn">
+  <p>=E6=9F=A5=E8=AF=A2=E5=AD=97=E7=AC=A6=E4=B8=B2=E4=B8=8D=E6=98=AF=E8=B7=
+=AF=E7=94=B1=E8=B7=AF=E5=BE=84=E7=9A=84=E4=B8=80=E9=83=A8=E5=88=86=E3=80=82=
+</p>
+</div>
+
+<p>=E4=BD=BF=E7=94=A8=E5=AD=97=E7=AC=A6=E4=B8=B2=E7=9A=84=E8=B7=AF=E7=94=B1=
+=E8=B7=AF=E5=BE=84=E7=A4=BA=E4=BE=8B=EF=BC=9A</p>
+
+<pre class=3D"  language-javascript"><code class=3D"  language-javascript">=
+<span class=3D"token comment" spellcheck=3D"true">// =E5=8C=B9=E9=85=8D=E6=
+=A0=B9=E8=B7=AF=E5=BE=84=E7=9A=84=E8=AF=B7=E6=B1=82
+</span>app<span class=3D"token punctuation">.</span><span class=3D"token ke=
+yword">get</span><span class=3D"token punctuation">(</span><span class=3D"t=
+oken string">'/'</span><span class=3D"token punctuation">,</span> <span cla=
+ss=3D"token keyword">function</span> <span class=3D"token punctuation">(</s=
+pan>req<span class=3D"token punctuation">,</span> res<span class=3D"token p=
+unctuation">)</span> <span class=3D"token punctuation">{</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'root'</span><span class=3D"token punctuation">)</span><span clas=
+s=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+
+<span class=3D"token comment" spellcheck=3D"true">// =E5=8C=B9=E9=85=8D /ab=
+out =E8=B7=AF=E5=BE=84=E7=9A=84=E8=AF=B7=E6=B1=82
+</span>app<span class=3D"token punctuation">.</span><span class=3D"token ke=
+yword">get</span><span class=3D"token punctuation">(</span><span class=3D"t=
+oken string">'/about'</span><span class=3D"token punctuation">,</span> <spa=
+n class=3D"token keyword">function</span> <span class=3D"token punctuation"=
+>(</span>req<span class=3D"token punctuation">,</span> res<span class=3D"to=
+ken punctuation">)</span> <span class=3D"token punctuation">{</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'about'</span><span class=3D"token punctuation">)</span><span cla=
+ss=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+
+<span class=3D"token comment" spellcheck=3D"true">// =E5=8C=B9=E9=85=8D /ra=
+ndom.text =E8=B7=AF=E5=BE=84=E7=9A=84=E8=AF=B7=E6=B1=82
+</span>app<span class=3D"token punctuation">.</span><span class=3D"token ke=
+yword">get</span><span class=3D"token punctuation">(</span><span class=3D"t=
+oken string">'/random.text'</span><span class=3D"token punctuation">,</span=
+> <span class=3D"token keyword">function</span> <span class=3D"token punctu=
+ation">(</span>req<span class=3D"token punctuation">,</span> res<span class=
+=3D"token punctuation">)</span> <span class=3D"token punctuation">{</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'random.text'</span><span class=3D"token punctuation">)</span><sp=
+an class=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+</code></pre>
+
+<p>=E4=BD=BF=E7=94=A8=E5=AD=97=E7=AC=A6=E4=B8=B2=E6=A8=A1=E5=BC=8F=E7=9A=84=
+=E8=B7=AF=E7=94=B1=E8=B7=AF=E5=BE=84=E7=A4=BA=E4=BE=8B=EF=BC=9A</p>
+
+<pre class=3D"  language-javascript"><code class=3D"  language-javascript">=
+<span class=3D"token comment" spellcheck=3D"true">// =E5=8C=B9=E9=85=8D acd=
+ =E5=92=8C abcd
+</span>app<span class=3D"token punctuation">.</span><span class=3D"token ke=
+yword">get</span><span class=3D"token punctuation">(</span><span class=3D"t=
+oken string">'/ab?cd'</span><span class=3D"token punctuation">,</span> <spa=
+n class=3D"token keyword">function</span><span class=3D"token punctuation">=
+(</span>req<span class=3D"token punctuation">,</span> res<span class=3D"tok=
+en punctuation">)</span> <span class=3D"token punctuation">{</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'ab?cd'</span><span class=3D"token punctuation">)</span><span cla=
+ss=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+
+<span class=3D"token comment" spellcheck=3D"true">// =E5=8C=B9=E9=85=8D abc=
+d=E3=80=81abbcd=E3=80=81abbbcd=E7=AD=89
+</span>app<span class=3D"token punctuation">.</span><span class=3D"token ke=
+yword">get</span><span class=3D"token punctuation">(</span><span class=3D"t=
+oken string">'/ab+cd'</span><span class=3D"token punctuation">,</span> <spa=
+n class=3D"token keyword">function</span><span class=3D"token punctuation">=
+(</span>req<span class=3D"token punctuation">,</span> res<span class=3D"tok=
+en punctuation">)</span> <span class=3D"token punctuation">{</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'ab+cd'</span><span class=3D"token punctuation">)</span><span cla=
+ss=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+
+<span class=3D"token comment" spellcheck=3D"true">// =E5=8C=B9=E9=85=8D abc=
+d=E3=80=81abxcd=E3=80=81abRABDOMcd=E3=80=81ab123cd=E7=AD=89
+</span>app<span class=3D"token punctuation">.</span><span class=3D"token ke=
+yword">get</span><span class=3D"token punctuation">(</span><span class=3D"t=
+oken string">'/ab*cd'</span><span class=3D"token punctuation">,</span> <spa=
+n class=3D"token keyword">function</span><span class=3D"token punctuation">=
+(</span>req<span class=3D"token punctuation">,</span> res<span class=3D"tok=
+en punctuation">)</span> <span class=3D"token punctuation">{</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'ab*cd'</span><span class=3D"token punctuation">)</span><span cla=
+ss=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+
+<span class=3D"token comment" spellcheck=3D"true">// =E5=8C=B9=E9=85=8D /ab=
+e =E5=92=8C /abcde
+</span>app<span class=3D"token punctuation">.</span><span class=3D"token ke=
+yword">get</span><span class=3D"token punctuation">(</span><span class=3D"t=
+oken string">'/ab(cd)?e'</span><span class=3D"token punctuation">,</span> <=
+span class=3D"token keyword">function</span><span class=3D"token punctuatio=
+n">(</span>req<span class=3D"token punctuation">,</span> res<span class=3D"=
+token punctuation">)</span> <span class=3D"token punctuation">{</span>
+ res<span class=3D"token punctuation">.</span><span class=3D"token function=
+">send<span class=3D"token punctuation">(</span></span><span class=3D"token=
+ string">'ab(cd)?e'</span><span class=3D"token punctuation">)</span><span c=
+lass=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+</code></pre>
+
+<div class=3D"doc-box doc-info">
+  <p>=E5=AD=97=E7=AC=A6 ?=E3=80=81+=E3=80=81* =E5=92=8C () =E6=98=AF=E6=AD=
+=A3=E5=88=99=E8=A1=A8=E8=BE=BE=E5=BC=8F=E7=9A=84=E5=AD=90=E9=9B=86=EF=BC=8C=
+- =E5=92=8C . =E5=9C=A8=E5=9F=BA=E4=BA=8E=E5=AD=97=E7=AC=A6=E4=B8=B2=E7=9A=
+=84=E8=B7=AF=E5=BE=84=E4=B8=AD=E6=8C=89=E7=85=A7=E5=AD=97=E9=9D=A2=E5=80=BC=
+=E8=A7=A3=E9=87=8A=E3=80=82</p>
+</div>
+
+<p>=E4=BD=BF=E7=94=A8=E6=AD=A3=E5=88=99=E8=A1=A8=E8=BE=BE=E5=BC=8F=E7=9A=84=
+=E8=B7=AF=E7=94=B1=E8=B7=AF=E5=BE=84=E7=A4=BA=E4=BE=8B=EF=BC=9A</p>
+
+<pre class=3D"  language-javascript"><code class=3D"  language-javascript">=
+<span class=3D"token comment" spellcheck=3D"true">// =E5=8C=B9=E9=85=8D=E4=
+=BB=BB=E4=BD=95=E8=B7=AF=E5=BE=84=E4=B8=AD=E5=90=AB=E6=9C=89 a =E7=9A=84=E8=
+=B7=AF=E5=BE=84=EF=BC=9A
+</span>app<span class=3D"token punctuation">.</span><span class=3D"token ke=
+yword">get</span><span class=3D"token punctuation">(</span><span class=3D"t=
+oken regex">/a/</span><span class=3D"token punctuation">,</span> <span clas=
+s=3D"token keyword">function</span><span class=3D"token punctuation">(</spa=
+n>req<span class=3D"token punctuation">,</span> res<span class=3D"token pun=
+ctuation">)</span> <span class=3D"token punctuation">{</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'/a/'</span><span class=3D"token punctuation">)</span><span class=
+=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+
+<span class=3D"token comment" spellcheck=3D"true">// =E5=8C=B9=E9=85=8D but=
+terfly=E3=80=81dragonfly=EF=BC=8C=E4=B8=8D=E5=8C=B9=E9=85=8D butterflyman=
+=E3=80=81dragonfly man=E7=AD=89
+</span>app<span class=3D"token punctuation">.</span><span class=3D"token ke=
+yword">get</span><span class=3D"token punctuation">(</span><span class=3D"t=
+oken regex">/.*fly$/</span><span class=3D"token punctuation">,</span> <span=
+ class=3D"token keyword">function</span><span class=3D"token punctuation">(=
+</span>req<span class=3D"token punctuation">,</span> res<span class=3D"toke=
+n punctuation">)</span> <span class=3D"token punctuation">{</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'/.*fly$/'</span><span class=3D"token punctuation">)</span><span =
+class=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+</code></pre>
+
+<h2 id=3D"route-handlers"> =E8=B7=AF=E7=94=B1=E5=8F=A5=E6=9F=84</h2>
+
+<p>=E5=8F=AF=E4=BB=A5=E4=B8=BA=E8=AF=B7=E6=B1=82=E5=A4=84=E7=90=86=E6=8F=90=
+=E4=BE=9B=E5=A4=9A=E4=B8=AA=E5=9B=9E=E8=B0=83=E5=87=BD=E6=95=B0=EF=BC=8C=E5=
+=85=B6=E8=A1=8C=E4=B8=BA=E7=B1=BB=E4=BC=BC <a href=3D"http://www.expressjs.=
+com.cn/guide/using-middleware.html">=E4=B8=AD=E9=97=B4=E4=BB=B6</a>=E3=80=
+=82=E5=94=AF=E4=B8=80=E7=9A=84=E5=8C=BA=E5=88=AB=E6=98=AF=E8=BF=99=E4=BA=9B=
+=E5=9B=9E=E8=B0=83=E5=87=BD=E6=95=B0=E6=9C=89=E5=8F=AF=E8=83=BD=E8=B0=83=E7=
+=94=A8 <code>next('route')</code> =E6=96=B9=E6=B3=95=E8=80=8C=E7=95=A5=E8=
+=BF=87=E5=85=B6=E4=BB=96=E8=B7=AF=E7=94=B1=E5=9B=9E=E8=B0=83=E5=87=BD=E6=95=
+=B0=E3=80=82=E5=8F=AF=E4=BB=A5=E5=88=A9=E7=94=A8=E8=AF=A5=E6=9C=BA=E5=88=B6=
+=E4=B8=BA=E8=B7=AF=E7=94=B1=E5=AE=9A=E4=B9=89=E5=89=8D=E6=8F=90=E6=9D=A1=E4=
+=BB=B6=EF=BC=8C=E5=A6=82=E6=9E=9C=E5=9C=A8=E7=8E=B0=E6=9C=89=E8=B7=AF=E5=BE=
+=84=E4=B8=8A=E7=BB=A7=E7=BB=AD=E6=89=A7=E8=A1=8C=E6=B2=A1=E6=9C=89=E6=84=8F=
+=E4=B9=89=EF=BC=8C=E5=88=99=E5=8F=AF=E5=B0=86=E6=8E=A7=E5=88=B6=E6=9D=83=E4=
+=BA=A4=E7=BB=99=E5=89=A9=E4=B8=8B=E7=9A=84=E8=B7=AF=E5=BE=84=E3=80=82</p>
+
+<p>=E8=B7=AF=E7=94=B1=E5=8F=A5=E6=9F=84=E6=9C=89=E5=A4=9A=E7=A7=8D=E5=BD=A2=
+=E5=BC=8F=EF=BC=8C=E5=8F=AF=E4=BB=A5=E6=98=AF=E4=B8=80=E4=B8=AA=E5=87=BD=E6=
+=95=B0=E3=80=81=E4=B8=80=E4=B8=AA=E5=87=BD=E6=95=B0=E6=95=B0=E7=BB=84=EF=BC=
+=8C=E6=88=96=E8=80=85=E6=98=AF=E4=B8=A4=E8=80=85=E6=B7=B7=E5=90=88=EF=BC=8C=
+=E5=A6=82=E4=B8=8B=E6=89=80=E7=A4=BA.</p>
+
+<p>=E4=BD=BF=E7=94=A8=E4=B8=80=E4=B8=AA=E5=9B=9E=E8=B0=83=E5=87=BD=E6=95=B0=
+=E5=A4=84=E7=90=86=E8=B7=AF=E7=94=B1=EF=BC=9A</p>
+
+<pre class=3D"  language-javascript"><code class=3D"  language-javascript">=
+app<span class=3D"token punctuation">.</span><span class=3D"token keyword">=
+get</span><span class=3D"token punctuation">(</span><span class=3D"token st=
+ring">'/example/a'</span><span class=3D"token punctuation">,</span> <span c=
+lass=3D"token keyword">function</span> <span class=3D"token punctuation">(<=
+/span>req<span class=3D"token punctuation">,</span> res<span class=3D"token=
+ punctuation">)</span> <span class=3D"token punctuation">{</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'Hello from A!'</span><span class=3D"token punctuation">)</span><=
+span class=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+</code></pre>
+
+<p>=E4=BD=BF=E7=94=A8=E5=A4=9A=E4=B8=AA=E5=9B=9E=E8=B0=83=E5=87=BD=E6=95=B0=
+=E5=A4=84=E7=90=86=E8=B7=AF=E7=94=B1=EF=BC=88=E8=AE=B0=E5=BE=97=E6=8C=87=E5=
+=AE=9A <code>next</code> =E5=AF=B9=E8=B1=A1=EF=BC=89=EF=BC=9A</p>
+
+<pre class=3D"  language-javascript"><code class=3D"  language-javascript">=
+app<span class=3D"token punctuation">.</span><span class=3D"token keyword">=
+get</span><span class=3D"token punctuation">(</span><span class=3D"token st=
+ring">'/example/b'</span><span class=3D"token punctuation">,</span> <span c=
+lass=3D"token keyword">function</span> <span class=3D"token punctuation">(<=
+/span>req<span class=3D"token punctuation">,</span> res<span class=3D"token=
+ punctuation">,</span> next<span class=3D"token punctuation">)</span> <span=
+ class=3D"token punctuation">{</span>
+  console<span class=3D"token punctuation">.</span><span class=3D"token fun=
+ction">log<span class=3D"token punctuation">(</span></span><span class=3D"t=
+oken string">'response will be sent by the next function ...'</span><span c=
+lass=3D"token punctuation">)</span><span class=3D"token punctuation">;</spa=
+n>
+  <span class=3D"token function">next<span class=3D"token punctuation">(</s=
+pan></span><span class=3D"token punctuation">)</span><span class=3D"token p=
+unctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>,</span> <span class=3D"token keyword">function</span> <span class=3D"toke=
+n punctuation">(</span>req<span class=3D"token punctuation">,</span> res<sp=
+an class=3D"token punctuation">)</span> <span class=3D"token punctuation">{=
+</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'Hello from B!'</span><span class=3D"token punctuation">)</span><=
+span class=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+</code></pre>
+
+<p>=E4=BD=BF=E7=94=A8=E5=9B=9E=E8=B0=83=E5=87=BD=E6=95=B0=E6=95=B0=E7=BB=84=
+=E5=A4=84=E7=90=86=E8=B7=AF=E7=94=B1=EF=BC=9A</p>
+
+<pre class=3D"  language-javascript"><code class=3D"  language-javascript">=
+<span class=3D"token keyword">var</span> cb0 <span class=3D"token operator"=
+>=3D</span> <span class=3D"token keyword">function</span> <span class=3D"to=
+ken punctuation">(</span>req<span class=3D"token punctuation">,</span> res<=
+span class=3D"token punctuation">,</span> next<span class=3D"token punctuat=
+ion">)</span> <span class=3D"token punctuation">{</span>
+  console<span class=3D"token punctuation">.</span><span class=3D"token fun=
+ction">log<span class=3D"token punctuation">(</span></span><span class=3D"t=
+oken string">'CB0'</span><span class=3D"token punctuation">)</span><span cl=
+ass=3D"token punctuation">;</span>
+  <span class=3D"token function">next<span class=3D"token punctuation">(</s=
+pan></span><span class=3D"token punctuation">)</span><span class=3D"token p=
+unctuation">;</span>
+<span class=3D"token punctuation">}</span>
+
+<span class=3D"token keyword">var</span> cb1 <span class=3D"token operator"=
+>=3D</span> <span class=3D"token keyword">function</span> <span class=3D"to=
+ken punctuation">(</span>req<span class=3D"token punctuation">,</span> res<=
+span class=3D"token punctuation">,</span> next<span class=3D"token punctuat=
+ion">)</span> <span class=3D"token punctuation">{</span>
+  console<span class=3D"token punctuation">.</span><span class=3D"token fun=
+ction">log<span class=3D"token punctuation">(</span></span><span class=3D"t=
+oken string">'CB1'</span><span class=3D"token punctuation">)</span><span cl=
+ass=3D"token punctuation">;</span>
+  <span class=3D"token function">next<span class=3D"token punctuation">(</s=
+pan></span><span class=3D"token punctuation">)</span><span class=3D"token p=
+unctuation">;</span>
+<span class=3D"token punctuation">}</span>
+
+<span class=3D"token keyword">var</span> cb2 <span class=3D"token operator"=
+>=3D</span> <span class=3D"token keyword">function</span> <span class=3D"to=
+ken punctuation">(</span>req<span class=3D"token punctuation">,</span> res<=
+span class=3D"token punctuation">)</span> <span class=3D"token punctuation"=
+>{</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'Hello from C!'</span><span class=3D"token punctuation">)</span><=
+span class=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span>
+
+app<span class=3D"token punctuation">.</span><span class=3D"token keyword">=
+get</span><span class=3D"token punctuation">(</span><span class=3D"token st=
+ring">'/example/c'</span><span class=3D"token punctuation">,</span> <span c=
+lass=3D"token punctuation">[</span>cb0<span class=3D"token punctuation">,</=
+span> cb1<span class=3D"token punctuation">,</span> cb2<span class=3D"token=
+ punctuation">]</span><span class=3D"token punctuation">)</span><span class=
+=3D"token punctuation">;</span>
+</code></pre>
+
+<p>=E6=B7=B7=E5=90=88=E4=BD=BF=E7=94=A8=E5=87=BD=E6=95=B0=E5=92=8C=E5=87=BD=
+=E6=95=B0=E6=95=B0=E7=BB=84=E5=A4=84=E7=90=86=E8=B7=AF=E7=94=B1=EF=BC=9A</p=
+>
+
+<pre class=3D"  language-javascript"><code class=3D"  language-javascript">=
+<span class=3D"token keyword">var</span> cb0 <span class=3D"token operator"=
+>=3D</span> <span class=3D"token keyword">function</span> <span class=3D"to=
+ken punctuation">(</span>req<span class=3D"token punctuation">,</span> res<=
+span class=3D"token punctuation">,</span> next<span class=3D"token punctuat=
+ion">)</span> <span class=3D"token punctuation">{</span>
+  console<span class=3D"token punctuation">.</span><span class=3D"token fun=
+ction">log<span class=3D"token punctuation">(</span></span><span class=3D"t=
+oken string">'CB0'</span><span class=3D"token punctuation">)</span><span cl=
+ass=3D"token punctuation">;</span>
+  <span class=3D"token function">next<span class=3D"token punctuation">(</s=
+pan></span><span class=3D"token punctuation">)</span><span class=3D"token p=
+unctuation">;</span>
+<span class=3D"token punctuation">}</span>
+
+<span class=3D"token keyword">var</span> cb1 <span class=3D"token operator"=
+>=3D</span> <span class=3D"token keyword">function</span> <span class=3D"to=
+ken punctuation">(</span>req<span class=3D"token punctuation">,</span> res<=
+span class=3D"token punctuation">,</span> next<span class=3D"token punctuat=
+ion">)</span> <span class=3D"token punctuation">{</span>
+  console<span class=3D"token punctuation">.</span><span class=3D"token fun=
+ction">log<span class=3D"token punctuation">(</span></span><span class=3D"t=
+oken string">'CB1'</span><span class=3D"token punctuation">)</span><span cl=
+ass=3D"token punctuation">;</span>
+  <span class=3D"token function">next<span class=3D"token punctuation">(</s=
+pan></span><span class=3D"token punctuation">)</span><span class=3D"token p=
+unctuation">;</span>
+<span class=3D"token punctuation">}</span>
+
+app<span class=3D"token punctuation">.</span><span class=3D"token keyword">=
+get</span><span class=3D"token punctuation">(</span><span class=3D"token st=
+ring">'/example/d'</span><span class=3D"token punctuation">,</span> <span c=
+lass=3D"token punctuation">[</span>cb0<span class=3D"token punctuation">,</=
+span> cb1<span class=3D"token punctuation">]</span><span class=3D"token pun=
+ctuation">,</span> <span class=3D"token keyword">function</span> <span clas=
+s=3D"token punctuation">(</span>req<span class=3D"token punctuation">,</spa=
+n> res<span class=3D"token punctuation">,</span> next<span class=3D"token p=
+unctuation">)</span> <span class=3D"token punctuation">{</span>
+  console<span class=3D"token punctuation">.</span><span class=3D"token fun=
+ction">log<span class=3D"token punctuation">(</span></span><span class=3D"t=
+oken string">'response will be sent by the next function ...'</span><span c=
+lass=3D"token punctuation">)</span><span class=3D"token punctuation">;</spa=
+n>
+  <span class=3D"token function">next<span class=3D"token punctuation">(</s=
+pan></span><span class=3D"token punctuation">)</span><span class=3D"token p=
+unctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>,</span> <span class=3D"token keyword">function</span> <span class=3D"toke=
+n punctuation">(</span>req<span class=3D"token punctuation">,</span> res<sp=
+an class=3D"token punctuation">)</span> <span class=3D"token punctuation">{=
+</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'Hello from D!'</span><span class=3D"token punctuation">)</span><=
+span class=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+</code></pre>
+
+<h2 id=3D"response-methods">=E5=93=8D=E5=BA=94=E6=96=B9=E6=B3=95</h2>
+
+<p>=E4=B8=8B=E8=A1=A8=E4=B8=AD=E5=93=8D=E5=BA=94=E5=AF=B9=E8=B1=A1=EF=BC=88=
+<code>res</code>=EF=BC=89=E7=9A=84=E6=96=B9=E6=B3=95=E5=90=91=E5=AE=A2=E6=
+=88=B7=E7=AB=AF=E8=BF=94=E5=9B=9E=E5=93=8D=E5=BA=94=EF=BC=8C=E7=BB=88=E7=BB=
+=93=E8=AF=B7=E6=B1=82=E5=93=8D=E5=BA=94=E7=9A=84=E5=BE=AA=E7=8E=AF=E3=80=82=
+=E5=A6=82=E6=9E=9C=E5=9C=A8=E8=B7=AF=E7=94=B1=E5=8F=A5=E6=9F=84=E4=B8=AD=E4=
+=B8=80=E4=B8=AA=E6=96=B9=E6=B3=95=E4=B9=9F=E4=B8=8D=E8=B0=83=E7=94=A8=EF=BC=
+=8C=E6=9D=A5=E8=87=AA=E5=AE=A2=E6=88=B7=E7=AB=AF=E7=9A=84=E8=AF=B7=E6=B1=82=
+=E4=BC=9A=E4=B8=80=E7=9B=B4=E6=8C=82=E8=B5=B7=E3=80=82</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>=E6=96=B9=E6=B3=95</th>
+      <th>=E6=8F=8F=E8=BF=B0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href=3D"http://www.expressjs.com.cn/4x/api.html#res.download">=
+res.download()</a></td>
+      <td>=E6=8F=90=E7=A4=BA=E4=B8=8B=E8=BD=BD=E6=96=87=E4=BB=B6=E3=80=82</=
+td>
+    </tr>
+    <tr>
+      <td><a href=3D"http://www.expressjs.com.cn/4x/api.html#res.end">res.e=
+nd()</a></td>
+      <td>=E7=BB=88=E7=BB=93=E5=93=8D=E5=BA=94=E5=A4=84=E7=90=86=E6=B5=81=
+=E7=A8=8B=E3=80=82</td>
+    </tr>
+    <tr>
+      <td><a href=3D"http://www.expressjs.com.cn/4x/api.html#res.json">res.=
+json()</a></td>
+      <td>=E5=8F=91=E9=80=81=E4=B8=80=E4=B8=AA JSON =E6=A0=BC=E5=BC=8F=E7=
+=9A=84=E5=93=8D=E5=BA=94=E3=80=82</td>
+    </tr>
+    <tr>
+      <td><a href=3D"http://www.expressjs.com.cn/4x/api.html#res.jsonp">res=
+.jsonp()</a></td>
+      <td>=E5=8F=91=E9=80=81=E4=B8=80=E4=B8=AA=E6=94=AF=E6=8C=81 JSONP =E7=
+=9A=84 JSON =E6=A0=BC=E5=BC=8F=E7=9A=84=E5=93=8D=E5=BA=94=E3=80=82</td>
+    </tr>
+    <tr>
+      <td><a href=3D"http://www.expressjs.com.cn/4x/api.html#res.redirect">=
+res.redirect()</a></td>
+      <td>=E9=87=8D=E5=AE=9A=E5=90=91=E8=AF=B7=E6=B1=82=E3=80=82</td>
+    </tr>
+    <tr>
+      <td><a href=3D"http://www.expressjs.com.cn/4x/api.html#res.render">re=
+s.render()</a></td>
+      <td>=E6=B8=B2=E6=9F=93=E8=A7=86=E5=9B=BE=E6=A8=A1=E6=9D=BF=E3=80=82</=
+td>
+    </tr>
+    <tr>
+      <td><a href=3D"http://www.expressjs.com.cn/4x/api.html#res.send">res.=
+send()</a></td>
+      <td>=E5=8F=91=E9=80=81=E5=90=84=E7=A7=8D=E7=B1=BB=E5=9E=8B=E7=9A=84=
+=E5=93=8D=E5=BA=94=E3=80=82</td>
+    </tr>
+    <tr>
+      <td><a href=3D"http://www.expressjs.com.cn/4x/api.html#res.sendFile">=
+res.sendFile</a></td>
+      <td>=E4=BB=A5=E5=85=AB=E4=BD=8D=E5=AD=97=E8=8A=82=E6=B5=81=E7=9A=84=
+=E5=BD=A2=E5=BC=8F=E5=8F=91=E9=80=81=E6=96=87=E4=BB=B6=E3=80=82</td>
+    </tr>
+    <tr>
+      <td><a href=3D"http://www.expressjs.com.cn/4x/api.html#res.sendStatus=
+">res.sendStatus()</a></td>
+      <td>=E8=AE=BE=E7=BD=AE=E5=93=8D=E5=BA=94=E7=8A=B6=E6=80=81=E4=BB=A3=
+=E7=A0=81=EF=BC=8C=E5=B9=B6=E5=B0=86=E5=85=B6=E4=BB=A5=E5=AD=97=E7=AC=A6=E4=
+=B8=B2=E5=BD=A2=E5=BC=8F=E4=BD=9C=E4=B8=BA=E5=93=8D=E5=BA=94=E4=BD=93=E7=9A=
+=84=E4=B8=80=E9=83=A8=E5=88=86=E5=8F=91=E9=80=81=E3=80=82</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id=3D"app-route">app.route()</h2>
+
+<p>=E5=8F=AF=E4=BD=BF=E7=94=A8 <code>app.route()</code> =E5=88=9B=E5=BB=BA=
+=E8=B7=AF=E7=94=B1=E8=B7=AF=E5=BE=84=E7=9A=84=E9=93=BE=E5=BC=8F=E8=B7=AF=E7=
+=94=B1=E5=8F=A5=E6=9F=84=E3=80=82=E7=94=B1=E4=BA=8E=E8=B7=AF=E5=BE=84=E5=9C=
+=A8=E4=B8=80=E4=B8=AA=E5=9C=B0=E6=96=B9=E6=8C=87=E5=AE=9A=EF=BC=8C=E8=BF=99=
+=E6=A0=B7=E5=81=9A=E6=9C=89=E5=8A=A9=E4=BA=8E=E5=88=9B=E5=BB=BA=E6=A8=A1=E5=
+=9D=97=E5=8C=96=E7=9A=84=E8=B7=AF=E7=94=B1=EF=BC=8C=E8=80=8C=E4=B8=94=E5=87=
+=8F=E5=B0=91=E4=BA=86=E4=BB=A3=E7=A0=81=E5=86=97=E4=BD=99=E5=92=8C=E6=8B=BC=
+=E5=86=99=E9=94=99=E8=AF=AF=E3=80=82=E8=AF=B7=E5=8F=82=E8=80=83 <a href=3D"=
+http://www.expressjs.com.cn/4x/api.html#router">Router() =E6=96=87=E6=A1=A3=
+</a> =E4=BA=86=E8=A7=A3=E6=9B=B4=E5=A4=9A=E6=9C=89=E5=85=B3=E8=B7=AF=E7=94=
+=B1=E7=9A=84=E4=BF=A1=E6=81=AF=E3=80=82</p>
+
+<p>=E4=B8=8B=E9=9D=A2=E8=BF=99=E4=B8=AA=E7=A4=BA=E4=BE=8B=E7=A8=8B=E5=BA=8F=
+=E4=BD=BF=E7=94=A8 <code>app.route()</code> =E5=AE=9A=E4=B9=89=E4=BA=86=E9=
+=93=BE=E5=BC=8F=E8=B7=AF=E7=94=B1=E5=8F=A5=E6=9F=84=E3=80=82</p>
+
+<pre class=3D"  language-javascript"><code class=3D"  language-javascript">=
+app<span class=3D"token punctuation">.</span><span class=3D"token function"=
+>route<span class=3D"token punctuation">(</span></span><span class=3D"token=
+ string">'/book'</span><span class=3D"token punctuation">)</span>
+  <span class=3D"token punctuation">.</span><span class=3D"token keyword">g=
+et</span><span class=3D"token punctuation">(</span><span class=3D"token key=
+word">function</span><span class=3D"token punctuation">(</span>req<span cla=
+ss=3D"token punctuation">,</span> res<span class=3D"token punctuation">)</s=
+pan> <span class=3D"token punctuation">{</span>
+    res<span class=3D"token punctuation">.</span><span class=3D"token funct=
+ion">send<span class=3D"token punctuation">(</span></span><span class=3D"to=
+ken string">'Get a random book'</span><span class=3D"token punctuation">)</=
+span><span class=3D"token punctuation">;</span>
+  <span class=3D"token punctuation">}</span><span class=3D"token punctuatio=
+n">)</span>
+  <span class=3D"token punctuation">.</span><span class=3D"token function">=
+post<span class=3D"token punctuation">(</span></span><span class=3D"token k=
+eyword">function</span><span class=3D"token punctuation">(</span>req<span c=
+lass=3D"token punctuation">,</span> res<span class=3D"token punctuation">)<=
+/span> <span class=3D"token punctuation">{</span>
+    res<span class=3D"token punctuation">.</span><span class=3D"token funct=
+ion">send<span class=3D"token punctuation">(</span></span><span class=3D"to=
+ken string">'Add a book'</span><span class=3D"token punctuation">)</span><s=
+pan class=3D"token punctuation">;</span>
+  <span class=3D"token punctuation">}</span><span class=3D"token punctuatio=
+n">)</span>
+  <span class=3D"token punctuation">.</span><span class=3D"token function">=
+put<span class=3D"token punctuation">(</span></span><span class=3D"token ke=
+yword">function</span><span class=3D"token punctuation">(</span>req<span cl=
+ass=3D"token punctuation">,</span> res<span class=3D"token punctuation">)</=
+span> <span class=3D"token punctuation">{</span>
+    res<span class=3D"token punctuation">.</span><span class=3D"token funct=
+ion">send<span class=3D"token punctuation">(</span></span><span class=3D"to=
+ken string">'Update the book'</span><span class=3D"token punctuation">)</sp=
+an><span class=3D"token punctuation">;</span>
+  <span class=3D"token punctuation">}</span><span class=3D"token punctuatio=
+n">)</span><span class=3D"token punctuation">;</span>
+</code></pre>
+
+<h2 id=3D"express-router">express.Router</h2>
+
+<p>=E5=8F=AF=E4=BD=BF=E7=94=A8 <code>express.Router</code> =E7=B1=BB=E5=88=
+=9B=E5=BB=BA=E6=A8=A1=E5=9D=97=E5=8C=96=E3=80=81=E5=8F=AF=E6=8C=82=E8=BD=BD=
+=E7=9A=84=E8=B7=AF=E7=94=B1=E5=8F=A5=E6=9F=84=E3=80=82<code>Router</code> =
+=E5=AE=9E=E4=BE=8B=E6=98=AF=E4=B8=80=E4=B8=AA=E5=AE=8C=E6=95=B4=E7=9A=84=E4=
+=B8=AD=E9=97=B4=E4=BB=B6=E5=92=8C=E8=B7=AF=E7=94=B1=E7=B3=BB=E7=BB=9F=EF=BC=
+=8C=E5=9B=A0=E6=AD=A4=E5=B8=B8=E7=A7=B0=E5=85=B6=E4=B8=BA=E4=B8=80=E4=B8=AA=
+ =E2=80=9Cmini-app=E2=80=9D=E3=80=82</p>
+
+<p>=E4=B8=8B=E9=9D=A2=E7=9A=84=E5=AE=9E=E4=BE=8B=E7=A8=8B=E5=BA=8F=E5=88=9B=
+=E5=BB=BA=E4=BA=86=E4=B8=80=E4=B8=AA=E8=B7=AF=E7=94=B1=E6=A8=A1=E5=9D=97=EF=
+=BC=8C=E5=B9=B6=E5=8A=A0=E8=BD=BD=E4=BA=86=E4=B8=80=E4=B8=AA=E4=B8=AD=E9=97=
+=B4=E4=BB=B6=EF=BC=8C=E5=AE=9A=E4=B9=89=E4=BA=86=E4=B8=80=E4=BA=9B=E8=B7=AF=
+=E7=94=B1=EF=BC=8C=E5=B9=B6=E4=B8=94=E5=B0=86=E5=AE=83=E4=BB=AC=E6=8C=82=E8=
+=BD=BD=E8=87=B3=E5=BA=94=E7=94=A8=E7=9A=84=E8=B7=AF=E5=BE=84=E4=B8=8A=E3=80=
+=82</p>
+
+<p>=E5=9C=A8 app =E7=9B=AE=E5=BD=95=E4=B8=8B=E5=88=9B=E5=BB=BA=E5=90=8D=E4=
+=B8=BA <code>birds.js</code> =E7=9A=84=E6=96=87=E4=BB=B6=EF=BC=8C=E5=86=85=
+=E5=AE=B9=E5=A6=82=E4=B8=8B=EF=BC=9A</p>
+
+<pre class=3D"  language-javascript"><code class=3D"  language-javascript">=
+<span class=3D"token keyword">var</span> express <span class=3D"token opera=
+tor">=3D</span> <span class=3D"token function">require<span class=3D"token =
+punctuation">(</span></span><span class=3D"token string">'express'</span><s=
+pan class=3D"token punctuation">)</span><span class=3D"token punctuation">;=
+</span>
+<span class=3D"token keyword">var</span> router <span class=3D"token operat=
+or">=3D</span> express<span class=3D"token punctuation">.</span><span class=
+=3D"token function">Router<span class=3D"token punctuation">(</span></span>=
+<span class=3D"token punctuation">)</span><span class=3D"token punctuation"=
+>;</span>
+
+<span class=3D"token comment" spellcheck=3D"true">// =E8=AF=A5=E8=B7=AF=E7=
+=94=B1=E4=BD=BF=E7=94=A8=E7=9A=84=E4=B8=AD=E9=97=B4=E4=BB=B6
+</span>router<span class=3D"token punctuation">.</span><span class=3D"token=
+ function">use<span class=3D"token punctuation">(</span></span><span class=
+=3D"token keyword">function</span> <span class=3D"token function">timeLog<s=
+pan class=3D"token punctuation">(</span></span>req<span class=3D"token punc=
+tuation">,</span> res<span class=3D"token punctuation">,</span> next<span c=
+lass=3D"token punctuation">)</span> <span class=3D"token punctuation">{</sp=
+an>
+  console<span class=3D"token punctuation">.</span><span class=3D"token fun=
+ction">log<span class=3D"token punctuation">(</span></span><span class=3D"t=
+oken string">'Time: '</span><span class=3D"token punctuation">,</span> Date=
+<span class=3D"token punctuation">.</span><span class=3D"token function">no=
+w<span class=3D"token punctuation">(</span></span><span class=3D"token punc=
+tuation">)</span><span class=3D"token punctuation">)</span><span class=3D"t=
+oken punctuation">;</span>
+  <span class=3D"token function">next<span class=3D"token punctuation">(</s=
+pan></span><span class=3D"token punctuation">)</span><span class=3D"token p=
+unctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+<span class=3D"token comment" spellcheck=3D"true">// =E5=AE=9A=E4=B9=89=E7=
+=BD=91=E7=AB=99=E4=B8=BB=E9=A1=B5=E7=9A=84=E8=B7=AF=E7=94=B1
+</span>router<span class=3D"token punctuation">.</span><span class=3D"token=
+ keyword">get</span><span class=3D"token punctuation">(</span><span class=
+=3D"token string">'/'</span><span class=3D"token punctuation">,</span> <spa=
+n class=3D"token keyword">function</span><span class=3D"token punctuation">=
+(</span>req<span class=3D"token punctuation">,</span> res<span class=3D"tok=
+en punctuation">)</span> <span class=3D"token punctuation">{</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'Birds home page'</span><span class=3D"token punctuation">)</span=
+><span class=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+<span class=3D"token comment" spellcheck=3D"true">// =E5=AE=9A=E4=B9=89 abo=
+ut =E9=A1=B5=E9=9D=A2=E7=9A=84=E8=B7=AF=E7=94=B1
+</span>router<span class=3D"token punctuation">.</span><span class=3D"token=
+ keyword">get</span><span class=3D"token punctuation">(</span><span class=
+=3D"token string">'/about'</span><span class=3D"token punctuation">,</span>=
+ <span class=3D"token keyword">function</span><span class=3D"token punctuat=
+ion">(</span>req<span class=3D"token punctuation">,</span> res<span class=
+=3D"token punctuation">)</span> <span class=3D"token punctuation">{</span>
+  res<span class=3D"token punctuation">.</span><span class=3D"token functio=
+n">send<span class=3D"token punctuation">(</span></span><span class=3D"toke=
+n string">'About birds'</span><span class=3D"token punctuation">)</span><sp=
+an class=3D"token punctuation">;</span>
+<span class=3D"token punctuation">}</span><span class=3D"token punctuation"=
+>)</span><span class=3D"token punctuation">;</span>
+
+module<span class=3D"token punctuation">.</span>exports <span class=3D"toke=
+n operator">=3D</span> router<span class=3D"token punctuation">;</span>
+</code></pre>
+
+<p>=E7=84=B6=E5=90=8E=E5=9C=A8=E5=BA=94=E7=94=A8=E4=B8=AD=E5=8A=A0=E8=BD=BD=
+=E8=B7=AF=E7=94=B1=E6=A8=A1=E5=9D=97=EF=BC=9A</p>
+
+<pre class=3D"  language-javascript"><code class=3D"  language-javascript">=
+<span class=3D"token keyword">var</span> birds <span class=3D"token operato=
+r">=3D</span> <span class=3D"token function">require<span class=3D"token pu=
+nctuation">(</span></span><span class=3D"token string">'./birds'</span><spa=
+n class=3D"token punctuation">)</span><span class=3D"token punctuation">;</=
+span>
+<span class=3D"token punctuation">.</span><span class=3D"token punctuation"=
+>.</span><span class=3D"token punctuation">.</span>
+app<span class=3D"token punctuation">.</span><span class=3D"token function"=
+>use<span class=3D"token punctuation">(</span></span><span class=3D"token s=
+tring">'/birds'</span><span class=3D"token punctuation">,</span> birds<span=
+ class=3D"token punctuation">)</span><span class=3D"token punctuation">;</s=
+pan>
+</code></pre>
+
+<p>=E5=BA=94=E7=94=A8=E5=8D=B3=E5=8F=AF=E5=A4=84=E7=90=86=E5=8F=91=E8=87=AA=
+ <code>/birds</code> =E5=92=8C <code>/birds/about</code> =E7=9A=84=E8=AF=B7=
+=E6=B1=82=EF=BC=8C=E5=B9=B6=E4=B8=94=E8=B0=83=E7=94=A8=E4=B8=BA=E8=AF=A5=E8=
+=B7=AF=E7=94=B1=E6=8C=87=E5=AE=9A=E7=9A=84 <code>timeLog</code> =E4=B8=AD=
+=E9=97=B4=E4=BB=B6=E3=80=82</p>
+
+     =20
+    </section>
+
+    <a id=3D"top" href=3D"http://www.expressjs.com.cn/guide/routing.html#">=
+<img src=3D"http://www.expressjs.com.cn/images/arrow@2x.png" width=3D"8" he=
+ight=3D"5"></a>
+   =20
+    <footer>
+        <div id=3D"footer-content">
+            <div id=3D"github">
+                <a href=3D"https://github.com/strongloop/express" target=3D=
+"_blank">Github Repo</a>
+            </div>
+            <div id=3D"sponsor">Express =E9=A1=B9=E7=9B=AE=E7=94=B1 <a href=
+=3D"http://strongloop.com/" target=3D"_blank">StrongLoop</a> =E8=B5=9E=E5=
+=8A=A9=E3=80=82</div>
+            <div id=3D"fork"><a href=3D"https://github.com/strongloop/expre=
+ssjs.com/blob/gh-pages/guide/routing.md">Edit this page on GitHub</a></div>
+            <div>Copyright =C2=A9 StrongLoop, Inc., and other expressjs.com=
+ contributors.</div>
+        </div>
+   =20
+        <div class=3D"friend-links">
+            <a href=3D"http://www.bootcss.com/" title=3D"Bootstrap =E4=B8=
+=AD=E6=96=87=E7=BD=91">Bootstrap=E4=B8=AD=E6=96=87=E7=BD=91</a>
+            <a href=3D"http://www.gruntjs.net/" title=3D"Grunt =E4=B8=AD=E6=
+=96=87=E7=BD=91">Grunt=E4=B8=AD=E6=96=87=E7=BD=91</a>
+            <a href=3D"http://www.gulpjs.com.cn/" title=3D"Gulp =E4=B8=AD=
+=E6=96=87=E7=BD=91">Gulp=E4=B8=AD=E6=96=87=E7=BD=91</a>
+            <a href=3D"http://www.bootcdn.cn/" title=3D"BootCDN =E5=8A=A0=
+=E9=80=9F">BootCDN</a>
+            <a href=3D"http://www.nodeapp.cn/" title=3D"Node.js =E4=B8=AD=
+=E6=96=87=E6=96=87=E6=A1=A3">Node.js =E4=B8=AD=E6=96=87=E6=96=87=E6=A1=A3</=
+a>
+        </div>
+    </footer>
+   =20
+    <div class=3D"beian">
+    	<a href=3D"http://www.miibeian.gov.cn/" target=3D"_blank">=E5=86=80ICP=
+=E5=A4=8715008021=E5=8F=B7</a><span>|</span>=C2=A9 Express =E4=B8=AD=E6=96=
+=87=E7=BD=91 2015
+    </div>
+ =20
+
+
+</body></html>
+------MultipartBoundary--7zsyASwOkZgyE2YGp8jH2I3bIzN42C7c4ytT3r1i18----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.expressjs.com.cn/css/style.css
+
+@charset "utf-8";
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); =
+}
+
+body { font-style: normal; font-variant: normal; font-weight: normal; font-=
+stretch: normal; font-size: 14px; line-height: 1.6; font-family: "Helvetica=
+ Neue", Helvetica, "Lucida Grande", Arial, "Hiragino Sans GB", "Microsoft Y=
+ahei", "WenQuanYi Micro Hei", sans-serif; background: url("/images/bg.jpg")=
+; margin: 0px; padding: 0px; color: rgb(85, 85, 85); }
+
+h1 { font-size: 30px; line-height: 36px; }
+
+#intro h3, #api-doc h1 { font-weight: normal; }
+
+h1, h2, h3 { margin: 5px 0px; color: rgb(53, 53, 53); -webkit-font-smoothin=
+g: antialiased; }
+
+.content h1 { margin-bottom: 20px; }
+
+p em { font-weight: bold; color: rgb(53, 53, 53); }
+
+p { margin: 10px 0px; line-height: 1.35em; }
+
+strong, th { color: rgb(53, 53, 53); }
+
+#overlay { position: fixed; left: 0px; top: 0px; background: rgb(255, 255, =
+255); opacity: 0.8; width: 100%; height: 100%; display: none; z-index: 1; }
+
+#home-content { margin: 120px 0px 2% 5%; max-width: 900px; padding-right: 9=
+%; }
+
+#announcements { margin: 3px 5%; max-width: 1005px; padding: 0px 16px; back=
+ground: rgb(253, 250, 230); border: 1px solid rgb(235, 219, 183); border-ra=
+dius: 3px; font-size: 0.9em; }
+
+#announcements ul { padding-left: 0px; }
+
+#announcements li { list-style: none; margin-bottom: 16px; }
+
+#announcements p { margin: 6px 0px; }
+
+#announcements time { font-weight: normal; }
+
+#announcements p:first-child { font-weight: bold; padding-left: 20px; backg=
+round-image: url("/images/announcement-icon.png"); background-position: 0px=
+ 3px; background-repeat: no-repeat; background-size: 14px 14px; }
+
+#install-command { font-family: Consolas, Monaco, "Andale Mono", monospace;=
+ padding: 5px 10px; background: rgb(255, 255, 255); border: 1px solid rgb(2=
+38, 238, 238); border-radius: 3px; max-width: 375px; }
+
+.content { margin: 90px 3% 7%; max-width: 1090px; padding-right: 140px; }
+
+span.block-section { display: block; }
+
+li code { color: rgb(51, 51, 51); }
+
+#intro h3 { font-size: 25px; margin-bottom: 10px; }
+
+#api-doc section { padding-left: 20px; }
+
+#api-doc > h3 { padding-top: 10px; padding-bottom: 5px; font-weight: bold; =
+font-size: 24px; color: rgb(136, 136, 136); }
+
+#api-doc h2 { font-weight: bold; font-size: 29px; margin: 40px 0px 20px; }
+
+#api-doc section h3 { padding-top: 10px; padding-bottom: 5px; font-weight: =
+bold; font-size: 18px; }
+
+#api-doc h4 { font-size: 16px; font-weight: bold; }
+
+#api-doc h5 { font-size: 14px; font-weight: bold; color: rgb(102, 102, 102)=
+; }
+
+a { color: rgb(37, 157, 255); text-decoration: none; }
+
+.h2:target { display: block; padding-top: 40px; }
+
+#api-doc h3:target, #api-doc h4:target { padding-top: 80px; }
+
+#logo { position: fixed; top: 2px; margin: 0px; padding: 10px 25px; width: =
+auto; border-left: none; }
+
+#logo .express { display: block; font-style: normal; font-variant: normal; =
+font-stretch: normal; font-size: 25px; line-height: normal; font-family: "H=
+elvetica Neue", "Open Sans", sans-serif; font-weight: 100; color: rgb(68, 6=
+8, 68); }
+
+#description .express { display: block; font-style: normal; font-variant: n=
+ormal; font-stretch: normal; font-size: 4.5em; line-height: normal; font-fa=
+mily: "Helvetica Neue", "Open Sans", sans-serif; font-weight: 100; color: r=
+gb(53, 53, 53); margin-bottom: 0.25em; }
+
+#description .express img { display: none; }
+
+#description { margin-bottom: 40px; -webkit-font-smoothing: antialiased; }
+
+#description .description { position: relative; top: -5px; font-size: 4.2em=
+; color: rgb(174, 174, 174); line-height: 1.2; }
+
+#description em { font-style: normal; font-weight: 100; font-size: 9px; col=
+or: rgb(153, 153, 153); margin-left: 5px; }
+
+#intro, #doc-langs { margin-left: 5%; }
+
+#doc-langs { font-size: 11px; }
+
+#sponsorship, #sponsorship a { color: rgb(125, 189, 51); }
+
+#sponsorship h3 { color: rgb(8, 89, 43); }
+
+header { position: fixed; top: 0px; left: 0px; background: rgb(238, 238, 23=
+8); width: 100%; height: 55px; z-index: 100; border-bottom: 1px solid rgb(2=
+21, 221, 221); }
+
+.scroll header { border-bottom: 1px solid rgb(221, 221, 221); box-shadow: r=
+gb(238, 238, 238) 0px 0px 4px; }
+
+p code, td code { color: rgb(51, 51, 51); }
+
+pre { color: rgb(102, 102, 102); font-size: 14px; line-height: 1.4; padding=
+: 16px; border-radius: 3px; overflow: scroll; border: 1px solid rgb(221, 22=
+1, 221); }
+
+pre code { overflow: scroll; word-break: break-all; }
+
+.scroll #top { opacity: 0.2; }
+
+#top { line-height: 0; background: black; border-radius: 2px; position: fix=
+ed; bottom: 15px; right: 15px; padding: 8px; text-decoration: none; color: =
+white; opacity: 0; transition: opacity 300ms; }
+
+#top:hover { opacity: 1; }
+
+#top img { width: 8px; height: 5px; }
+
+.clearfix::after { content: "."; display: block; clear: both; visibility: h=
+idden; line-height: 0; height: 0px; }
+
+.clearfix { display: inline-block; }
+
+html[xmlns] .clearfix { display: block; }
+
+* html .clearfix { height: 1%; }
+
+#boxes { margin-top: 30px; }
+
+#boxes h3 { line-height: 1.25em; }
+
+#boxes div { width: 215px; margin-right: 50px; float: left; list-style: non=
+e; padding-bottom: 20px; }
+
+#boxes div:last-child { margin-right: 0px; }
+
+#boxes h3 { background: none; margin-top: 0px; padding-top: 0px; }
+
+#boxes section p { width: 100%; margin-top: 5px; margin-bottom: 20px; }
+
+#applications .section { display: block; margin-bottom: 50px; }
+
+.application h2 { margin: 0px; }
+
+.application { padding: 80px 0px; height: 600px; position: relative; }
+
+.application p { float: left; width: 30%; }
+
+.application img { float: right; }
+
+.application .link { position: absolute; bottom: 15px; left: 15px; }
+
+.application .link a { margin-left: 4px; }
+
+.doctable, section table { margin: 1em 1em 1em 0px; border: 1px solid rgb(1=
+98, 198, 198); border-collapse: collapse; empty-cells: show; width: 100%; }
+
+.doctable td, .doctable th, section table td, section table th { padding: 7=
+px; line-height: 120%; vertical-align: top; border: 1px solid rgb(198, 198,=
+ 198); }
+
+.doctable tr th, section table tr th { background-color: rgb(218, 218, 218)=
+; font-size: 110%; }
+
+.doctable td p:first-child { margin-top: 0px; }
+
+.doctable td p, li p { width: 100% !important; }
+
+.doctable ul { margin: 20px 0px; }
+
+.doc-box { font-size: 12px; line-height: 14px; padding: 10px; border-radius=
+: 3px; margin: 20px 3%; }
+
+.doc-box pre { font-size: 12px; line-height: 14px; padding: 0px; margin: 0p=
+x; }
+
+.doc-box p { margin: 0px 0px 8px; }
+
+.doc-box p:last-child { margin: 0px; }
+
+.doc-box pre[class*=3D"language-"] { background: none 0px 0px repeat scroll=
+ rgb(255, 255, 255); }
+
+.doc-notice { background: rgb(250, 246, 232); border: 1px solid rgb(222, 21=
+6, 193); }
+
+.doc-info { background: rgb(247, 250, 236); border: 1px solid rgb(223, 226,=
+ 211); }
+
+.doc-warn { background: rgb(249, 241, 241); border: 1px solid rgb(226, 211,=
+ 211); }
+
+#i18n-notice-box { margin-top: 100px; position: relative; }
+
+#close-i18n-notice-box { position: absolute; top: 3px; right: 4px; color: r=
+gb(85, 0, 0); cursor: pointer; }
+
+#app-settings-property { width: 200px; }
+
+.button { display: block; padding: 3px 5px; border: 1px solid rgb(204, 204,=
+ 204); border-radius: 3px; cursor: pointer; color: rgb(85, 85, 85); }
+
+#mobile-menu { display: none; position: relative; top: 9px; left: 0px; }
+
+#nav-button { position: absolute; left: 16px; }
+
+pre, code { white-space: pre-wrap !important; }
+
+#strongloop-header { font-size: 0.6em; display: block; position: absolute; =
+right: 2%; top: 11px; width: 120px; border-radius: 3px; color: rgb(8, 89, 4=
+3); padding: 3px; }
+
+footer { font-size: 11px; margin: 30px 10px; padding-bottom: 2em; border-bo=
+ttom: 1px solid rgb(238, 238, 238); }
+
+#footer-content { display: table; margin: 0px auto; }
+
+#footer-content div { float: left; margin-right: 20px; background-repeat: n=
+o-repeat; background-position: 0px 1px; padding-bottom: 4px; }
+
+#sponsor { background-image: url("/images/strongloop-logo.png"); background=
+-size: 20px 16px; padding-left: 25px; }
+
+#fork { background-image: url("/images/fork-icon.png"); background-size: 11=
+px 16px; padding-left: 15px; }
+
+.friend-links { margin-top: 1em; text-align: center; }
+
+.friend-links a { margin: 0px 10px; }
+
+.beian { font-size: 12px; color: rgb(170, 170, 170); text-align: center; ma=
+rgin: 1em 0px; }
+
+.beian a { color: inherit; }
+
+.beian span { margin: 0px 10px; }
+
+@media not all, not all, only screen and (-webkit-min-device-pixel-ratio: 1=
+.5), not all, only screen and (min-resolution: 1.5dppx) {
+  #sponsor { background-image: url("/images/strongloop-logo@2x.png"); }
+  #fork { background-image: url("/images/fork-icon@2x.png"); }
+  #announcements p:first-child { background-image: url("/images/announcemen=
+t-icon@2x.png"); }
+}
+
+#navbar { padding-left: 10%; max-width: 1193px; position: relative; }
+
+#navbar a { color: rgb(102, 102, 102); margin: 0px 5px; padding-right: 15px=
+; -webkit-font-smoothing: subpixel-antialiased; }
+
+#navbar a.active { font-weight: bold; color: rgb(53, 53, 53); }
+
+#navmenu { padding: 0px 0px 0px 5%; margin: 0px; position: absolute; right:=
+ 183px; top: 15px; z-index: 1000; }
+
+#navmenu > li { list-style: none; padding: 0px; float: left; }
+
+#navmenu a:hover { text-decoration: none; }
+
+.menu ul { display: none; }
+
+.menu ul.dropit-submenu { background-color: rgb(252, 252, 250); border: 1px=
+ solid rgb(178, 178, 178); padding: 6px 0px; margin: 0px 0px 0px 1px; borde=
+r-radius: 3px; box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px; }
+
+.menu ul.dropit-submenu a { display: block; color: rgb(119, 119, 119); padd=
+ing: 0px 8px 2px; }
+
+.menu ul.dropit-submenu a:hover { background: rgb(37, 157, 255); text-decor=
+ation: none; color: rgb(255, 255, 255) !important; }
+
+#menu { position: fixed; margin: 0px; padding: 0px 10px 0px 0px; top: 90px;=
+ right: 30px; height: 500px; text-align: right; font-size: 13px; overflow-y=
+: auto; }
+
+#menu em { font-weight: bold; color: rgb(136, 136, 136); }
+
+#menu li { list-style: none; }
+
+#menu ul { height: 0px; overflow: hidden; }
+
+#menu ul.active { height: auto; }
+
+#menu > li > a { color: rgb(53, 53, 53); font-weight: bold; font-size: 15px=
+; }
+
+#menu ul a { color: rgb(85, 85, 85); padding-right: 7px; }
+
+#menu ul a.active { color: rgb(37, 157, 255); }
+
+h2 a::before { display: block; content: " "; margin-top: -40px; height: 40p=
+x; visibility: hidden; }
+
+h2 a { color: rgb(53, 53, 53) !important; }
+
+@media (max-width: 899px) {
+  .table-scroller { width: 100%; overflow: scroll; }
+  #api-doc section { padding-left: 0px; }
+  code { word-break: break-all; }
+  .menu ul.dropit-submenu a { font-size: 16px !important; }
+  ul { padding-left: 5%; }
+  h1 { font-size: 22px; line-height: 26px; }
+  h2 { font-size: 18px; line-height: 25px; }
+  h3 { font-size: 16px; line-height: 23px; word-break: break-all; }
+  h4 { font-size: 16px; line-height: 18px; font-weight: normal; }
+  #menu { display: none; }
+  .content { padding-right: 0px; }
+  #home-content { margin: 100px 0px 0px 5%; padding-right: 5%; }
+  #description { margin-bottom: 35px; }
+  #description .express { display: none; }
+  #description .description { font-size: 3em; line-height: 0.9em; }
+  #install-command { width: 100%; margin-right: 5%; }
+  #logo { position: static; width: 100%; }
+  #logo a { margin: 0px auto; display: table !important; }
+  #logo .express { font-weight: bold; }
+  .github-fork-ribbon-wrapper { display: none; }
+  #mobile-menu { display: block; }
+  #boxes div { width: 90%; }
+  .content p img { width: 98%; height: 98%; }
+  #home-menu { display: block; position: absolute; top: 7px; }
+  #navbar { padding: 0px; }
+  #navbar a { font-size: 19px; margin: 0px; padding-left: 5%; }
+  #navmenu { left: 0px; padding: 0px; top: 2px; background: rgb(255, 255, 2=
+55); width: 100%; display: none; }
+  #navmenu > li { float: none; border-bottom: 1px solid rgb(204, 204, 204);=
+ margin: 0px; min-height: 47px; position: relative; background: rgb(238, 23=
+8, 238); cursor: pointer; }
+  #navmenu > li:first-child { display: none; }
+  #navmenu > li:hover { background: rgb(233, 233, 233); }
+  #navmenu > li > ul { position: static; }
+  .dropit .dropit-submenu { position: static !important; }
+  .dropit .dropit-trigger { padding-top: 7px; }
+  .menu ul.dropit-submenu { background: rgb(221, 221, 221); padding: 0px; m=
+argin: 0px; border: none; border-radius: 0px; box-shadow: none; max-height:=
+ 190px; overflow-y: scroll; overflow-x: hidden; }
+  .dropit-trigger > a { display: block; margin-bottom: 8px !important; }
+  .menu ul.dropit-submenu a { padding: 5px 5px 5px 5%; }
+  .dropit-submenu li { border-bottom: 1px solid rgb(205, 205, 205); }
+  .dropit-submenu a { padding-left: 10% !important; }
+  .menu ul { display: block; }
+  .active-mobile-menu { border-bottom: none !important; }
+  .active-mobile-menu .dropit-trigger { margin-bottom: 0px !important; }
+  .menu ul.dropit-submenu a:hover { background: rgb(204, 204, 204); color: =
+rgb(102, 102, 102) !important; }
+}
+
+@media (max-width: 420px) {
+  #app-settings-property { width: auto; }
+  #strongloop-header { display: none; }
+  #description .express { display: none; }
+  footer { margin: 0px; }
+  #footer-content { display: block; margin-left: 5%; }
+  #footer-content div { clear: both; }
+  #sponsor { margin-top: 30px; }
+  #fork { margin-left: 7px; margin-top: 2px; margin-bottom: 30px; padding-l=
+eft: 18px; }
+}
+
+@media (max-width: 320px) {
+  #install-command { font-size: 12px; }
+}
+------MultipartBoundary--7zsyASwOkZgyE2YGp8jH2I3bIzN42C7c4ytT3r1i18----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.expressjs.com.cn/images/bg.jpg
+
+/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QMxaHR0cDov
+L25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENl
+aGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4
+OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjYtYzAxNCA3OS4xNTY3OTcsIDIwMTQvMDgvMjAtMDk6
+NTM6MDIgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5
+OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHht
+bG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0i
+aHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1w
+PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlk
+OjY4NkRDNUMzNEIyRDExRTRCRUEyODgzMkZENzBFNDMwIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAu
+aWlkOjY4NkRDNUMyNEIyRDExRTRCRUEyODgzMkZENzBFNDMwIiB4bXA6Q3JlYXRvclRvb2w9IkFk
+b2JlIFBob3Rvc2hvcCBDQyAyMDE0IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0
+UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QjBDODgzNEM0MkUxMTFFNEE5OUY4MkNGNzFDNjAwQzYi
+IHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QjBDODgzNEQ0MkUxMTFFNEE5OUY4MkNGNzFDNjAw
+QzYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tl
+dCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAGBAQEBQQGBQUGCQYFBgkLCAYGCAsMCgoL
+CgoMEAwMDAwMDBAMDg8QDw4MExMUFBMTHBsbGxwfHx8fHx8fHx8fAQcHBw0MDRgQEBgaFREVGh8f
+Hx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCACMAIwD
+AREAAhEBAxEB/8QAXQABAQEAAAAAAAAAAAAAAAAAAAEIAQEAAAAAAAAAAAAAAAAAAAAAEAEAAQMC
+BgMBAQAAAAAAAAAAAREhQTGB8FFhcaGxkcHR4RIRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhED
+EQA/ANTgkyCgUwBWQAS4KCTkAC/MCAAWAAQFuCX5bgfQKBgAE3BaARUCwJ4AAioHYFAAqBQDigGP
+oCNATIGoEgt5ABOgLYC9AKgVBNwX2BNfwCvUCtwANgLwCAfQAFLgoEAm1gUADWkgeAMggLIHgEi4
+LSQTAL7BLgoFAMgAbAAV5AgLIFbggAKBAFLgmPQL6AABAO4HoC0VAoCgAcQB1BIA7goFwASkbguQ
+KWBAXuCegXyCeeQKBoAAACAdwXYAAAAAC2gJxAFwWgJgFkEpAF5AmuAXAFJAgAAAAEBQIoAAABFA
+AAMgQCAoAJPMD9AxUAAFBAXcCgJILqCAvUCAMXuBMYBAUAAEp12BcaAgHsF8AU2AkAAACATwACgA
+AAaAVncAACoAAAIB9AAoAAJEyBHMFBLgVBa/AAIBcFBLgcQBkFiIwBAGwAFQJ0BAPAGfsF6gdMga
+gUBKfAKCVABc1wCeAAAMgoJ1yCggL2BJBbaAlZABeoJTeAUEpqC6AAbAASABi4AAAFYmQSgKBYCo
+IACgAlZkFABANAAXIEAAkxAFPYLkEgFmf6AAABIICgmAAMgoFwQFBAK/ALbjUACwE0BL/oLGoF/9
+dAM+wS2QXIHICdATtoCgZvsBOgEgnqoP/9k=
+------MultipartBoundary--7zsyASwOkZgyE2YGp8jH2I3bIzN42C7c4ytT3r1i18----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.expressjs.com.cn/images/strongloop-logo.png
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1
+Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOklu
+c3RhbmNlSUQ9InhtcC5paWQ6NTA4RkM4QkQ0OEZGMTFFNEE5NjdBQUQ1RkZERDgyMzEiIHhtcE1N
+OkRvY3VtZW50SUQ9InhtcC5kaWQ6NTA4RkM4QkU0OEZGMTFFNEE5NjdBQUQ1RkZERDgyMzEiPiA8
+eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1MDhGQzhCQjQ4RkYx
+MUU0QTk2N0FBRDVGRkREODIzMSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1MDhGQzhCQzQ4
+RkYxMUU0QTk2N0FBRDVGRkREODIzMSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8
+L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PrNOZ3UAAARvSURBVHjadJRbbJRFFMf/33z3
+vXS3e+m2Sy9ASwu9QCgUsNBIyjUhRDDVRMGY8IJRIyovojEGE1/lQRKUB58ML4BaePBCC2iwmBa2
+FFppmxYopd1Lv+3er99+3zjLkyZ6JudhJjP/mXPO7wz3yYUzsIgK0nocQ5NjqK9chQO9IvL8Q4Q0
+E7/+JqG1pgNdzWsxcO/Wpv6RwfMum+PJtpbO4xZZ1SKJKBK5FGocHnAcB0HkBfC8CFrkAFD808qz
+SruTi8SjGJ+fpVNzU18kQ086k7zaKfHKrQ2NLWeYhqSISrEsRtkBUtDzlYl0hhhmCaIgQuB5cGwI
+7BKJVzG7+PT9H4Z/SUzMTb1S7a25CpsLtqoVC/7K+rE/Hkx/fe3+UGQppb1pV62wKip4rcbyoceT
+CTSv5ou3x7R9DtXqaF0jBVP606PxQuirwcG511MzQbuGhLO5ruW95ZhS1dfrv9L9wnL7QGDig0xY
+V0JJ7VAsmzqoSsoY39jbPXKw106stnzHt/2jV3Wds69fJ08HsyODBs02OFxE0vTqGx0NXW/PLj4+
+5at9fGLD+vgumyO28/DuCi5vyph5BMTjQX8osbSTtDcqeYcjUadI/IY9ndv3VlU0visS0Wq1AEUj
+hxe3WFJH93S/tBDJOmeeTZ7c1U1Q5YEUigjclYES7k/qIAoH9iKYROT5A8c6scpv1VRSNWqz0oXa
+2oS+ptazGAn6rqsyrwt600ffXw+fGH9097xpSsiXBGxsFzB0x8SPF/JIGRSSpVwQClmUloSNrQqo
+ySNPwyt9K5Z3yCK9dvX3cKz/ZnC/32tdcFrp3cBfY19ysgmaAZ7NF0EEDoWSDlgIJCujwWCEmGUs
+KMjoQxND90oYHkVsemHu88X07I3p+eih0Pjox4Gbg6eTy9F1PZu3XaYFHZyF0jpv+2ckvaXLbXMG
+YOjQdSZSJo57rgfe3roVSxpHpmbokRUe56U1DerFWnf9iEYy+9XajO9Yny/a095yOpmu/qnG5Ypp
+icTawDiXTEZcc5HC4m4YBHqegpNZ6IIYFWo8dkY4TIuaG3ByPUskM5P1VU9sPvJyoa1QcoOKs6cC
+s9yDRNpZmgpOHkulYh7oYl9bm904edxOYwmT6x8sIRymKPGGKEiC9LwrVFGck5U4dC7KEDArtHSO
+LxpZuBxyenFJ335nePhVeHQPSAXcfuC1wxxvYzlsXsk6jYV77lwMEJ0mMSlLNnPD4AEpCCLFYJO9
+1z2W1W8pgmvYzq29tGMz9u3YT7ygKlAqh8bqIfMoFimC0SxSuQKqG5oCB7p2HSX/6lwqPa+4QXUo
+gv2bNm/vVrfafNoUtEq3O8fAZMypBGH2mIs/Z6HFs+xjsc6vcrf27d3Ys8nv8f1J8F/GtEtmHoQI
+cNrUJzS1vm16vPU7CAbMUhJmMYfb12jhznDTp/WV6xpssv1yjq2lc1kI+F9jlWIfhs7cNORwW23H
+G3Ve79mJZzNnWc/OO5p879gkW7Co59meIkzGTJmevwUYAFF2/OGj6U2PAAAAAElFTkSuQmCC
+------MultipartBoundary--7zsyASwOkZgyE2YGp8jH2I3bIzN42C7c4ytT3r1i18----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.expressjs.com.cn/images/fork-icon.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAsAAAAQCAYAAADAvYV+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1
+Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOklu
+c3RhbmNlSUQ9InhtcC5paWQ6MUZDOTI5QzA0OEZGMTFFNEE5NjdBQUQ1RkZERDgyMzEiIHhtcE1N
+OkRvY3VtZW50SUQ9InhtcC5kaWQ6MUZDOTI5QzE0OEZGMTFFNEE5NjdBQUQ1RkZERDgyMzEiPiA8
+eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxRkM5MjlCRTQ4RkYx
+MUU0QTk2N0FBRDVGRkREODIzMSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxRkM5MjlCRjQ4
+RkYxMUU0QTk2N0FBRDVGRkREODIzMSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8
+L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqD+qUQAAAEUSURBVHjafNKvS4NRFMbxu5e3
+WCwWHRaLQSxGQZjWJVFQDFoGNhHz8muY/glLC8MfdQ6ZP9aWBZEFxwSDgnNNy5jM74EnHAbvBh8O
+Z+/D5d5zb+Y0SWZDCJeYwTEeQsovwh2m0MI9FiaFl7GOQ/234b5v4wa71sRooIY23nGr4B6qeMSF
+LWzhPIZaMYcPhUu4xg6urLdt/KGjQNdtoYJVhdesj/QhVp124SJeNCnbYjEaO/BorP9VrfkVM6pf
+qjb7fWypb/rwQLWMeSy6LSV48uEf1U23hW9N5Cy4g2Wxor6HI3zqcH1/gFjXbWN6xolmOkq77iUU
+cI45HKS9jViv7BVvmkZ90kPK68UNdVO9tPC/AAMArdM5dv0cgcAAAAAASUVORK5CYII=
+------MultipartBoundary--7zsyASwOkZgyE2YGp8jH2I3bIzN42C7c4ytT3r1i18----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.expressjs.com.cn/css/dropit.css
+
+@charset "utf-8";
+
+.dropit { list-style: none; padding: 0px; margin: 0px; }
+
+.dropit .dropit-trigger { position: relative; margin-bottom: 6px; }
+
+.dropit .dropit-submenu { position: absolute; top: 100%; left: 0px; z-index=
+: 1000; display: none; min-width: 197px; list-style: none; padding: 0px; ma=
+rgin: 0px; }
+
+.dropit .dropit-open .dropit-submenu { display: block; }
+------MultipartBoundary--7zsyASwOkZgyE2YGp8jH2I3bIzN42C7c4ytT3r1i18----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.expressjs.com.cn/css/prism.css
+
+@charset "utf-8";
+
+code[class*=3D"language-"], pre[class*=3D"language-"] { color: black; text-=
+shadow: white 0px 1px; font-family: Consolas, Monaco, "Andale Mono", monosp=
+ace; direction: ltr; text-align: left; white-space: pre; word-spacing: norm=
+al; word-break: normal; line-height: 1.5; tab-size: 4; hyphens: none; }
+
+pre[class*=3D"language-"]::selection, pre[class*=3D"language-"] ::selection=
+, code[class*=3D"language-"]::selection, code[class*=3D"language-"] ::selec=
+tion { text-shadow: none; background: rgb(179, 212, 252); }
+
+@media print {
+  code[class*=3D"language-"], pre[class*=3D"language-"] { text-shadow: none=
+; }
+}
+
+pre[class*=3D"language-"] { padding: 1em; margin: 0.5em 0px; overflow: auto=
+; }
+
+:not(pre) > code[class*=3D"language-"], pre[class*=3D"language-"] { backgro=
+und: rgb(247, 247, 247); }
+
+pre.language-sh { background-color: rgb(39, 39, 39); }
+
+code.language-sh { color: rgb(79, 191, 64); text-shadow: none; }
+
+:not(pre) > code[class*=3D"language-"] { padding: 0.1em; border-radius: 0.3=
+em; }
+
+.token.comment, .token.prolog, .token.doctype, .token.cdata { color: slateg=
+ray; }
+
+.token.punctuation { color: rgb(153, 153, 153); }
+
+.namespace { opacity: 0.7; }
+
+.token.property, .token.tag, .token.boolean, .token.number, .token.constant=
+, .token.symbol, .token.deleted { color: rgb(153, 0, 85); }
+
+.token.selector, .token.attr-name, .token.string, .token.char, .token.built=
+in, .token.inserted { color: rgb(102, 153, 0); }
+
+.token.operator, .token.entity, .token.url, .language-css .token.string, .s=
+tyle .token.string { color: rgb(166, 127, 89); background: rgba(255, 255, 2=
+55, 0.498); }
+
+.token.atrule, .token.attr-value, .token.keyword { color: rgb(0, 119, 170);=
+ }
+
+.token.function { color: rgb(221, 74, 104); }
+
+.token.regex, .token.important, .token.variable { color: rgb(238, 153, 0); =
+}
+
+.token.important { font-weight: bold; }
+
+.token.entity { cursor: help; }
+------MultipartBoundary--7zsyASwOkZgyE2YGp8jH2I3bIzN42C7c4ytT3r1i18----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css
+
+@charset "utf-8";
+
+@font-face { font-family: FontAwesome; src: url("../fonts/fontawesome-webfo=
+nt.eot?#iefix&v=3D4.4.0") format("embedded-opentype"), url("../fonts/fontaw=
+esome-webfont.woff2?v=3D4.4.0") format("woff2"), url("../fonts/fontawesome-=
+webfont.woff?v=3D4.4.0") format("woff"), url("../fonts/fontawesome-webfont.=
+ttf?v=3D4.4.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=
+=3D4.4.0#fontawesomeregular") format("svg"); font-weight: normal; font-styl=
+e: normal; }
+
+.fa { display: inline-block; font-style: normal; font-variant: normal; font=
+-weight: normal; font-stretch: normal; line-height: 1; font-family: FontAwe=
+some; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: ant=
+ialiased; }
+
+.fa-lg { font-size: 1.33333em; line-height: 0.75em; vertical-align: -15%; }
+
+.fa-2x { font-size: 2em; }
+
+.fa-3x { font-size: 3em; }
+
+.fa-4x { font-size: 4em; }
+
+.fa-5x { font-size: 5em; }
+
+.fa-fw { width: 1.28571em; text-align: center; }
+
+.fa-ul { padding-left: 0px; margin-left: 2.14286em; list-style-type: none; =
+}
+
+.fa-ul > li { position: relative; }
+
+.fa-li { position: absolute; left: -2.14286em; width: 2.14286em; top: 0.142=
+857em; text-align: center; }
+
+.fa-li.fa-lg { left: -1.85714em; }
+
+.fa-border { padding: 0.2em 0.25em 0.15em; border: 0.08em solid rgb(238, 23=
+8, 238); border-radius: 0.1em; }
+
+.fa-pull-left { float: left; }
+
+.fa-pull-right { float: right; }
+
+.fa.fa-pull-left { margin-right: 0.3em; }
+
+.fa.fa-pull-right { margin-left: 0.3em; }
+
+.pull-right { float: right; }
+
+.pull-left { float: left; }
+
+.fa.pull-left { margin-right: 0.3em; }
+
+.fa.pull-right { margin-left: 0.3em; }
+
+.fa-spin { animation: fa-spin 2s linear infinite; }
+
+.fa-pulse { animation: fa-spin 1s steps(8, end) infinite; }
+
+@-webkit-keyframes fa-spin {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+
+@keyframes fa-spin {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+
+.fa-rotate-90 { transform: rotate(90deg); }
+
+.fa-rotate-180 { transform: rotate(180deg); }
+
+.fa-rotate-270 { transform: rotate(270deg); }
+
+.fa-flip-horizontal { transform: scale(-1, 1); }
+
+.fa-flip-vertical { transform: scale(1, -1); }
+
+:root .fa-rotate-90, :root .fa-rotate-180, :root .fa-rotate-270, :root .fa-=
+flip-horizontal, :root .fa-flip-vertical { filter: none; }
+
+.fa-stack { position: relative; display: inline-block; width: 2em; height: =
+2em; line-height: 2em; vertical-align: middle; }
+
+.fa-stack-1x, .fa-stack-2x { position: absolute; left: 0px; width: 100%; te=
+xt-align: center; }
+
+.fa-stack-1x { line-height: inherit; }
+
+.fa-stack-2x { font-size: 2em; }
+
+.fa-inverse { color: rgb(255, 255, 255); }
+
+.fa-glass::before { content: "=EF=80=80"; }
+
+.fa-music::before { content: "=EF=80=81"; }
+
+.fa-search::before { content: "=EF=80=82"; }
+
+.fa-envelope-o::before { content: "=EF=80=83"; }
+
+.fa-heart::before { content: "=EF=80=84"; }
+
+.fa-star::before { content: "=EF=80=85"; }
+
+.fa-star-o::before { content: "=EF=80=86"; }
+
+.fa-user::before { content: "=EF=80=87"; }
+
+.fa-film::before { content: "=EF=80=88"; }
+
+.fa-th-large::before { content: "=EF=80=89"; }
+
+.fa-th::before { content: "=EF=80=8A"; }
+
+.fa-th-list::before { content: "=EF=80=8B"; }
+
+.fa-check::before { content: "=EF=80=8C"; }
+
+.fa-remove::before, .fa-close::before, .fa-times::before { content: "=EF=80=
+=8D"; }
+
+.fa-search-plus::before { content: "=EF=80=8E"; }
+
+.fa-search-minus::before { content: "=EF=80=90"; }
+
+.fa-power-off::before { content: "=EF=80=91"; }
+
+.fa-signal::before { content: "=EF=80=92"; }
+
+.fa-gear::before, .fa-cog::before { content: "=EF=80=93"; }
+
+.fa-trash-o::before { content: "=EF=80=94"; }
+
+.fa-home::before { content: "=EF=80=95"; }
+
+.fa-file-o::before { content: "=EF=80=96"; }
+
+.fa-clock-o::before { content: "=EF=80=97"; }
+
+.fa-road::before { content: "=EF=80=98"; }
+
+.fa-download::before { content: "=EF=80=99"; }
+
+.fa-arrow-circle-o-down::before { content: "=EF=80=9A"; }
+
+.fa-arrow-circle-o-up::before { content: "=EF=80=9B"; }
+
+.fa-inbox::before { content: "=EF=80=9C"; }
+
+.fa-play-circle-o::before { content: "=EF=80=9D"; }
+
+.fa-rotate-right::before, .fa-repeat::before { content: "=EF=80=9E"; }
+
+.fa-refresh::before { content: "=EF=80=A1"; }
+
+.fa-list-alt::before { content: "=EF=80=A2"; }
+
+.fa-lock::before { content: "=EF=80=A3"; }
+
+.fa-flag::before { content: "=EF=80=A4"; }
+
+.fa-headphones::before { content: "=EF=80=A5"; }
+
+.fa-volume-off::before { content: "=EF=80=A6"; }
+
+.fa-volume-down::before { content: "=EF=80=A7"; }
+
+.fa-volume-up::before { content: "=EF=80=A8"; }
+
+.fa-qrcode::before { content: "=EF=80=A9"; }
+
+.fa-barcode::before { content: "=EF=80=AA"; }
+
+.fa-tag::before { content: "=EF=80=AB"; }
+
+.fa-tags::before { content: "=EF=80=AC"; }
+
+.fa-book::before { content: "=EF=80=AD"; }
+
+.fa-bookmark::before { content: "=EF=80=AE"; }
+
+.fa-print::before { content: "=EF=80=AF"; }
+
+.fa-camera::before { content: "=EF=80=B0"; }
+
+.fa-font::before { content: "=EF=80=B1"; }
+
+.fa-bold::before { content: "=EF=80=B2"; }
+
+.fa-italic::before { content: "=EF=80=B3"; }
+
+.fa-text-height::before { content: "=EF=80=B4"; }
+
+.fa-text-width::before { content: "=EF=80=B5"; }
+
+.fa-align-left::before { content: "=EF=80=B6"; }
+
+.fa-align-center::before { content: "=EF=80=B7"; }
+
+.fa-align-right::before { content: "=EF=80=B8"; }
+
+.fa-align-justify::before { content: "=EF=80=B9"; }
+
+.fa-list::before { content: "=EF=80=BA"; }
+
+.fa-dedent::before, .fa-outdent::before { content: "=EF=80=BB"; }
+
+.fa-indent::before { content: "=EF=80=BC"; }
+
+.fa-video-camera::before { content: "=EF=80=BD"; }
+
+.fa-photo::before, .fa-image::before, .fa-picture-o::before { content: "=EF=
+=80=BE"; }
+
+.fa-pencil::before { content: "=EF=81=80"; }
+
+.fa-map-marker::before { content: "=EF=81=81"; }
+
+.fa-adjust::before { content: "=EF=81=82"; }
+
+.fa-tint::before { content: "=EF=81=83"; }
+
+.fa-edit::before, .fa-pencil-square-o::before { content: "=EF=81=84"; }
+
+.fa-share-square-o::before { content: "=EF=81=85"; }
+
+.fa-check-square-o::before { content: "=EF=81=86"; }
+
+.fa-arrows::before { content: "=EF=81=87"; }
+
+.fa-step-backward::before { content: "=EF=81=88"; }
+
+.fa-fast-backward::before { content: "=EF=81=89"; }
+
+.fa-backward::before { content: "=EF=81=8A"; }
+
+.fa-play::before { content: "=EF=81=8B"; }
+
+.fa-pause::before { content: "=EF=81=8C"; }
+
+.fa-stop::before { content: "=EF=81=8D"; }
+
+.fa-forward::before { content: "=EF=81=8E"; }
+
+.fa-fast-forward::before { content: "=EF=81=90"; }
+
+.fa-step-forward::before { content: "=EF=81=91"; }
+
+.fa-eject::before { content: "=EF=81=92"; }
+
+.fa-chevron-left::before { content: "=EF=81=93"; }
+
+.fa-chevron-right::before { content: "=EF=81=94"; }
+
+.fa-plus-circle::before { content: "=EF=81=95"; }
+
+.fa-minus-circle::before { content: "=EF=81=96"; }
+
+.fa-times-circle::before { content: "=EF=81=97"; }
+
+.fa-check-circle::before { content: "=EF=81=98"; }
+
+.fa-question-circle::before { content: "=EF=81=99"; }
+
+.fa-info-circle::before { content: "=EF=81=9A"; }
+
+.fa-crosshairs::before { content: "=EF=81=9B"; }
+
+.fa-times-circle-o::before { content: "=EF=81=9C"; }
+
+.fa-check-circle-o::before { content: "=EF=81=9D"; }
+
+.fa-ban::before { content: "=EF=81=9E"; }
+
+.fa-arrow-left::before { content: "=EF=81=A0"; }
+
+.fa-arrow-right::before { content: "=EF=81=A1"; }
+
+.fa-arrow-up::before { content: "=EF=81=A2"; }
+
+.fa-arrow-down::before { content: "=EF=81=A3"; }
+
+.fa-mail-forward::before, .fa-share::before { content: "=EF=81=A4"; }
+
+.fa-expand::before { content: "=EF=81=A5"; }
+
+.fa-compress::before { content: "=EF=81=A6"; }
+
+.fa-plus::before { content: "=EF=81=A7"; }
+
+.fa-minus::before { content: "=EF=81=A8"; }
+
+.fa-asterisk::before { content: "=EF=81=A9"; }
+
+.fa-exclamation-circle::before { content: "=EF=81=AA"; }
+
+.fa-gift::before { content: "=EF=81=AB"; }
+
+.fa-leaf::before { content: "=EF=81=AC"; }
+
+.fa-fire::before { content: "=EF=81=AD"; }
+
+.fa-eye::before { content: "=EF=81=AE"; }
+
+.fa-eye-slash::before { content: "=EF=81=B0"; }
+
+.fa-warning::before, .fa-exclamation-triangle::before { content: "=EF=81=B1=
+"; }
+
+.fa-plane::before { content: "=EF=81=B2"; }
+
+.fa-calendar::before { content: "=EF=81=B3"; }
+
+.fa-random::before { content: "=EF=81=B4"; }
+
+.fa-comment::before { content: "=EF=81=B5"; }
+
+.fa-magnet::before { content: "=EF=81=B6"; }
+
+.fa-chevron-up::before { content: "=EF=81=B7"; }
+
+.fa-chevron-down::before { content: "=EF=81=B8"; }
+
+.fa-retweet::before { content: "=EF=81=B9"; }
+
+.fa-shopping-cart::before { content: "=EF=81=BA"; }
+
+.fa-folder::before { content: "=EF=81=BB"; }
+
+.fa-folder-open::before { content: "=EF=81=BC"; }
+
+.fa-arrows-v::before { content: "=EF=81=BD"; }
+
+.fa-arrows-h::before { content: "=EF=81=BE"; }
+
+.fa-bar-chart-o::before, .fa-bar-chart::before { content: "=EF=82=80"; }
+
+.fa-twitter-square::before { content: "=EF=82=81"; }
+
+.fa-facebook-square::before { content: "=EF=82=82"; }
+
+.fa-camera-retro::before { content: "=EF=82=83"; }
+
+.fa-key::before { content: "=EF=82=84"; }
+
+.fa-gears::before, .fa-cogs::before { content: "=EF=82=85"; }
+
+.fa-comments::before { content: "=EF=82=86"; }
+
+.fa-thumbs-o-up::before { content: "=EF=82=87"; }
+
+.fa-thumbs-o-down::before { content: "=EF=82=88"; }
+
+.fa-star-half::before { content: "=EF=82=89"; }
+
+.fa-heart-o::before { content: "=EF=82=8A"; }
+
+.fa-sign-out::before { content: "=EF=82=8B"; }
+
+.fa-linkedin-square::before { content: "=EF=82=8C"; }
+
+.fa-thumb-tack::before { content: "=EF=82=8D"; }
+
+.fa-external-link::before { content: "=EF=82=8E"; }
+
+.fa-sign-in::before { content: "=EF=82=90"; }
+
+.fa-trophy::before { content: "=EF=82=91"; }
+
+.fa-github-square::before { content: "=EF=82=92"; }
+
+.fa-upload::before { content: "=EF=82=93"; }
+
+.fa-lemon-o::before { content: "=EF=82=94"; }
+
+.fa-phone::before { content: "=EF=82=95"; }
+
+.fa-square-o::before { content: "=EF=82=96"; }
+
+.fa-bookmark-o::before { content: "=EF=82=97"; }
+
+.fa-phone-square::before { content: "=EF=82=98"; }
+
+.fa-twitter::before { content: "=EF=82=99"; }
+
+.fa-facebook-f::before, .fa-facebook::before { content: "=EF=82=9A"; }
+
+.fa-github::before { content: "=EF=82=9B"; }
+
+.fa-unlock::before { content: "=EF=82=9C"; }
+
+.fa-credit-card::before { content: "=EF=82=9D"; }
+
+.fa-feed::before, .fa-rss::before { content: "=EF=82=9E"; }
+
+.fa-hdd-o::before { content: "=EF=82=A0"; }
+
+.fa-bullhorn::before { content: "=EF=82=A1"; }
+
+.fa-bell::before { content: "=EF=83=B3"; }
+
+.fa-certificate::before { content: "=EF=82=A3"; }
+
+.fa-hand-o-right::before { content: "=EF=82=A4"; }
+
+.fa-hand-o-left::before { content: "=EF=82=A5"; }
+
+.fa-hand-o-up::before { content: "=EF=82=A6"; }
+
+.fa-hand-o-down::before { content: "=EF=82=A7"; }
+
+.fa-arrow-circle-left::before { content: "=EF=82=A8"; }
+
+.fa-arrow-circle-right::before { content: "=EF=82=A9"; }
+
+.fa-arrow-circle-up::before { content: "=EF=82=AA"; }
+
+.fa-arrow-circle-down::before { content: "=EF=82=AB"; }
+
+.fa-globe::before { content: "=EF=82=AC"; }
+
+.fa-wrench::before { content: "=EF=82=AD"; }
+
+.fa-tasks::before { content: "=EF=82=AE"; }
+
+.fa-filter::before { content: "=EF=82=B0"; }
+
+.fa-briefcase::before { content: "=EF=82=B1"; }
+
+.fa-arrows-alt::before { content: "=EF=82=B2"; }
+
+.fa-group::before, .fa-users::before { content: "=EF=83=80"; }
+
+.fa-chain::before, .fa-link::before { content: "=EF=83=81"; }
+
+.fa-cloud::before { content: "=EF=83=82"; }
+
+.fa-flask::before { content: "=EF=83=83"; }
+
+.fa-cut::before, .fa-scissors::before { content: "=EF=83=84"; }
+
+.fa-copy::before, .fa-files-o::before { content: "=EF=83=85"; }
+
+.fa-paperclip::before { content: "=EF=83=86"; }
+
+.fa-save::before, .fa-floppy-o::before { content: "=EF=83=87"; }
+
+.fa-square::before { content: "=EF=83=88"; }
+
+.fa-navicon::before, .fa-reorder::before, .fa-bars::before { content: "=EF=
+=83=89"; }
+
+.fa-list-ul::before { content: "=EF=83=8A"; }
+
+.fa-list-ol::before { content: "=EF=83=8B"; }
+
+.fa-strikethrough::before { content: "=EF=83=8C"; }
+
+.fa-underline::before { content: "=EF=83=8D"; }
+
+.fa-table::before { content: "=EF=83=8E"; }
+
+.fa-magic::before { content: "=EF=83=90"; }
+
+.fa-truck::before { content: "=EF=83=91"; }
+
+.fa-pinterest::before { content: "=EF=83=92"; }
+
+.fa-pinterest-square::before { content: "=EF=83=93"; }
+
+.fa-google-plus-square::before { content: "=EF=83=94"; }
+
+.fa-google-plus::before { content: "=EF=83=95"; }
+
+.fa-money::before { content: "=EF=83=96"; }
+
+.fa-caret-down::before { content: "=EF=83=97"; }
+
+.fa-caret-up::before { content: "=EF=83=98"; }
+
+.fa-caret-left::before { content: "=EF=83=99"; }
+
+.fa-caret-right::before { content: "=EF=83=9A"; }
+
+.fa-columns::before { content: "=EF=83=9B"; }
+
+.fa-unsorted::before, .fa-sort::before { content: "=EF=83=9C"; }
+
+.fa-sort-down::before, .fa-sort-desc::before { content: "=EF=83=9D"; }
+
+.fa-sort-up::before, .fa-sort-asc::before { content: "=EF=83=9E"; }
+
+.fa-envelope::before { content: "=EF=83=A0"; }
+
+.fa-linkedin::before { content: "=EF=83=A1"; }
+
+.fa-rotate-left::before, .fa-undo::before { content: "=EF=83=A2"; }
+
+.fa-legal::before, .fa-gavel::before { content: "=EF=83=A3"; }
+
+.fa-dashboard::before, .fa-tachometer::before { content: "=EF=83=A4"; }
+
+.fa-comment-o::before { content: "=EF=83=A5"; }
+
+.fa-comments-o::before { content: "=EF=83=A6"; }
+
+.fa-flash::before, .fa-bolt::before { content: "=EF=83=A7"; }
+
+.fa-sitemap::before { content: "=EF=83=A8"; }
+
+.fa-umbrella::before { content: "=EF=83=A9"; }
+
+.fa-paste::before, .fa-clipboard::before { content: "=EF=83=AA"; }
+
+.fa-lightbulb-o::before { content: "=EF=83=AB"; }
+
+.fa-exchange::before { content: "=EF=83=AC"; }
+
+.fa-cloud-download::before { content: "=EF=83=AD"; }
+
+.fa-cloud-upload::before { content: "=EF=83=AE"; }
+
+.fa-user-md::before { content: "=EF=83=B0"; }
+
+.fa-stethoscope::before { content: "=EF=83=B1"; }
+
+.fa-suitcase::before { content: "=EF=83=B2"; }
+
+.fa-bell-o::before { content: "=EF=82=A2"; }
+
+.fa-coffee::before { content: "=EF=83=B4"; }
+
+.fa-cutlery::before { content: "=EF=83=B5"; }
+
+.fa-file-text-o::before { content: "=EF=83=B6"; }
+
+.fa-building-o::before { content: "=EF=83=B7"; }
+
+.fa-hospital-o::before { content: "=EF=83=B8"; }
+
+.fa-ambulance::before { content: "=EF=83=B9"; }
+
+.fa-medkit::before { content: "=EF=83=BA"; }
+
+.fa-fighter-jet::before { content: "=EF=83=BB"; }
+
+.fa-beer::before { content: "=EF=83=BC"; }
+
+.fa-h-square::before { content: "=EF=83=BD"; }
+
+.fa-plus-square::before { content: "=EF=83=BE"; }
+
+.fa-angle-double-left::before { content: "=EF=84=80"; }
+
+.fa-angle-double-right::before { content: "=EF=84=81"; }
+
+.fa-angle-double-up::before { content: "=EF=84=82"; }
+
+.fa-angle-double-down::before { content: "=EF=84=83"; }
+
+.fa-angle-left::before { content: "=EF=84=84"; }
+
+.fa-angle-right::before { content: "=EF=84=85"; }
+
+.fa-angle-up::before { content: "=EF=84=86"; }
+
+.fa-angle-down::before { content: "=EF=84=87"; }
+
+.fa-desktop::before { content: "=EF=84=88"; }
+
+.fa-laptop::before { content: "=EF=84=89"; }
+
+.fa-tablet::before { content: "=EF=84=8A"; }
+
+.fa-mobile-phone::before, .fa-mobile::before { content: "=EF=84=8B"; }
+
+.fa-circle-o::before { content: "=EF=84=8C"; }
+
+.fa-quote-left::before { content: "=EF=84=8D"; }
+
+.fa-quote-right::before { content: "=EF=84=8E"; }
+
+.fa-spinner::before { content: "=EF=84=90"; }
+
+.fa-circle::before { content: "=EF=84=91"; }
+
+.fa-mail-reply::before, .fa-reply::before { content: "=EF=84=92"; }
+
+.fa-github-alt::before { content: "=EF=84=93"; }
+
+.fa-folder-o::before { content: "=EF=84=94"; }
+
+.fa-folder-open-o::before { content: "=EF=84=95"; }
+
+.fa-smile-o::before { content: "=EF=84=98"; }
+
+.fa-frown-o::before { content: "=EF=84=99"; }
+
+.fa-meh-o::before { content: "=EF=84=9A"; }
+
+.fa-gamepad::before { content: "=EF=84=9B"; }
+
+.fa-keyboard-o::before { content: "=EF=84=9C"; }
+
+.fa-flag-o::before { content: "=EF=84=9D"; }
+
+.fa-flag-checkered::before { content: "=EF=84=9E"; }
+
+.fa-terminal::before { content: "=EF=84=A0"; }
+
+.fa-code::before { content: "=EF=84=A1"; }
+
+.fa-mail-reply-all::before, .fa-reply-all::before { content: "=EF=84=A2"; }
+
+.fa-star-half-empty::before, .fa-star-half-full::before, .fa-star-half-o::b=
+efore { content: "=EF=84=A3"; }
+
+.fa-location-arrow::before { content: "=EF=84=A4"; }
+
+.fa-crop::before { content: "=EF=84=A5"; }
+
+.fa-code-fork::before { content: "=EF=84=A6"; }
+
+.fa-unlink::before, .fa-chain-broken::before { content: "=EF=84=A7"; }
+
+.fa-question::before { content: "=EF=84=A8"; }
+
+.fa-info::before { content: "=EF=84=A9"; }
+
+.fa-exclamation::before { content: "=EF=84=AA"; }
+
+.fa-superscript::before { content: "=EF=84=AB"; }
+
+.fa-subscript::before { content: "=EF=84=AC"; }
+
+.fa-eraser::before { content: "=EF=84=AD"; }
+
+.fa-puzzle-piece::before { content: "=EF=84=AE"; }
+
+.fa-microphone::before { content: "=EF=84=B0"; }
+
+.fa-microphone-slash::before { content: "=EF=84=B1"; }
+
+.fa-shield::before { content: "=EF=84=B2"; }
+
+.fa-calendar-o::before { content: "=EF=84=B3"; }
+
+.fa-fire-extinguisher::before { content: "=EF=84=B4"; }
+
+.fa-rocket::before { content: "=EF=84=B5"; }
+
+.fa-maxcdn::before { content: "=EF=84=B6"; }
+
+.fa-chevron-circle-left::before { content: "=EF=84=B7"; }
+
+.fa-chevron-circle-right::before { content: "=EF=84=B8"; }
+
+.fa-chevron-circle-up::before { content: "=EF=84=B9"; }
+
+.fa-chevron-circle-down::before { content: "=EF=84=BA"; }
+
+.fa-html5::before { content: "=EF=84=BB"; }
+
+.fa-css3::before { content: "=EF=84=BC"; }
+
+.fa-anchor::before { content: "=EF=84=BD"; }
+
+.fa-unlock-alt::before { content: "=EF=84=BE"; }
+
+.fa-bullseye::before { content: "=EF=85=80"; }
+
+.fa-ellipsis-h::before { content: "=EF=85=81"; }
+
+.fa-ellipsis-v::before { content: "=EF=85=82"; }
+
+.fa-rss-square::before { content: "=EF=85=83"; }
+
+.fa-play-circle::before { content: "=EF=85=84"; }
+
+.fa-ticket::before { content: "=EF=85=85"; }
+
+.fa-minus-square::before { content: "=EF=85=86"; }
+
+.fa-minus-square-o::before { content: "=EF=85=87"; }
+
+.fa-level-up::before { content: "=EF=85=88"; }
+
+.fa-level-down::before { content: "=EF=85=89"; }
+
+.fa-check-square::before { content: "=EF=85=8A"; }
+
+.fa-pencil-square::before { content: "=EF=85=8B"; }
+
+.fa-external-link-square::before { content: "=EF=85=8C"; }
+
+.fa-share-square::before { content: "=EF=85=8D"; }
+
+.fa-compass::before { content: "=EF=85=8E"; }
+
+.fa-toggle-down::before, .fa-caret-square-o-down::before { content: "=EF=85=
+=90"; }
+
+.fa-toggle-up::before, .fa-caret-square-o-up::before { content: "=EF=85=91"=
+; }
+
+.fa-toggle-right::before, .fa-caret-square-o-right::before { content: "=EF=
+=85=92"; }
+
+.fa-euro::before, .fa-eur::before { content: "=EF=85=93"; }
+
+.fa-gbp::before { content: "=EF=85=94"; }
+
+.fa-dollar::before, .fa-usd::before { content: "=EF=85=95"; }
+
+.fa-rupee::before, .fa-inr::before { content: "=EF=85=96"; }
+
+.fa-cny::before, .fa-rmb::before, .fa-yen::before, .fa-jpy::before { conten=
+t: "=EF=85=97"; }
+
+.fa-ruble::before, .fa-rouble::before, .fa-rub::before { content: "=EF=85=
+=98"; }
+
+.fa-won::before, .fa-krw::before { content: "=EF=85=99"; }
+
+.fa-bitcoin::before, .fa-btc::before { content: "=EF=85=9A"; }
+
+.fa-file::before { content: "=EF=85=9B"; }
+
+.fa-file-text::before { content: "=EF=85=9C"; }
+
+.fa-sort-alpha-asc::before { content: "=EF=85=9D"; }
+
+.fa-sort-alpha-desc::before { content: "=EF=85=9E"; }
+
+.fa-sort-amount-asc::before { content: "=EF=85=A0"; }
+
+.fa-sort-amount-desc::before { content: "=EF=85=A1"; }
+
+.fa-sort-numeric-asc::before { content: "=EF=85=A2"; }
+
+.fa-sort-numeric-desc::before { content: "=EF=85=A3"; }
+
+.fa-thumbs-up::before { content: "=EF=85=A4"; }
+
+.fa-thumbs-down::before { content: "=EF=85=A5"; }
+
+.fa-youtube-square::before { content: "=EF=85=A6"; }
+
+.fa-youtube::before { content: "=EF=85=A7"; }
+
+.fa-xing::before { content: "=EF=85=A8"; }
+
+.fa-xing-square::before { content: "=EF=85=A9"; }
+
+.fa-youtube-play::before { content: "=EF=85=AA"; }
+
+.fa-dropbox::before { content: "=EF=85=AB"; }
+
+.fa-stack-overflow::before { content: "=EF=85=AC"; }
+
+.fa-instagram::before { content: "=EF=85=AD"; }
+
+.fa-flickr::before { content: "=EF=85=AE"; }
+
+.fa-adn::before { content: "=EF=85=B0"; }
+
+.fa-bitbucket::before { content: "=EF=85=B1"; }
+
+.fa-bitbucket-square::before { content: "=EF=85=B2"; }
+
+.fa-tumblr::before { content: "=EF=85=B3"; }
+
+.fa-tumblr-square::before { content: "=EF=85=B4"; }
+
+.fa-long-arrow-down::before { content: "=EF=85=B5"; }
+
+.fa-long-arrow-up::before { content: "=EF=85=B6"; }
+
+.fa-long-arrow-left::before { content: "=EF=85=B7"; }
+
+.fa-long-arrow-right::before { content: "=EF=85=B8"; }
+
+.fa-apple::before { content: "=EF=85=B9"; }
+
+.fa-windows::before { content: "=EF=85=BA"; }
+
+.fa-android::before { content: "=EF=85=BB"; }
+
+.fa-linux::before { content: "=EF=85=BC"; }
+
+.fa-dribbble::before { content: "=EF=85=BD"; }
+
+.fa-skype::before { content: "=EF=85=BE"; }
+
+.fa-foursquare::before { content: "=EF=86=80"; }
+
+.fa-trello::before { content: "=EF=86=81"; }
+
+.fa-female::before { content: "=EF=86=82"; }
+
+.fa-male::before { content: "=EF=86=83"; }
+
+.fa-gittip::before, .fa-gratipay::before { content: "=EF=86=84"; }
+
+.fa-sun-o::before { content: "=EF=86=85"; }
+
+.fa-moon-o::before { content: "=EF=86=86"; }
+
+.fa-archive::before { content: "=EF=86=87"; }
+
+.fa-bug::before { content: "=EF=86=88"; }
+
+.fa-vk::before { content: "=EF=86=89"; }
+
+.fa-weibo::before { content: "=EF=86=8A"; }
+
+.fa-renren::before { content: "=EF=86=8B"; }
+
+.fa-pagelines::before { content: "=EF=86=8C"; }
+
+.fa-stack-exchange::before { content: "=EF=86=8D"; }
+
+.fa-arrow-circle-o-right::before { content: "=EF=86=8E"; }
+
+.fa-arrow-circle-o-left::before { content: "=EF=86=90"; }
+
+.fa-toggle-left::before, .fa-caret-square-o-left::before { content: "=EF=86=
+=91"; }
+
+.fa-dot-circle-o::before { content: "=EF=86=92"; }
+
+.fa-wheelchair::before { content: "=EF=86=93"; }
+
+.fa-vimeo-square::before { content: "=EF=86=94"; }
+
+.fa-turkish-lira::before, .fa-try::before { content: "=EF=86=95"; }
+
+.fa-plus-square-o::before { content: "=EF=86=96"; }
+
+.fa-space-shuttle::before { content: "=EF=86=97"; }
+
+.fa-slack::before { content: "=EF=86=98"; }
+
+.fa-envelope-square::before { content: "=EF=86=99"; }
+
+.fa-wordpress::before { content: "=EF=86=9A"; }
+
+.fa-openid::before { content: "=EF=86=9B"; }
+
+.fa-institution::before, .fa-bank::before, .fa-university::before { content=
+: "=EF=86=9C"; }
+
+.fa-mortar-board::before, .fa-graduation-cap::before { content: "=EF=86=9D"=
+; }
+
+.fa-yahoo::before { content: "=EF=86=9E"; }
+
+.fa-google::before { content: "=EF=86=A0"; }
+
+.fa-reddit::before { content: "=EF=86=A1"; }
+
+.fa-reddit-square::before { content: "=EF=86=A2"; }
+
+.fa-stumbleupon-circle::before { content: "=EF=86=A3"; }
+
+.fa-stumbleupon::before { content: "=EF=86=A4"; }
+
+.fa-delicious::before { content: "=EF=86=A5"; }
+
+.fa-digg::before { content: "=EF=86=A6"; }
+
+.fa-pied-piper::before { content: "=EF=86=A7"; }
+
+.fa-pied-piper-alt::before { content: "=EF=86=A8"; }
+
+.fa-drupal::before { content: "=EF=86=A9"; }
+
+.fa-joomla::before { content: "=EF=86=AA"; }
+
+.fa-language::before { content: "=EF=86=AB"; }
+
+.fa-fax::before { content: "=EF=86=AC"; }
+
+.fa-building::before { content: "=EF=86=AD"; }
+
+.fa-child::before { content: "=EF=86=AE"; }
+
+.fa-paw::before { content: "=EF=86=B0"; }
+
+.fa-spoon::before { content: "=EF=86=B1"; }
+
+.fa-cube::before { content: "=EF=86=B2"; }
+
+.fa-cubes::before { content: "=EF=86=B3"; }
+
+.fa-behance::before { content: "=EF=86=B4"; }
+
+.fa-behance-square::before { content: "=EF=86=B5"; }
+
+.fa-steam::before { content: "=EF=86=B6"; }
+
+.fa-steam-square::before { content: "=EF=86=B7"; }
+
+.fa-recycle::before { content: "=EF=86=B8"; }
+
+.fa-automobile::before, .fa-car::before { content: "=EF=86=B9"; }
+
+.fa-cab::before, .fa-taxi::before { content: "=EF=86=BA"; }
+
+.fa-tree::before { content: "=EF=86=BB"; }
+
+.fa-spotify::before { content: "=EF=86=BC"; }
+
+.fa-deviantart::before { content: "=EF=86=BD"; }
+
+.fa-soundcloud::before { content: "=EF=86=BE"; }
+
+.fa-database::before { content: "=EF=87=80"; }
+
+.fa-file-pdf-o::before { content: "=EF=87=81"; }
+
+.fa-file-word-o::before { content: "=EF=87=82"; }
+
+.fa-file-excel-o::before { content: "=EF=87=83"; }
+
+.fa-file-powerpoint-o::before { content: "=EF=87=84"; }
+
+.fa-file-photo-o::before, .fa-file-picture-o::before, .fa-file-image-o::bef=
+ore { content: "=EF=87=85"; }
+
+.fa-file-zip-o::before, .fa-file-archive-o::before { content: "=EF=87=86"; =
+}
+
+.fa-file-sound-o::before, .fa-file-audio-o::before { content: "=EF=87=87"; =
+}
+
+.fa-file-movie-o::before, .fa-file-video-o::before { content: "=EF=87=88"; =
+}
+
+.fa-file-code-o::before { content: "=EF=87=89"; }
+
+.fa-vine::before { content: "=EF=87=8A"; }
+
+.fa-codepen::before { content: "=EF=87=8B"; }
+
+.fa-jsfiddle::before { content: "=EF=87=8C"; }
+
+.fa-life-bouy::before, .fa-life-buoy::before, .fa-life-saver::before, .fa-s=
+upport::before, .fa-life-ring::before { content: "=EF=87=8D"; }
+
+.fa-circle-o-notch::before { content: "=EF=87=8E"; }
+
+.fa-ra::before, .fa-rebel::before { content: "=EF=87=90"; }
+
+.fa-ge::before, .fa-empire::before { content: "=EF=87=91"; }
+
+.fa-git-square::before { content: "=EF=87=92"; }
+
+.fa-git::before { content: "=EF=87=93"; }
+
+.fa-y-combinator-square::before, .fa-yc-square::before, .fa-hacker-news::be=
+fore { content: "=EF=87=94"; }
+
+.fa-tencent-weibo::before { content: "=EF=87=95"; }
+
+.fa-qq::before { content: "=EF=87=96"; }
+
+.fa-wechat::before, .fa-weixin::before { content: "=EF=87=97"; }
+
+.fa-send::before, .fa-paper-plane::before { content: "=EF=87=98"; }
+
+.fa-send-o::before, .fa-paper-plane-o::before { content: "=EF=87=99"; }
+
+.fa-history::before { content: "=EF=87=9A"; }
+
+.fa-circle-thin::before { content: "=EF=87=9B"; }
+
+.fa-header::before { content: "=EF=87=9C"; }
+
+.fa-paragraph::before { content: "=EF=87=9D"; }
+
+.fa-sliders::before { content: "=EF=87=9E"; }
+
+.fa-share-alt::before { content: "=EF=87=A0"; }
+
+.fa-share-alt-square::before { content: "=EF=87=A1"; }
+
+.fa-bomb::before { content: "=EF=87=A2"; }
+
+.fa-soccer-ball-o::before, .fa-futbol-o::before { content: "=EF=87=A3"; }
+
+.fa-tty::before { content: "=EF=87=A4"; }
+
+.fa-binoculars::before { content: "=EF=87=A5"; }
+
+.fa-plug::before { content: "=EF=87=A6"; }
+
+.fa-slideshare::before { content: "=EF=87=A7"; }
+
+.fa-twitch::before { content: "=EF=87=A8"; }
+
+.fa-yelp::before { content: "=EF=87=A9"; }
+
+.fa-newspaper-o::before { content: "=EF=87=AA"; }
+
+.fa-wifi::before { content: "=EF=87=AB"; }
+
+.fa-calculator::before { content: "=EF=87=AC"; }
+
+.fa-paypal::before { content: "=EF=87=AD"; }
+
+.fa-google-wallet::before { content: "=EF=87=AE"; }
+
+.fa-cc-visa::before { content: "=EF=87=B0"; }
+
+.fa-cc-mastercard::before { content: "=EF=87=B1"; }
+
+.fa-cc-discover::before { content: "=EF=87=B2"; }
+
+.fa-cc-amex::before { content: "=EF=87=B3"; }
+
+.fa-cc-paypal::before { content: "=EF=87=B4"; }
+
+.fa-cc-stripe::before { content: "=EF=87=B5"; }
+
+.fa-bell-slash::before { content: "=EF=87=B6"; }
+
+.fa-bell-slash-o::before { content: "=EF=87=B7"; }
+
+.fa-trash::before { content: "=EF=87=B8"; }
+
+.fa-copyright::before { content: "=EF=87=B9"; }
+
+.fa-at::before { content: "=EF=87=BA"; }
+
+.fa-eyedropper::before { content: "=EF=87=BB"; }
+
+.fa-paint-brush::before { content: "=EF=87=BC"; }
+
+.fa-birthday-cake::before { content: "=EF=87=BD"; }
+
+.fa-area-chart::before { content: "=EF=87=BE"; }
+
+.fa-pie-chart::before { content: "=EF=88=80"; }
+
+.fa-line-chart::before { content: "=EF=88=81"; }
+
+.fa-lastfm::before { content: "=EF=88=82"; }
+
+.fa-lastfm-square::before { content: "=EF=88=83"; }
+
+.fa-toggle-off::before { content: "=EF=88=84"; }
+
+.fa-toggle-on::before { content: "=EF=88=85"; }
+
+.fa-bicycle::before { content: "=EF=88=86"; }
+
+.fa-bus::before { content: "=EF=88=87"; }
+
+.fa-ioxhost::before { content: "=EF=88=88"; }
+
+.fa-angellist::before { content: "=EF=88=89"; }
+
+.fa-cc::before { content: "=EF=88=8A"; }
+
+.fa-shekel::before, .fa-sheqel::before, .fa-ils::before { content: "=EF=88=
+=8B"; }
+
+.fa-meanpath::before { content: "=EF=88=8C"; }
+
+.fa-buysellads::before { content: "=EF=88=8D"; }
+
+.fa-connectdevelop::before { content: "=EF=88=8E"; }
+
+.fa-dashcube::before { content: "=EF=88=90"; }
+
+.fa-forumbee::before { content: "=EF=88=91"; }
+
+.fa-leanpub::before { content: "=EF=88=92"; }
+
+.fa-sellsy::before { content: "=EF=88=93"; }
+
+.fa-shirtsinbulk::before { content: "=EF=88=94"; }
+
+.fa-simplybuilt::before { content: "=EF=88=95"; }
+
+.fa-skyatlas::before { content: "=EF=88=96"; }
+
+.fa-cart-plus::before { content: "=EF=88=97"; }
+
+.fa-cart-arrow-down::before { content: "=EF=88=98"; }
+
+.fa-diamond::before { content: "=EF=88=99"; }
+
+.fa-ship::before { content: "=EF=88=9A"; }
+
+.fa-user-secret::before { content: "=EF=88=9B"; }
+
+.fa-motorcycle::before { content: "=EF=88=9C"; }
+
+.fa-street-view::before { content: "=EF=88=9D"; }
+
+.fa-heartbeat::before { content: "=EF=88=9E"; }
+
+.fa-venus::before { content: "=EF=88=A1"; }
+
+.fa-mars::before { content: "=EF=88=A2"; }
+
+.fa-mercury::before { content: "=EF=88=A3"; }
+
+.fa-intersex::before, .fa-transgender::before { content: "=EF=88=A4"; }
+
+.fa-transgender-alt::before { content: "=EF=88=A5"; }
+
+.fa-venus-double::before { content: "=EF=88=A6"; }
+
+.fa-mars-double::before { content: "=EF=88=A7"; }
+
+.fa-venus-mars::before { content: "=EF=88=A8"; }
+
+.fa-mars-stroke::before { content: "=EF=88=A9"; }
+
+.fa-mars-stroke-v::before { content: "=EF=88=AA"; }
+
+.fa-mars-stroke-h::before { content: "=EF=88=AB"; }
+
+.fa-neuter::before { content: "=EF=88=AC"; }
+
+.fa-genderless::before { content: "=EF=88=AD"; }
+
+.fa-facebook-official::before { content: "=EF=88=B0"; }
+
+.fa-pinterest-p::before { content: "=EF=88=B1"; }
+
+.fa-whatsapp::before { content: "=EF=88=B2"; }
+
+.fa-server::before { content: "=EF=88=B3"; }
+
+.fa-user-plus::before { content: "=EF=88=B4"; }
+
+.fa-user-times::before { content: "=EF=88=B5"; }
+
+.fa-hotel::before, .fa-bed::before { content: "=EF=88=B6"; }
+
+.fa-viacoin::before { content: "=EF=88=B7"; }
+
+.fa-train::before { content: "=EF=88=B8"; }
+
+.fa-subway::before { content: "=EF=88=B9"; }
+
+.fa-medium::before { content: "=EF=88=BA"; }
+
+.fa-yc::before, .fa-y-combinator::before { content: "=EF=88=BB"; }
+
+.fa-optin-monster::before { content: "=EF=88=BC"; }
+
+.fa-opencart::before { content: "=EF=88=BD"; }
+
+.fa-expeditedssl::before { content: "=EF=88=BE"; }
+
+.fa-battery-4::before, .fa-battery-full::before { content: "=EF=89=80"; }
+
+.fa-battery-3::before, .fa-battery-three-quarters::before { content: "=EF=
+=89=81"; }
+
+.fa-battery-2::before, .fa-battery-half::before { content: "=EF=89=82"; }
+
+.fa-battery-1::before, .fa-battery-quarter::before { content: "=EF=89=83"; =
+}
+
+.fa-battery-0::before, .fa-battery-empty::before { content: "=EF=89=84"; }
+
+.fa-mouse-pointer::before { content: "=EF=89=85"; }
+
+.fa-i-cursor::before { content: "=EF=89=86"; }
+
+.fa-object-group::before { content: "=EF=89=87"; }
+
+.fa-object-ungroup::before { content: "=EF=89=88"; }
+
+.fa-sticky-note::before { content: "=EF=89=89"; }
+
+.fa-sticky-note-o::before { content: "=EF=89=8A"; }
+
+.fa-cc-jcb::before { content: "=EF=89=8B"; }
+
+.fa-cc-diners-club::before { content: "=EF=89=8C"; }
+
+.fa-clone::before { content: "=EF=89=8D"; }
+
+.fa-balance-scale::before { content: "=EF=89=8E"; }
+
+.fa-hourglass-o::before { content: "=EF=89=90"; }
+
+.fa-hourglass-1::before, .fa-hourglass-start::before { content: "=EF=89=91"=
+; }
+
+.fa-hourglass-2::before, .fa-hourglass-half::before { content: "=EF=89=92";=
+ }
+
+.fa-hourglass-3::before, .fa-hourglass-end::before { content: "=EF=89=93"; =
+}
+
+.fa-hourglass::before { content: "=EF=89=94"; }
+
+.fa-hand-grab-o::before, .fa-hand-rock-o::before { content: "=EF=89=95"; }
+
+.fa-hand-stop-o::before, .fa-hand-paper-o::before { content: "=EF=89=96"; }
+
+.fa-hand-scissors-o::before { content: "=EF=89=97"; }
+
+.fa-hand-lizard-o::before { content: "=EF=89=98"; }
+
+.fa-hand-spock-o::before { content: "=EF=89=99"; }
+
+.fa-hand-pointer-o::before { content: "=EF=89=9A"; }
+
+.fa-hand-peace-o::before { content: "=EF=89=9B"; }
+
+.fa-trademark::before { content: "=EF=89=9C"; }
+
+.fa-registered::before { content: "=EF=89=9D"; }
+
+.fa-creative-commons::before { content: "=EF=89=9E"; }
+
+.fa-gg::before { content: "=EF=89=A0"; }
+
+.fa-gg-circle::before { content: "=EF=89=A1"; }
+
+.fa-tripadvisor::before { content: "=EF=89=A2"; }
+
+.fa-odnoklassniki::before { content: "=EF=89=A3"; }
+
+.fa-odnoklassniki-square::before { content: "=EF=89=A4"; }
+
+.fa-get-pocket::before { content: "=EF=89=A5"; }
+
+.fa-wikipedia-w::before { content: "=EF=89=A6"; }
+
+.fa-safari::before { content: "=EF=89=A7"; }
+
+.fa-chrome::before { content: "=EF=89=A8"; }
+
+.fa-firefox::before { content: "=EF=89=A9"; }
+
+.fa-opera::before { content: "=EF=89=AA"; }
+
+.fa-internet-explorer::before { content: "=EF=89=AB"; }
+
+.fa-tv::before, .fa-television::before { content: "=EF=89=AC"; }
+
+.fa-contao::before { content: "=EF=89=AD"; }
+
+.fa-500px::before { content: "=EF=89=AE"; }
+
+.fa-amazon::before { content: "=EF=89=B0"; }
+
+.fa-calendar-plus-o::before { content: "=EF=89=B1"; }
+
+.fa-calendar-minus-o::before { content: "=EF=89=B2"; }
+
+.fa-calendar-times-o::before { content: "=EF=89=B3"; }
+
+.fa-calendar-check-o::before { content: "=EF=89=B4"; }
+
+.fa-industry::before { content: "=EF=89=B5"; }
+
+.fa-map-pin::before { content: "=EF=89=B6"; }
+
+.fa-map-signs::before { content: "=EF=89=B7"; }
+
+.fa-map-o::before { content: "=EF=89=B8"; }
+
+.fa-map::before { content: "=EF=89=B9"; }
+
+.fa-commenting::before { content: "=EF=89=BA"; }
+
+.fa-commenting-o::before { content: "=EF=89=BB"; }
+
+.fa-houzz::before { content: "=EF=89=BC"; }
+
+.fa-vimeo::before { content: "=EF=89=BD"; }
+
+.fa-black-tie::before { content: "=EF=89=BE"; }
+
+.fa-fonticons::before { content: "=EF=8A=80"; }
+------MultipartBoundary--7zsyASwOkZgyE2YGp8jH2I3bIzN42C7c4ytT3r1i18----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://fonts.googleapis.bootcss.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin,latin-ext
+
+@charset "utf-8";
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 300=
+; src: local("Open Sans Light"), local("OpenSans-Light"), url("https://font=
+s.gstatic.bootcss.com/s/opensans/v15/DXI1ORHCpsQm3Vp6mXoaTYnF5uFdDttMLvmWuJ=
+dhhgs.ttf") format("truetype"); }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; src: local("Open Sans Regular"), local("OpenSans-Regular"), url("https://=
+fonts.gstatic.bootcss.com/s/opensans/v15/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXw=
+CLxiixG1c.ttf") format("truetype"); }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 600=
+; src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url("https:=
+//fonts.gstatic.bootcss.com/s/opensans/v15/MTP_ySUJH_bn48VBG8sNSonF5uFdDttM=
+LvmWuJdhhgs.ttf") format("truetype"); }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; src: local("Open Sans Bold"), local("OpenSans-Bold"), url("https://fonts.=
+gstatic.bootcss.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzInF5uFdDttMLvmWuJdh=
+hgs.ttf") format("truetype"); }
+------MultipartBoundary--7zsyASwOkZgyE2YGp8jH2I3bIzN42C7c4ytT3r1i18----
+Content-Type: font/ttf
+Content-Transfer-Encoding: base64
+Content-Location: https://fonts.gstatic.bootcss.com/s/opensans/v15/DXI1ORHCpsQm3Vp6mXoaTYnF5uFdDttMLvmWuJdhhgs.ttf
+
+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
+DBRIEhUECrj/wEAYDBRIChMQFxoMCQUCCBwHIm8VjxXfFQMVAC9dM9QyFznGKzIQxisyERIBFzkR
+MxEzMTABFAcXBycGIyInByc3JjU0Nyc3FzYzMhc3FwcWATI2NTQmIyIGFRQWA99aizuJbpaZa4o7
+i1paizuKZ52baYk7i1r+aYa9voWGvr0C05dpjTyOXV2OPI1qlpNvjTyOXV2OPI1v/iW/iYjCwoiI
+wAABACsAAARkBbYAFgBjQDoABxADCwsMAgUJDA4SFQcYFwYSExJPWQADDxMfEwIJAxMTDBUKDg8O
+T1kHfw+PD58PAw8PDAEVBgwYAD8/MxI5L10zKxEAMxESORgvX15dMzMrEQAzERIBFzkRMxIXOTEw
+AQEzASEVIRUhFSERIxEhNSE1ITUhATMCSgGsbv5QARv+rgFS/q5p/q8BUf6vARb+UnUCmgMc/OxS
+zVL+zwExUs1SAxQAAAIB/P4GAlgGGQADAAcAKEASAwIFBQQECQgDAwcEBAcAAAccAD8/ETkvETkv
+ERIBOREzEjk5MTABMxEjETMRIwH8XFxcXAYZ/QT95f0EAAIAgf/8A4cGGQAwAD4AUEAtNRsqHjgZ
+PAMSBjEAAAMGCxkbHiUIQD88AxUDNRstAyEJCQ9JWQkAISdJWSEVAD8rABg/KxESABc5FzkREgEX
+OREzETMRMxEzETMRMzEwEzQ2NyYmNTQ2MzIXByYmIyIGFRQWFhcWFhUUBxYWFRQGIyImJzUWMzI2
+NTQmJicmJjcUFhYXNjY1NCYmJwYGkWVYVk7Lrq+hI1uHTYaPM3iAwJC6VlbixlyeVraWoqoyf3/I
+kGU/lLBSWECZoFFjAy1TiyYvblF1hUBQIhpZSzZFPitAiWatZSpsUoeRHiVfTmNbN0FCLkmJcUFO
+SD8pckA+UEoyF3AAAAIBUAUXA0wFwwAIABEAHkAMCQ4FAA4AExIMAxAHAC8zzTIREgE5OREzETMx
+MAE0NjMyFRQjIiU0NjMyFRQjIgFQHyBAQD8BfR8gQEA/BW0uKFZWVi4oVlYAAAMAZP/sBkQFywAV
+ACUANQBOQC8DDi4eJhYIDhMWHgU3NgARABEQEeAR8BEEBgsPCx8L7wv/CwQRCxELIjIaBCoiEwA/
+Mz8zEjk5Ly9dETNdETMREgEXOREzETMRMzEwASIGFRQWMzI3FQYjIiY1NDYzMhcHJgE0EiQzMgQS
+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
+L10zMxEzEjkREjkREgEXOREzETMSOTkzMTABIxUjNSE1ATMRMyM1NDcGBgECkYFa/mMBl2CB2wgG
+H/7oAzvx8TwCRf3N3YRkDC/+dv//AB0AAAX2Bh8AJgBIAAAAJwBIAmYAAAAHAEsEzQAA//8AHQAA
+BeYGHwAmAEgAAAAnAEgCZgAAAAcATgTNAAD//wAdAAAFOwYfACYASAAAAAcASAJmAAAAAQDPAAAB
+NQW2AAMAEbYABAUBAwASAD8/ERIBOTEwMxEzEc9mBbb6SgD////BAAABQAdzAiYA2AAAAQcAQv44
+AVIACLMBBQUmACs1//8AvwAAAj4HcwImANgAAAEHAHX/NgFSAAizAQ0FJgArNf///+AAAAImB3MC
+JgDYAAABBwDA/rUBUgAIswERBSYAKzX//wAFAAACAQcVAiYA2AAAAQcAaf61AVIACrQCARQFJgAr
+NTUAAQAAAN0AigAWAFgABQACABAALwBcAAABNQDkAAMAAQAAACQAJAAkACQAUAB2AQMBiwH+An4C
+lwLDAvADIQNVA3ADhwOjA8EEAwQrBG4E0gUXBWMFyAXwBmgG0QcKB0MHaQecB8EIHQitCO0JSwmK
+CcQJ/woyCoEKtArbCxELLwtzC6cL8QwuDIkM3A0vDVMNhw22Dg0ORg5zDqYOyQ7mDwgPMQ9JD2sP
+zBAhEFoQrBEAEUIR3hIaEkYShRLBEtgTMBNpE6oT/RROFIIU0RUSFUsVexXUFg0WURaEFs8W5xcy
+F20XbRecF/gYTxi4GRMZOhm+GesaaRq5GvQbHhsmG7EbyRwAHAwcRxyaHLwdBB03HUAdch2XHc4e
+Bx4dHjIeSB6lHrYexx7YHuke+x8NH2ofdh+HH5gfqR+7IBggKSA6IEsgXCBtIH8gryEfITAhQSFS
+IWQhdSG6IiYiNyJHIlciZyJ4IokjICMsIzwjTCNcI20jfiOPI6AjsiQdJC0kPSRNJF0kbSR+JNMl
+PSVNJV0lbSV+JY4l4yX0JgsmdCb5JygnXyedJ7QnyyfsKAwoMChmKJsowCjlKPUpGCk8KVkp3Cn9
+KgkqFSpYKmgqeCqEKpkqqiq7Kswq3gABAAAAARnbMa33p18PPPUACQgAAAAAAMlCFNsAAAAA1SvM
+1fvV/dkJHwhiAAAACQACAAAAAAAABM0AwQAAAAAEFAAAAhQAAAHsAKQC0wCFBSsANwSRAKQGdQBx
+BbQAewGJAIUCLQBSAi0APQRoAGgEkQBvAbgARAKTAFwB5wCiAroAGQSRAHMEkQDHBJEAcQSRAF4E
+kQArBJEAjwSRAIMEkQBtBJEAeQSRAG8B5wCiAecATASRAG8EkQBvBJEAbwNeADkHFwBxBM0AAAUE
+AM8E+ACBBaYAzwRqAM8EBADPBckAgQXBAM8B+v9IBKYAzwQbAM8G5wDPBcUAzwYdAIEErgDPBh0A
+gQTBAM8EXABvBDEACgXBAL4EngAAByMAMwROAAAEOQAABJwAUgKNAK4CugAZAo0AMwSRAFgDSv/8
+BJ4BiQQ9AGIEwwC2A80AdwTDAHcEZAB3AmYAHQQvAC0EuAC2Ac8AqAHP/54D3wC2Ac8AtgcQALYE
+uAC2BLAAdwTDALYEwwB3Ax0AtgO6AFQCrgAZBLgAqgOsAAAFyQAfA/wANwOsAAADsABSAtMAPQRU
+AfwC0wBIBJEAbwIUAAAB7ACmBJEA0wSRAE4EkQB/BJEAKwRUAfwEIQCBBJ4BUAaoAGQCrgBOA3UA
+UgSRAG8CkwBcBqgAZAQA//oDbQCLBJEAbwKwADUCsAApBJ4BiQTFALYFPQBxAecAogGkACsCsABM
+AuMARgN1AEgF7AA7BewACwXsACkDXgBKBM0AAATNAAAEzQAABM0AAATNAAAEzQAABnX//gT4AIEE
+agDPBGoAzwRqAM8EagDPBboALwXFAM8GHQCBBh0AgQYdAIEGHQCBBh0AgQSRAHcGHQCBBcEAvgXB
+AL4FwQC+BcEAvgQ5AAAErgDPBKoAtgQ9AGIEPQBiBD0AYgQ9AGIEPQBiBD0AYgbDAGIDzQB3BGQA
+dwRkAHcEZAB3BGQAdwHP/94BzwBrAc//xgHP/+sElgB1BLgAtgSwAHcEsAB3BLAAdwSwAHcEsAB3
+BJEAbwSwAHcEuACqBLgAqgS4AKoEuACqA6wAAATDALYDrAAAAc8AtgcvAIEHlgB3BJ4BKwSeAXME
+ngEbBAAAUggAAFIBKQAdASkAHQHDAEQCZgAdAmYAHQMAAEQDAgDnBboAogIMAFICDABIAPb+tASR
+AEoEkQBvBDUAHQQ1AB0CsAAZBpwAHQacAB0EzQAdAgQAz//BAL//4AAFAAEAAAiN/agAAAkf+9X+
+uQkfAAEAAAAAAAAAAAAAAAAAAADZAAMEhwEsAAUAAAWaBTMAAAEfBZoFMwAAA9EAZgHsCAICCwMG
+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
+AAAAcgAAAAMAAQQJAAEAHgByAAMAAQQJAAIADgCQAAMAAQQJAAMAMACeAAMAAQQJAAQAHgByAAMA
+AQQJAAUAGADOAAMAAQQJAAYAHADmAAMAAQQJAA4AVAECAEQAaQBnAGkAdABpAHoAZQBkACAAZABh
+AHQAYQAgAGMAbwBwAHkAcgBpAGcAaAB0ACAAqQAgADIAMAAxADAALQAyADAAMQAxACwAIABHAG8A
+bwBnAGwAZQAgAEMAbwByAHAAbwByAGEAdABpAG8AbgAuAE8AcABlAG4AIABTAGEAbgBzACAATABp
+AGcAaAB0AFIAZQBnAHUAbABhAHIAMQAuADEAMAA7ADEAQQBTAEMAOwBPAHAAZQBuAFMAYQBuAHMA
+LQBMAGkAZwBoAHQAVgBlAHIAcwBpAG8AbgAgADEALgAxADAATwBwAGUAbgBTAGEAbgBzAC0ATABp
+AGcAaAB0AGgAdAB0AHAAOgAvAC8AdwB3AHcALgBhAHAAYQBjAGgAZQAuAG8AcgBnAC8AbABpAGMA
+ZQBuAHMAZQBzAC8ATABJAEMARQBOAFMARQAtADIALgAwAAIAAAAAAAD/ZgBmAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA3QAAAQIAAgADAAQABQAGAAcACAAJAAoACwAMAA0ADgAPABAAEQASABMAFAAVABYA
+FwAYABkAGgAbABwAHQAeAB8AIAAhACIAIwAkACUAJgAnACgAKQAqACsALQAuAC8AMAAxADIAMwA0
+ADUANgA3ADgAOQA6ADsAPAA9AD4APwBAAEEAQgBDAEQARQBGAEcASABJAEoASwBMAE0ATgBPAFAA
+UQBSAFMAVABVAFYAVwBYAFkAWgBbAFwAXQBeAF8AYABhAKwAowCEAIUAvQCWAOgAhgCOAIsAnQCp
+AKQBAwCKAQQAgwCTAPIA8wCNAJcAiADDAN4A8QCeAKoA9QD0APYAogCtAMkAxwCuAGIAYwCQAGQA
+ywBlAMgAygDpAGYA0wDQANEArwBnAPAAkQDWANQA1QBoAOsA7QCJAGoAaQBrAG0AbABuAKAAbwBx
+AHAAcgBzAHUAdAB2AHcA6gB4AHoAeQB7AH0AfAC4AKEAfwB+AIAAgQDsAO4AugDXALAAsQDYAN0A
+2QCyALMAtgC3AMQAtAC1AMUAhwCrAL4AvwC8AQUA7wEGAQcBCAEJAQoBCwAsAM8AzADNAM4EbnVs
+bAd1bmkwMEFECW92ZXJzY29yZQRFdXJvB3VuaUZCMDEHdW5pRkIwMgxmb3Vyc3VwZXJpb3IHdW5p
+RkIwMwd1bmlGQjA0AmZmAAEAAwAIAAoAFgAH//8ADwABAAAADAAAAAAAAAACAAEAAADcAAEAAAAB
+AAAACgAMAA4AAAAAAAAAAQAAAAoAHgAsAAFsYXRuAAgABAAAAAD//wABAAAAAWxpZ2EACAAAAAEA
+AAABAAQABAAAAAEACAABADYAAQAIAAUADAAUABwAIgAoANYAAwBIAE4A1QADAEgASwDXAAIASADT
+AAIATgDSAAIASwABAAEASA==
+------MultipartBoundary--7zsyASwOkZgyE2YGp8jH2I3bIzN42C7c4ytT3r1i18----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.expressjs.com.cn/images/arrow@2x.png
+
+iVBORw0KGgoAAAANSUhEUgAAABwAAAAUCAYAAACeXl35AAAACXBIWXMAAAsTAAALEwEAmpwYAAAD
+DmlDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjajZPLbxtVFMZ/Y4+nlRKxwbTFqtAVizZCSTR9
+qE2EaGvHrpU2GGuaFCdCqibja3vIzXh6Z5w+1AXqhh0tiD3iIVb8ARXqgl1XKJWqgpAq1lQIVKmo
+G1TMwo+ZlkA5q3O/853vfPdcXch96oahygjYDGLtVEuisbomdv1EhleZoMCE60VhsV5fAnDDUPGP
+ePIDBsC9mZ3r/xkTTRl5YOwGus3I2wTjMmTPe6GOwbwLzF2Kwxhyu4G8bqyuQW4/kG8PchvIrw/y
+MpDXy84C5BrAS17HbUKuA0yvp/B2Kh94ACBflYHUviecaknUdbflK5my+4Ly/4xN1RvNexmYDOOS
+AxwA/mjp0yvAFBiFq53ld4E9YJT8eHF5iDeC9do7A77xwUb3rDPkfN2U5QowDcbtaOtcZcS52lmo
+DTm/vO+eqQMFMP4K4/pQJ7MvULWlgX7mhIwq50Z4yz+9OMRboaovDfQzH+meswK8DplvXV2pDvkP
+ZLAy7M1mmm75LDAL2SnqSDQtfBQChyolBFUkAQ/R+Hh0qaPpjlltHo6rF+khETicp3Sz0JtKVK7r
+C763fePRM93d1JQ2kgA5nlJNnSM2xswZwkThzrXb+xKN++at9+5N3rlGEYWijWQTiU+AJEoppDy0
+gpuFRMHbvvFIflh7UuP6dILaP9q/2fftz+2v7F//ZUft53ZUTM2XBDu6lyhWUWOHO7N8FD4rBPhc
+QqKJcFEEXEGkdzHqNl8zD5mL5pw5jzBPmqfME2bZnDPfNJdGDKtila0iwnrDmrcOWWesYnIT66BV
+tuatg1blmRfwUndNv6BMsWRqIzOsI4nYQOOzhUQRISGWl2OAhW54RfvtTiwO2/ZxUQxDJcVi4M1O
+C1cpof12J46ElpHUW7I5S2N1TQy+42MHAzD2bCdY/Da89Ttk7ybYWg++iWDv0QSbKsArn8GtY15P
+bw3/t2F8D1HryOHBabIEuZ/7/ccHYNcn8PTjfv/PL/r9p19C9gF8p/4GqSMK1iULo98AAAAgY0hS
+TQAAbZgAAHOOAADyewAAhNoAAG6UAADlGgAAMycAABkXmUkcfwAAAQZJREFUeNq8lT9qAkEYxX9r
+ijTphDSxVUhA9ALuBXIDb2BpbWnneTyBF5AgaGElxGJFuzRWz8Ivokl2mX/mB8syu/PmMfM+5ssk
+8Z/UAnU9YGNvPyT5Pg+S5jozt7GzPsRwoFsGPvrMM8M6sASer77tgDfgcI8Mxz/MsPH4Hhl2JRX6
+m8L+J8swkzRTNTObl8SwLzf6KYrmCVgBDYeEPoFX4CumaEaOZti8UUzRNCXt5cfedEEZThXGtGzN
+qiN9B1qBd23L9L8oK5pHYAE0IxrDGmgDR5eiGUaaYfqhyw5fgA+7N2M5AB1gW7XDSSKz78t+UnWk
+PSBP3OTzm0Zd0lhTc2nUpwEAGEoSVWxD/08AAAAASUVORK5CYII=
+------MultipartBoundary--7zsyASwOkZgyE2YGp8jH2I3bIzN42C7c4ytT3r1i18------
